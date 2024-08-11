@@ -1,0 +1,33 @@
+root@00000000003081810832:/dev/nvdvfs # cat dvfs_tree  
+vdd_cpu:
+-- Freq (Hz) -- Cold Mode Volt (mV) -- Hot Mode Volt(mV) --
+   714000000          890                    850
+  1224000000          970                    900
+  1530000000         1050                   1010
+  1708500000         1130                   1080
+  1810500000         1150                   1130
+
+DVFS State: Enabled
+DVFS Selected Frequency: 1810500000 Hz
+DVFS Selected Voltage  : 1130 mV
+DVFS Mode (COLD/HOT)   : HOT MODE
+Actual Read Frequency (CLDVFS): 1810500000 Hz
+Actual Read Voltage (CLDVFS)  : 1040 mV
+Actual Read Voltage  : 1030 mV
+
+vdd_gpu:
+-- Freq (Hz) -- Cold Mode Volt (mV) -- Hot Mode Volt(mV) --
+   150000000          850                    830
+   300000000          850                    830
+   444000000          920                    840
+   600000000         1010                    900
+   696000000         1060                   1010
+   780000000         1130                   1080
+
+DVFS State: Enabled
+DVFS Selected Frequency: 780000000 Hz
+DVFS Selected Voltage  : 1080 mV
+DVFS Mode (COLD/HOT)   : HOT MODE
+Actual Read Frequency: 780000000 Hz
+Actual Read Voltage  : 1080 mV
+

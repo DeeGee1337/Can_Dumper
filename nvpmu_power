@@ -1,0 +1,6 @@
+root@00000000003081810832:/dev/nvpmu # cat power_tree  
+VDD_CORE: 1040 mv
+VDD_CPU: 1040 mv
+VDD_GPU: 1080 mv
+VDD_SDMMC1: 0 mv
+VDD_PCIe: 1050 mv

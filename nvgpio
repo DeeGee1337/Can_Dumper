@@ -1,0 +1,13 @@
+root@00000000003081810832:/dev/nvgpio # ls
+bt_dev_wake_1            fpdl_out1_rdy            fpdlink2_pwrdn           gnss_dat_rdy             mfi_reset                nad_vbus                 sd1_cd                   usb_overcnt2
+bt_pwrdn                 fpdl_out2_gpio0          fpdlink3_pwrdn           gnss_pulse_1pps          mmx_rcc_wake_con         pg_vdd_3v8_nad           sd1_wp                   usb_pwren1
+csi_irq                  fpdlink1_intb            fpdlink_in_intb          gnss_reset               nad_on_off               ps_5v5_pgood             sdmmc3_reset             usb_pwren2
+decoder_reset            fpdlink1_pwrdn           fpdlink_in_lock          gpu_pwr_req              nad_reset                ps_main_fsel             sdmmc4_reset             wl_pwrdn
+fpdl_in2_gpio3           fpdlink2_gpo_intb        fpdlink_zfas_rdy         hdmi_hpd                 nad_status               rcc_mmx_irq              therm_alert_state        wlan_ant_det
+fpdl_out1_irq12          fpdlink2_intb            fpdlink_zfas_reserved    k1_mdm_pwr_en            nad_sw_dl                rdc_in_out               ulp_detect
+root@00000000003081810832:/dev/nvgpio # cat therm_alert_state 
+root@00000000003081810832:/dev/nvgpio # cat usb_pwren          
+usb_pwren1  usb_pwren2  
+root@00000000003081810832:/dev/nvgpio # cat usb_pwren1 
+root@00000000003081810832:/dev/nvgpio # cat wl_pwrdn    
+1root@00000000003081810832:/dev/nvgpio # 

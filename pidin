@@ -1,0 +1,4544 @@
+root@00000000003081810832:/etc # pidin fds
+     pid name               
+       1 /procnto-smp-instr 
+	   0       2 rw        0 /dev/ser1
+	   1  147471 r-    84884 /mnt/app/eso/lib/transports/libssl_transport.so
+	   2  147471 r-    69632 /mnt/app/armle/usr/lib/libaudio_manager.so.1
+	   3  147471 r-   493956 /mnt/app/eso/bin/servicemgrmibhigh
+	   4  147471 r-    20480 /mnt/app/armle/lib/libpps.so.1
+	   5  147471 r-    80180 /mnt/app/eso/lib/factories/libservmngtproxy.so
+	   6  147471 r-   286720 /mnt/app/armle/lib/dll/deva-ctrl-tegra-tk1.so
+	   7  147471 r-   884736 /mnt/app/armle/usr/lib/libiconv.so.1
+	   8  147471 r-    59524 /mnt/app/eso/lib/factories/libdsistartupproxy.so
+	   9  147471 r-    34948 /mnt/app/eso/lib/factories/libdsisystemproxy.so
+	  10  147471 r-     9988 /mnt/app/eso/lib/libjni_fw_util_os.so
+	  11  147471 r-  1064960 /mnt/app/eso/bin/apps/persistenceTNG_mibhigh
+	  12  147471 r-   104644 /mnt/app/eso/lib/factories/libdsipersistenceproxy.so
+	  13  147471 r-   272332 /mnt/app/eso/bin/apps/honcho
+	  14  147471 r-   704512 /mnt/app/eso/bin/apps/medialauncher
+	  15  147471 r-    20480 /mnt/app/armle/usr/lib/libfscrypto.so.1
+	  16  147471 r-   223064 /mnt/app/eso/bin/apps/connectivity_launcher
+	  17  147471 r-    51312 /mnt/app/eso/lib/libjmsg.so
+	  18  147471 r-  1081344 /mnt/app/eso/bin/apps/smartphone_integrator
+	  19  147471 r-  2497256 /mnt/app/eso/bin/apps/audioProc
+	  20  147471 r-   675840 /mnt/app/armle/usr/lib/libxml2.so.1
+	  21  147471 r-    28672 /mnt/app/armle/usr/lib/libdns_sd.so.1
+	  22  147471 r-   420068 /mnt/app/eso/bin/apps/hidcontroller
+	  23  147471 r-    18348 /mnt/app/eso/lib/libhaptic_bufferlib.so
+	  24  147471 r-   108304 /mnt/app/eso/bin/apps/mibkombisync2service
+	  25  147471 r-    34984 /mnt/app/eso/lib/factories/libasimmxhoncho-organizerproxy.so
+	  26  147471 r-    63596 /mnt/app/eso/lib/libipte.so
+	  27  147471 r-  1296136 /mnt/app/eso/bin/apps/fecmanager
+	  28  147471 r-    39076 /mnt/app/eso/lib/factories/libasimmxhoncho-sdcardproxy.so
+	  29  147471 r-    39076 /mnt/app/eso/lib/factories/libasimmxhoncho-speechproxy.so
+	  30  147471 r-    30804 /mnt/app/eso/lib/factories/libasimmxhoncho-navdbproxy.so
+	  31  147471 r-    30800 /mnt/app/eso/lib/factories/libasimmxhoncho-rdiproxy.so
+	  32  147471 r-    34984 /mnt/app/eso/lib/factories/libasimmxhoncho-boardbookproxy.so
+	  33  147471 r-    39072 /mnt/app/eso/lib/factories/libasimmxhoncho-mediaproxy.so
+	  34  147471 r-    39020 /mnt/app/eso/lib/factories/libasimmxhoncho-medialauncherproxy.so
+	  35  147471 r-    55392 /mnt/app/eso/lib/factories/libasimmxmediaapplicationproxy.so
+	  36  147471 r-    30816 /mnt/app/eso/lib/factories/libasimmxhoncho-tracingproxy.so
+	  37  147471 r-    39080 /mnt/app/eso/lib/factories/libasimmxhoncho-installerproxy.so
+	  38  147471 r-    34984 /mnt/app/eso/lib/factories/libasimmxhoncho-fsencryptproxy.so
+	  39  147471 r-   153860 /mnt/app/eso/lib/factories/libasimmxiap2connectionproxy.so
+	  40  147471 r-    92308 /mnt/app/eso/lib/factories/libdsikombisync2proxy.so
+	  41  147471 r-    34900 /mnt/app/eso/lib/factories/libasimmxaudiomgmtproxy.so
+	  42  147471 r-   104648 /mnt/app/eso/lib/factories/libasimmxsmartphoneappproxy.so
+	  43  147471 r-    71904 /mnt/app/eso/lib/factories/libasimmxconnectivity_bluetooth_mediaproxy.so
+	  44  147471 r-    55388 /mnt/app/eso/lib/factories/libasimmxasissecontrolproxy.so
+	  45  147471 r-    34924 /mnt/app/eso/lib/factories/libasimmxmediadecodercontrolproxy.so
+	  46  147471 r-   108704 /mnt/app/eso/lib/factories/libdsiaudioproxy.so
+	  47  147471 r-   112836 /mnt/app/eso/lib/factories/libdsikeypanelproxy.so
+	  48  147471 r-   297168 /mnt/app/eso/bin/apps/iap2connectionmanager
+	  49  147471 r-    88276 /mnt/app/eso/lib/factories/libasimmxsmartphonemediaproxy.so
+	  50  147471 r-   112860 /mnt/app/eso/lib/factories/libasimmxfecproxy.so
+	  51  147471 r-    34956 /mnt/app/eso/lib/factories/libdsizfasproxy.so
+	  52  147471 r-    43136 /mnt/app/eso/lib/factories/libasimmxhidproxy.so
+	  53  147471 r-    71904 /mnt/app/eso/lib/factories/libasimmxsmartphone_bluetoothproxy.so
+	  54  147471 r-    84200 /mnt/app/eso/lib/factories/libasimmxnetworkingproxy.so
+	  55  147471 r-    47260 /mnt/app/eso/lib/factories/libasimmxRemKeypanelMMXproxy.so
+	  56  147471 r-    51392 /mnt/app/eso/lib/factories/libasi_dsi_spy_cartimeunitslanguageproxy.so
+	  57  147471 r-    34960 /mnt/app/eso/lib/factories/libdsiwaveplayerproxy.so
+	  58  147471 r-    59588 /mnt/app/eso/lib/factories/libasi_dsi_spy_generalvehiclestatesproxy.so
+	  59  147471 r-    39088 /mnt/app/eso/lib/factories/libdsismartphoneintegrationproxy.so
+	  60  147471 r-   364172 /mnt/app/eso/lib/libesoiap2.so
+	  61  147471 r-   278528 /mnt/app/eso/lib/libealswig.so
+	  62  147471 r-   548864 /mnt/app/eso/lib/libFor.so
+	  63  147471 r-   121532 /mnt/app/eso/lib/libair.so
+	  64  147471 r-  3074760 /mnt/app/eso/lib/libeal.so
+	  65  147471 r-    14232 /mnt/app/eso/lib/libjnifw.so
+	  66  147471 r-   178480 /mnt/app/eso/lib/libexif.so
+	  67  147471 r-    28672 /mnt/app/eso/lib/libiptcdata.so
+	  68  147471 r-    18292 /mnt/app/eso/lib/libdisplayinit.so
+	  69  147471 r-   268956 /mnt/app/eso/hmi/fonts/AudiTypeDisplayHigh-Normal_13_ohne_Hints.ttf
+	  70  147471 r-    89736 /mnt/app/eso/hmi/fonts/NotoKufiArabic-Regular.ttf
+	  71  147471 r-  2738408 /mnt/app/eso/hmi/fonts/ZYHei_GB18030_c(20131128).ttf
+	  72  147471 r-  4560056 /mnt/app/eso/hmi/fonts/SourceHanSansKR-Regular.otf
+	  73  147471 r-  4927368 /mnt/app/eso/hmi/fonts/SourceHanSansJP-Regular.otf
+	  74  147471 r-   196664 /mnt/app/eso/hmi/fonts/AudiTypeDisplayHigh-Light.ttf
+	  75  147471 r-   149680 /mnt/app/eso/lib/factories/libasimmxaudioproxy.so
+	  76  147471 r-    20480 /mnt/app/sbin/devg-nvtlkdr
+	  77  147471 r-    69632 /mnt/app/armle/usr/sbin/pps
+	  78  147471 r-    28672 /mnt/app/armle/lib/dll/spi-tegra124.so
+	  79  147471 r-   385024 /mnt/app/armle/usr/sbin/mdnsd
+	  80  147471 r-    71868 /mnt/app/eso/lib/factories/libasimmxLogTransferControllerproxy.so
+	  81  147471 r-    59132 /mnt/app/eso/bin/traceserver
+	  82  147471 r-   632884 /mnt/app/eso/bin/apps/diagnosis
+	  83  147471 r-   552960 /mnt/swup/usr/lib/libinstallCore2.so
+	  84  147471 r-   264016 /mnt/app/eso/bin/apps/esopub
+	  85  147471 r-   161828 /mnt/app/eso/bin/apps/mediaconnector
+	  86  147471 r-   793820 /mnt/app/eso/bin/apps/GpsDriverProc
+	  87  147471 r-   241336 /mnt/app/armle/usr/lib/libminfw.so
+	  88  147471 r-  1005328 /mnt/app/eso/bin/apps/componentprotection
+	  89  147471 r-   399352 /mnt/app/eso/bin/apps/esoposprovider
+	  90  147471 r-  5652480 /mnt/app/eso/bin/apps/media
+	  91  147471 r-     9924 /mnt/app/armle/lib/dll/pubs/pp-audiocd.so
+	  92  147471 r-    39132 /mnt/app/armle/lib/dll/pubs/pp-wmpinfo-generic.so
+	  93  147471 r-   784216 /mnt/app/hwr/esohwr
+	  94  147471 r-   150180 /mnt/app/eso/bin/apps/systemservices
+	  95  147471 r-    49152 /mnt/app/armle/bin/cdpub
+	  96  147471 r-   161648 /mnt/app/eso/bin/apps/papillon
+	  97  147471 r-    26612 /mnt/app/eso/lib/libTracingAgentProvider.so
+	  98  147471 r-     8192 /mnt/app/armle/lib/dll/cdpub-Alpine.so
+	  99  147471 r-    18520 /mnt/app/eso/lib/factories/libasimmxDiagTemperatureMonitorproxy.so
+	 100  147471 r-     9960 /mnt/app/armle/lib/dll/pubs/pp-dvd.so
+	 101  147471 r-   294912 /mnt/app/armle/bin/usblauncher
+	 102  147471 r-    12288 /mnt/app/armle/usr/lib/libstrm.so.1
+	 103  147471 r-    96092 /mnt/app/eso/bin/apps/mmxfilestorage
+	 104  147471 r-    28672 /mnt/app/armle/usr/lib/libaoi.so.1
+	 105  147471 r-  2248704 /mnt/app/armle/usr/lib/libgnsdk_manager.3.11.20.so
+	 106  147471 r-   745472 /mnt/app/armle/usr/lib/libgnsdk_musicid.3.11.20.so
+	 107  147471 r-    47256 /mnt/app/eso/lib/factories/libasimmxesopubproxy.so
+	 108  147471 r-   184320 /mnt/app/armle/usr/lib/libgnsdk_link.3.11.20.so
+	 109  147471 r-   538880 /mnt/app/eso/lib/libsse.so
+	 110  147471 r-    20480 /mnt/app/armle/lib/libnvvsenc.so
+	 111  147471 r-     9916 /mnt/app/armle/lib/dll/pubs/pp-mediafs.so
+	 112  147471 r-  1261568 /mnt/app/armle/usr/lib/libgnsdk_lookup_local.3.11.20.so
+	 113  147471 r-    59816 /mnt/app/eso/lib/libicuio.so.58
+	 114  147471 r-   790528 /mnt/app/armle/usr/lib/libgnsdk_musicid_file.3.11.20.so
+	 115  147471 r-  1588196 /mnt/app/eso/lib/libicuuc.so.58
+	 116  147471 r-     3704 /mnt/app/armle/lib/libnvtsclk.so
+	 117  147471 r-    39468 /mnt/app/armle/lib/libnvtsmux.so
+	 118  147471 r-   232572 /mnt/app/eso/lib/tracingPlugins/libIRCBackend.so
+	 119  147471 r-   688128 /mnt/app/armle/usr/lib/libgnsdk_playlist.3.11.20.so
+	 120  147471 r-   780044 /mnt/app/eso/bin/apps/sseProc
+	 121  147471 r-    89136 /mnt/app/armle/lib/libnvmu.so
+	 122  147471 r-  1083872 /mnt/app/hwr/libMyScriptEngine.so
+	 123  147471 r-   552960 /mnt/app/armle/usr/lib/libgnsdk_lookup_localstream.3.11.20.so
+	 124  147471 r-   120612 /mnt/app/eso/bin/apps/videoencoderservice
+	 125  147471 r-  2616028 /mnt/app/hwr/libMyScriptText.so
+	 126  147471 r-    40960 /mnt/app/armle/lib/libusbdci.so.2
+	 127  147471 r-   225280 /mnt/app/armle/usr/lib/libgnsdk_musicid_stream.3.11.20.so
+	 128  147471 r-   440212 /mnt/app/hwr/libMyScriptPrediction.so
+	 129  147471 r-  1179648 /mnt/app/armle/usr/lib/libgnsdk_dsp.3.11.20.so
+	 130  147471 r-   166844 /mnt/app/eso/lib/tracingPlugins/libRollingFileBackend.so
+	 131  147471 r-   448432 /mnt/app/hwr/libMyScriptKeyboard.so
+	 132  147471 r-   944316 /mnt/app/hwr/libMyScriptInk.so
+	 133  147471 r-   116988 /mnt/app/eso/lib/factories/libasimmxVersionManagerproxy.so
+	 134  147471 r-    43200 /mnt/app/eso/lib/tracingPlugins/libCPUMeter.so
+	 135  147471 r-    22524 /mnt/app/eso/lib/tracingPlugins/libConsoleReader.so
+	 136  147471 r-   581632 /mnt/app/armle/usr/lib/libgnsdk_radioid.3.11.20.so
+	 137  147471 r-     5632 /mnt/app/eso/lib/libicudata.so.58
+	 138  147471 r-    59572 /mnt/app/eso/lib/factories/libasimmxLogTransferproxy.so
+	 139  147471 r-  2354788 /mnt/app/eso/lib/libicui18n.so.58
+	 140  147471 r-    30804 /mnt/app/eso/lib/factories/libasimmxDiagMMX2RCCproxy.so
+	 141  147471 r-    22560 /mnt/app/eso/lib/tracingPlugins/libMLPFrontend.so
+	 142  147471 r-   100656 /mnt/app/eso/lib/tracingPlugins/libPresetManager.so
+	 143  147471 r-    55432 /mnt/app/eso/lib/factories/libdsiswapproxy.so
+	 144  147471 r-    76204 /mnt/app/eso/lib/tracingPlugins/libRemoteListenBackendManager.so
+	 145  147471 r-    55896 /mnt/app/eso/lib/tracingPlugins/libSDCardLogger.so
+	 146  147471 r-   389120 /mnt/app/armle/sbin/devp-iso-mmx
+	 147  147471 r-    51376 /mnt/app/eso/lib/tracingPlugins/libSlogReader.so
+	 148  147471 r-    51784 /mnt/app/eso/lib/tracingPlugins/libFECPlugin.so
+	 149  147471 r-    26660 /mnt/app/eso/lib/tracingPlugins/libTimeZoneProvider.so
+	 150  147471 r-    96480 /mnt/app/eso/lib/factories/libasimmxesoposproviderfullproxy.so
+	 151  147471 r-    55468 /mnt/app/eso/lib/factories/libdsidiagnoseproxy.so
+	 152  147471 r-    30416 /mnt/app/eso/lib/tracingPlugins/librstpplugin.so
+	 153  147471 r-    47276 /mnt/app/eso/lib/factories/libasimmxecallnavigationproxy.so
+	 154  147471 r-   166372 /mnt/app/eso/lib/libtrufflesconnector.so
+	 155  147471 r-    39028 /mnt/app/eso/lib/factories/libasimmxconnectivity_launcherproxy.so
+	 156  147471 r-  1142672 /mnt/app/eso/bin/apps/connectionmanager
+	 157  147471 r-  1191936 /mnt/app/armle/usr/lib/libNmeSDK.so
+	 158  147471 r-    67764 /mnt/app/eso/lib/factories/libasimmxmmxfilestorageproxy.so
+	 159  147471 r-    71888 /mnt/app/eso/lib/factories/libasimmxcarsensordata2proxy.so
+	 160  147471 r-    71884 /mnt/app/eso/lib/factories/libasi_dsi_spy_carvehiclestatesproxy.so
+	 161  147471 r-    84196 /mnt/app/eso/lib/factories/libasimmxmapmatchedpositionproxy.so
+	 162  147471 r-   100548 /mnt/app/eso/lib/factories/libasimmxmediahdcpcontrolproxy.so
+	 163  147471 r-   798720 /mnt/app/eso/lib/libvom.so
+	 164  147471 r-    39032 /mnt/app/eso/lib/factories/libdsisseproxy.so
+	 165  147471 r-    35488 /mnt/app/armle/usr/sbin/inetd
+	 166  147471 r-  3219456 /mnt/app/armle/usr/lib/libNmeBaseClasses.so
+	 167  147471 r-   206492 /mnt/app/armle/usr/lib/libNme.so
+	 168  147471 r-    63644 /mnt/app/eso/lib/factories/libdsiinputproxy.so
+	 169  147471 r-  1302528 /mnt/app/armle/usr/lib/libNmeImage.so
+	 170  147471 r-    47268 /mnt/app/eso/lib/factories/libasimmxaddressbookhwrproxy.so
+	 171  147471 r-   141572 /mnt/app/eso/lib/factories/libdsinetworkingproxy.so
+	 172  147471 r-    75992 /mnt/app/eso/lib/factories/libasimmxmediametadatapushproxy.so
+	 173  147471 r-   157992 /mnt/app/eso/lib/factories/libasimmxUpdateManagerproxy.so
+	 174  147471 r-    94208 /mnt/app/armle/usr/sbin/qconn
+	 175  147471 r-    39016 /mnt/app/eso/lib/factories/libasimmxphoneproxy.so
+	 176  147471 r-    84208 /mnt/app/eso/lib/factories/libasimmxconnectivity_bluetoothproxy.so
+	 177  147471 r-    39100 /mnt/app/eso/lib/factories/libasimmxconnectivity_socksproxy.so
+	 178  147471 r-    47264 /mnt/app/eso/lib/factories/libdsidatacollectorproxy.so
+	 179  147471 r-   248152 /mnt/app/eso/bin/apps/srelay
+	 180  147471 r-   688128 /mnt/app/armle/usr/sbin/hostapd-2.5-wapi
+	 181  147471 r-   192512 /mnt/app/eso/bin/apps/dnsmasq
+	 182  147471 r-    47264 /mnt/app/eso/lib/factories/libasi_dsi_spy_networkingproxy.so
+	 183  147471 r-    51464 /mnt/app/eso/lib/tracingPlugins/libPresetActivator.so
+	 184  147471 r-    63982 /mnt/app/eso/lib/icudt58l/cnvalias.icu
+	 185  147471 r-    34948 /mnt/app/eso/lib/factories/libasimmxwlanproxy.so
+	 186  147471 r-    39036 /mnt/app/eso/lib/tracingPlugins/libPowerStateProvider.so
+	 187  147471 r-    34888 /mnt/app/eso/lib/tracingPlugins/libSDCardHonchoClient.so
+	 188  147471 r-    34992 /mnt/app/eso/lib/factories/libdsiinfotainmentrecorderproxy.so
+	 189  147471 r-    39068 /mnt/app/eso/lib/factories/libasimmxsocksproxy.so
+	 190  147471 r-    43200 /mnt/app/eso/lib/factories/libasimmxconnectivity_trafficproxy.so
+	 191  147471 r-  2034608 /mnt/app/eso/bin/apps/btstack
+	 192  147471 r-   101276 /mnt/app/armle/usr/lib/cinemo/libEsoIAPTransport.so
+	 193  147471 r-   116900 /mnt/app/eso/lib/factories/libasimmxDVDCMostproxy.so
+	 194  147471 r-    51356 /mnt/app/eso/lib/factories/libasimmxsdis_mediaproxy.so
+	 195  147471 r-    80044 /mnt/app/eso/lib/factories/libasimmxHDCPproxy.so
+	 196  147471 r-   362856 /mnt/app/eso/lib/factories/libasimmxhstialproxy.so
+	 197  147471 r-   698200 /mnt/app/eso/bin/apps/nad
+	 198  147471 r-   137472 /mnt/app/eso/lib/factories/libasimmxhstial_messagingproxy.so
+	 199  147471 r-   100636 /mnt/app/eso/lib/factories/libasimmxconnectivity_contactsproxy.so
+	 200  147471 r-   272248 /mnt/app/eso/bin/apps/scon_audio
+	 201  147471 r-  1435728 /mnt/app/eso/bin/apps/telephone
+	 202  147471 r-    92388 /mnt/app/eso/lib/factories/libasimmxtelephoneproxy.so
+	 203  147471 r-    59632 /mnt/app/eso/lib/factories/libasimmxconnectivity_telephone_remotecontrolproxy.so
+	 204  147471 r-    55492 /mnt/app/eso/lib/factories/libasimmxphonebookimportproxy.so
+	 205  147471 r-    63664 /mnt/app/eso/lib/factories/libasimmxaddressbookproxy.so
+	 206  147471 r-    51396 /mnt/app/eso/lib/factories/libasimmxconnectivity_headsetproxy.so
+	 207  147471 r-  1243064 /mnt/app/eso/bin/apps/bluetooth
+	 208  147471 r-   170236 /mnt/app/eso/lib/factories/libdsitelephoneproxy.so
+	 209  147471 r-   170244 /mnt/app/eso/lib/factories/libdsitelephonengproxy.so
+	 210  147471 r-   145692 /mnt/app/eso/lib/factories/libdsibluetoothproxy.so
+	 211  147471 r-    59620 /mnt/app/eso/lib/factories/libasimmxconnectivity_bluetooth_leproxy.so
+	 212  147471 r-   108764 /mnt/app/eso/lib/factories/libasimmxconnectivity_bluetooth_a2dpproxy.so
+	 213  147471 r-   626688 /mnt/app/eso/bin/apps/radiodata
+	 214  147471 r-    46828 /mnt/app/eso/bin/apps/rdiserver
+	 215  147471 r-    63644 /mnt/app/eso/lib/factories/libdsiradiodataproxy.so
+	 216  147471 r-   351232 /mnt/app/eso/bin/apps/librdiserver_exlap_plugin.so
+	 217  147471 r-    18412 /mnt/app/eso/bin/apps/librdiserver_imageserver_plugin.so
+	 218  147471 r-  1112232 /mnt/app/eso/bin/apps/libexlap_plugin.so
+	 219  147471 r-   146484 /mnt/app/eso/lib/libapr-1.so.4
+	 220  147471 r-    14044 /mnt/app/eso/bin/apps/imageserverRDI
+	 221  147471 r-    75940 /mnt/app/eso/lib/factories/libdsicarstopwatchproxy.so
+	 222  147471 r-    47240 /mnt/app/eso/lib/factories/libdsihasproxy.so
+	 223  147471 r-    59852 /mnt/app/eso/lib/libimageserverlib.so
+	 224  147471 r-   162012 /mnt/app/eso/lib/factories/libdsicardrivingcharacteristicsproxy.so
+	 225  147471 r-    34944 /mnt/app/eso/lib/factories/libdsiexlapproxy.so
+	 226  147471 r-   252084 /mnt/app/eso/lib/factories/libdsicarairconditionproxy.so
+	 227  147471 r-   907268 /mnt/app/eso/bin/apps/organizer
+	 228  147471 r-    92340 /mnt/app/eso/lib/factories/libdsicarvehiclestatesproxy.so
+	 229  147471 r-   100556 /mnt/app/eso/lib/factories/libdsigeneralvehiclestatesproxy.so
+	 230  147471 r-   264368 /mnt/app/eso/lib/factories/libdsicarkombiproxy.so
+	 231  147471 r-   157864 /mnt/app/eso/lib/factories/libdsicarlightproxy.so
+	 232  147471 r-   166056 /mnt/app/eso/lib/factories/libdsicarecoproxy.so
+	 233  147471 r-    88268 /mnt/app/eso/lib/factories/libasimmximageserverproxy.so
+	 234  147471 r-   317612 /mnt/app/eso/lib/factories/libdsicarcomfortproxy.so
+	 235  147471 r-   525948 /mnt/app/eso/lib/libsqlite3_icu.so
+	 236  147471 r-   108736 /mnt/app/eso/lib/factories/libdsicartimeunitslanguageproxy.so
+	 237  147471 r-   292544 /mnt/swup/usr/bin/versionmanager
+	 238  147471 r-   203116 /mnt/app/eso/lib/factories/libdsiaddressbookproxy.so
+	 239  147471 r-   308940 /mnt/swup/usr/bin/fblockmanager
+	 240  147471 r-   132788 /mnt/swup/usr/bin/ethswupservice
+	 241  147471 r-    34956 /mnt/app/eso/lib/factories/libdsiphoneticproxy.so
+	 242  147471 r-   194144 /mnt/swup/usr/bin/trdevservice
+	 243  147471 r-  1283836 /mnt/swup/usr/bin/updatemanager
+	 244  147471 r-   104060 /mnt/swup/usr/bin/contentdetector
+	 245  147471 r-   178376 /mnt/app/eso/lib/factories/libasimmxswupfblockproxy.so
+	 246  147471 r-    67740 /mnt/app/eso/lib/factories/libirpcswdlfblockproxy.so
+	 247  147471 r-    55476 /mnt/app/eso/lib/factories/libasimmxswdl2tdeviceproxy.so
+	 248  147471 r-    34524 /mnt/app/speech/libve_resam.so
+	 249  147471 r-    43164 /mnt/app/eso/lib/factories/libdsisoftwareupdateproxy.so
+	 250  147471 r-    51372 /mnt/app/eso/lib/factories/libasimmxContentDetectorproxy.so
+	 251  147471 r-   592024 /mnt/app/eso/bin/apps/explorer
+	 252  147471 r-    67744 /mnt/app/eso/lib/factories/libdsifilebrowserproxy.so
+	 253  147471 r-   100548 /mnt/app/eso/lib/factories/libdsipicturestoreproxy.so
+	 254  147471 r-    92340 /mnt/app/eso/lib/factories/libasimmxfilebrowserproxy.so
+	 255  147471 r-   116916 /mnt/app/eso/lib/factories/libasimmxpicturestoreproxy.so
+	 256  147471 rw    32768 /mnt/adb/explorer/picturestore.db-shm
+	 257  147471 r-    84156 /mnt/app/eso/lib/factories/libasimmxcoreserviceproxy.so
+	 258  147471 rw    32768 /mnt/adb/addressbook/addressbook0/addressbook0.db-shm
+	 259  147471 r-  1771708 /mnt/app/eso/bin/apps/esosearch
+	 260  147471 rw    32768 /mnt/adb/addressbook/addressbook1/addressbook1.db-shm
+	 261  147471 r-   278528 /mnt/app/armle/usr/lib/libcurl.so.2
+	 262  147471 r-    43000 /mnt/app/armle/usr/lib/libcares.so.1
+	 263  147471 r-   154960 /mnt/app/armle/usr/lib/libgssapi.so.1
+	 264  147471 rw    32768 /mnt/adb/addressbook/addressbook2/addressbook2.db-shm
+	 265  147471 r-    40960 /mnt/app/armle/usr/lib/libnbutil.so.1
+	 266  147471 r-    34432 /mnt/app/armle/lib/libcredmgr_stub.so.1
+	 267  147471 r-   300916 /mnt/app/armle/usr/lib/libkrb5.so.1
+	 268  147471 r-    22624 /mnt/app/armle/usr/lib/libheimntlm.so.1
+	 269  147471 r-   341784 /mnt/app/armle/usr/lib/libasn1.so.1
+	 270  147471 rw    32768 /mnt/adb/addressbook/addressbook3/addressbook3.db-shm
+	 271  147471 r-     5740 /mnt/app/armle/usr/lib/libcom_err.so.1
+	 272  147471 r-   183480 /mnt/app/armle/usr/lib/libhx509.so.1
+	 273  147471 r-    47848 /mnt/app/armle/usr/lib/libroken.so.1
+	 274  147471 r-   161576 /mnt/app/armle/usr/lib/libwind.so.1
+	 275  147471 r-    14320 /mnt/app/armle/usr/lib/libheimbase.so.1
+	 276  147471 rw    32768 /mnt/adb/addressbook/addressbook4/addressbook4.db-shm
+	 277  147471 r-   481968 /mnt/app/eso/lib/icudt58l/coll/ucadata.icu
+	 278  147471 r-    21144 /mnt/app/eso/lib/icudt58l/coll/de.res
+	 279  147471 r-   254652 /mnt/app/eso/lib/icudt58l/coll/root.res
+	 280  147471 r-       76 /mnt/app/eso/lib/icudt58l/de_DE.res
+	 281  147471 r-   115728 /mnt/app/eso/lib/icudt58l/pool.res
+	 282  147471 r-    17008 /mnt/app/eso/lib/icudt58l/de.res
+	 283  147471 r-    36576 /mnt/app/eso/lib/icudt58l/root.res
+	 284  147471 r-    18020 /mnt/app/eso/lib/icudt58l/lang/de.res
+	 285  147471 r-   107872 /mnt/app/eso/lib/icudt58l/lang/pool.res
+	 286  147471 r-      216 /mnt/app/eso/lib/icudt58l/lang/root.res
+	 287  147471 r-   100536 /mnt/app/eso/lib/factories/libdsisearchproxy.so
+	 288  147471 r-    54016 /mnt/app/eso/lib/icudt58l/nfkc.nrm
+	 289  147471 r-    63684 /mnt/app/eso/lib/factories/libasimmxsearchdataproviderproxy.so
+	 290  147471 r-    71872 /mnt/app/eso/lib/factories/libasimmxaddressbookspeechproxy.so
+	 291  147471 r-    67776 /mnt/app/eso/lib/factories/libasimmxhistorysyncproxy.so
+	 292  147471 r-    75992 /mnt/app/eso/lib/factories/libasimmxaddressbookvcardexchangeproxy.so
+	 293  147471 r-   125688 /mnt/app/navigation/libtcmalloc_minimal.so
+	 294  147471 r-   218880 /mnt/app/eso/bin/apps/SpeechLauncher
+	 295  147471 r- 47353856 /mnt/app/navigation/navStartup
+	 296  147471 r-    51368 /mnt/app/eso/lib/factories/libasimmxLauncherControlproxy.so
+	 297  147471 r-  1382200 /mnt/app/eso/bin/apps/esoSpeechApp
+	 298  147471 r-   145628 /mnt/app/speech/EBSpeechApp
+	 299  147471 r-    72612 /mnt/app/speech/libHmiModuleLoader-3.25.so
+	 300  147471 r-  1779956 /mnt/app/speech/libvocon3200_asr.so
+	 301  147471 r-  1874668 /mnt/app/speech/libSDString-4.13.so
+	 302  147471 r-   503808 /mnt/app/speech/libvocon3200_base.so
+	 303  147471 r-    14140 /mnt/app/speech/libvocon3200_platform.so
+	 304  147471 r-     5732 /mnt/app/speech/libgenericdca.so
+	 305  147471 r-   311296 /mnt/app/speech/libPropal-3.32.so
+	 306  147471 r-    63900 /mnt/app/speech/libCTracer-4.23.so
+	 307  147471 r-    59372 /mnt/app/speech/libSystemCommon-3.9.so
+	 308  147471 r-  4997120 /mnt/app/speech/libSSPSRCore.so
+	 309  147471 r-    18404 /mnt/app/speech/libDataADBPluginAction.so
+	 310  147471 r-    18400 /mnt/app/speech/libDataMediaPluginAction.so
+	 311  147471 r-    26648 /mnt/app/speech/libSSPLogger.so
+	 312  147471 r-   929476 /mnt/app/speech/libSSPSOCore.so
+	 313  147471 r-  1760776 /mnt/app/speech/libSTFTransSync.so
+	 314  147471 r-  1769472 /mnt/app/navigation/libcommon.so
+	 315  147471 r-    55468 /mnt/app/eso/lib/factories/libasimmxtrafficinfoproxy.so
+	 316  147471 r-  2772772 /mnt/app/speech/libSpeechWrapper.so
+	 317  147471 r-    94208 /mnt/app/armle/sbin/memmonit
+	 318  147471 r-    63800 /mnt/app/speech/libpal_core.so
+	 319  147471 r-    59564 /mnt/app/eso/lib/factories/libasimmxnaviconproxy.so
+	 320  147471 r-    18392 /mnt/app/speech/libAudioEngineering.so
+	 321  147471 r-   315392 /mnt/app/speech/libSTFAudioIO.so
+	 322  147471 r-   380680 /mnt/app/navigation/libHereNaviPlatform.so
+	 323  147471 r-    92328 /mnt/app/eso/lib/factories/libasi_dsi_spy_carkombiproxy.so
+	 324  147471 r-   216940 /mnt/app/navigation/libOlympiaCommon.so
+	 325  147471 r-   155648 /mnt/app/speech/libnuanceemp.so
+	 326  147471 r-   179504 /mnt/app/navigation/libtreso.so
+	 327  147471 r-   166532 /mnt/app/navigation/libbsp.so
+	 328  147471 r-    71784 /mnt/app/navigation/libwatchdog.so
+	 329  147471 r-    65536 /mnt/app/armle/usr/lib/libexpat.so.2
+	 330  147471 r-   143360 /mnt/app/armle/lib/libjpeg.so.4
+	 331  147471 r-   583328 /mnt/app/navigation/libmos-common.so
+	 332  147471 r-   323584 /mnt/app/armle/usr/lib/libfreetype.so.1
+	 333  147471 r-   195616 /mnt/app/navigation/libos-adaptation.network.so
+	 334  147471 r-    13884 /mnt/app/navigation/libos-adaptation.timeprovider.so
+	 335  147471 r-    22188 /mnt/app/navigation/libos-adaptation.context.so
+	 336  147471 r-   116728 /mnt/app/navigation/libmetrics.so
+	 337  147471 r-   100644 /mnt/app/navigation/liblogging.so
+	 338  147471 r-     9600 /mnt/app/navigation/libos-adaptation.porting.so
+	 339  147471 r-    55328 /mnt/app/navigation/libos-adaptation.thread.so
+	 340  147471 r-  1588196 /mnt/app/navigation/libicuuc.so.58
+	 341  147471 r-  2354788 /mnt/app/navigation/libicui18n.so.58
+	 342  147471 r-    13728 /mnt/app/navigation/libarcore.so
+	 343  147471 r-    26256 /mnt/app/navigation/libresource-locator.so
+	 344  147471 r-     5632 /mnt/app/navigation/libicudata.so.58
+	 345  147471 r-   285176 /mnt/app/speech/libVoconComponentManager.so
+	 346  147471 r-  1957888 /mnt/app/speech/libvocon3200_pron.so
+	 347  147471 r-  3716812 /mnt/app/speech/libve.so
+	 348  147471 r-   198156 /mnt/app/navigation/navPatch
+	 349  147471 r-   444960 /mnt/app/eso/lib/factories/libdsinavproxy.so
+	 350  147471 r-    88288 /mnt/app/eso/lib/factories/libasi_dsi_spy_navproxy.so
+	 351  147471 r-    43172 /mnt/app/eso/lib/factories/libdsitrafficregulationproxy.so
+	 352  147471 r-   407916 /mnt/app/eso/lib/factories/libdsimapproxy.so
+	 353  147471 r-    47260 /mnt/app/eso/lib/factories/libdsikomoviewproxy.so
+	 354  147471 r-    55448 /mnt/app/eso/lib/factories/libdsiiconhandlingproxy.so
+	 355  147471 r-    47280 /mnt/app/eso/lib/factories/libasimmxnavigationvdeproxy.so
+	 356  147471 r-    84128 /mnt/app/eso/lib/factories/libdsitmcproxy.so
+	 357  147471 r-   268768 /mnt/app/eso/lib/factories/libdsionlineproxy.so
+	 358  147471 r-    34988 /mnt/app/eso/lib/factories/libasimmxbinarydiffpatchproxy.so
+	 359  147471 r-    43160 /mnt/app/eso/lib/factories/libasimmxswupinitproxy.so
+	 360  147471 r-    55132 /mnt/app/navigation/libglseso.so
+	 361  147471 r-    89736 /mnt/app/navigation/assets/olympia/olymp1/font/NotoKufiArabic_modified.ttf
+	 362  147471 r-    55472 /mnt/app/eso/lib/factories/libasimmxspeechttsproxy.so
+	 363  147471 r-   559176 /mnt/app/eso/bin/apps/rdv_controller
+	 364  147471 r-    84108 /mnt/app/eso/lib/factories/libdsittsproxy.so
+	 365  147471 r-    88236 /mnt/app/eso/lib/factories/libasimmxrdvmapviewerproxy.so
+	 366  147471 r-   104632 /mnt/app/eso/lib/factories/libasimmxrdvinterfaceproxy.so
+	 367  147471 r-    88216 /mnt/app/eso/lib/factories/libasi_dsi_spy_carecoproxy.so
+	 368  147471 r-    84144 /mnt/app/eso/lib/factories/libdsimobilityhorizonproxy.so
+	 369  147471 r-    59596 /mnt/app/eso/lib/factories/libasimmxmulticlientrouteproviderproxy.so
+	 370  147471 r-   100552 /mnt/app/eso/lib/factories/libasimmxSpeechRecInterAppproxy.so
+	 371  147471 r-   208896 /mnt/app/speech/libvocon3200_sem.so
+	 372  147471 rw    32768 /mnt/speech/persistence/data_adb_plugin_data.db-shm
+	 373  147471 rw    32768 /mnt/speech/persistence/data_media_plugin_data.db-shm
+	 374  147471 r-    39048 /mnt/app/eso/lib/factories/libasimmxsxmPhoneticsproxy.so
+	 375  147471 r-    75948 /mnt/app/eso/lib/factories/libasimmxmediaspeechproxy.so
+	 376  147471 r-   106496 /mnt/app/armle/sbin/devm-nvavp
+	 377  147471 r-    96416 /mnt/app/eso/lib/factories/libdsispeechrecproxy.so
+	 378  147471 r-   774144 /mnt/app/armle/usr/lib/libgnsdk_storage_sqlite.3.11.20.so
+	 379  147471 r-    51300 /mnt/app/eso/lib/factories/libasimmxdtcpkeyexchangeproxy.so
+	 380  147471 r-   289152 /mnt/app/eso/lib/factories/libdsimediaproxy.so
+	 381  147471 r-    43156 /mnt/app/eso/lib/factories/libasimmxSRMExchangeproxy.so
+	 382  147471 r-    51372 /mnt/app/eso/lib/factories/libdsigenericmetadataproxy.so
+	 383  147471 r-   378768 /mnt/app/eso/bin/apps/logtransferclient
+	 384  147471 r-   390972 /mnt/app/eso/bin/apps/logtransferserver
+	 385  147471 r-    43180 /mnt/app/eso/lib/factories/libirpclogtransferproxy.so
+	 386  147471 r-   194928 /mnt/app/eso/bin/apps/ProtobufMessageEncoder
+	 387  147471 r-   141080 /mnt/app/eso/bin/comm_forwarder_rstp_host
+	 388  147471 r-  1484916 /mnt/app/eso/lib/libprotobuf3full.so
+	 389  147471 r-    59620 /mnt/app/eso/lib/factories/libasimmxProtobufMessageEncoderproxy.so
+	 390  147471 r-  1263420 /mnt/app/eso/bin/apps/messaging2
+	 391  147471 r-    38664 /mnt/app/eso/bin/rstpSocketForwarder
+	 392  147471 r-   431944 /mnt/app/eso/bin/apps/browser
+	 393  147471 r-   113160 /mnt/app/eso/lib/libprotobuflite.so
+	 394  147471 r-    22632 /mnt/app/eso/lib/factories/libasimmxconnectivity_esimproxy.so
+	 395  147471 r-   108736 /mnt/app/eso/lib/factories/libdsimessagingproxy.so
+	 396  147471 r- 44276904 /mnt/app/armle/webkit/libblink.so
+	 397  147471 r-  1232896 /mnt/swup/usr/lib/libcrypto.so.2
+	 398  147471 r-    16384 /mnt/swup/usr/lib/libbacktrace.so.1
+	 399  147471 r-  9980368 /mnt/app/eso/bin/apps/icudtl.dat
+	 400  147471 r-    59552 /mnt/app/eso/lib/factories/libasimmxmediaonlineproxy.so
+	 401  147471 r-   121040 /mnt/app/eso/lib/factories/libdsibrowserproxy.so
+	 402  147471 r-    43160 /mnt/app/eso/lib/factories/libasimmxtzroutedataproxy.so
+	 403  147471 r-   104672 /mnt/app/eso/lib/factories/libasimmxonlinenavextproxy.so
+	 404  147471 r-   243192 /mnt/app/eso/bin/apps/browserSlave
+	 405  147471 r-    67720 /mnt/app/eso/lib/factories/libasimmxpsd2proxy.so
+	 406  147471 r-     6977 /mnt/app/eso/bin/apps/locales/en-US.pak
+	 407  147471 r-    84192 /mnt/app/eso/lib/factories/libasimmxRUDownloadHandlerproxy.so
+	 408  147471 rw    32768 /mnt/adb/search/truffles.1.db-shm
+	 409  147471 r-  1216461 /mnt/app/eso/bin/apps/cef.pak
+	 410  147471 r-   364243 /mnt/app/eso/bin/apps/cef_100_percent.pak
+	 411  147471 r-  3689344 /mnt/app/eso/bin/apps/devtools_resources.pak
+	 412  147471 r-   387552 /mnt/app/eso/bin/apps/mediaonline
+	 413  147471 r-    72960 /mnt/app/armle/usr/sbin/telnetd
+	 414  147471 r-    30856 /mnt/app/eso/browser/fontcache/b9c4c52028f1380e91721fd18b9fade7-le32d8.cache-4
+	 415  147471 r-   100028 /mnt/app/voice_encoder/voice_encoder_app
+	 416  147471 r-   196608 /mnt/app/voice_encoder/lib/libspeex.so
+	 417  147471 r-    16384 /mnt/app/voice_encoder/lib/libogg.so.1
+	 418  147471 r-    34980 /mnt/app/eso/lib/factories/libasimmxvoiceencoderproxy.so
+	 419  974917 rw        0 /dev/ttyp0
+	 421  147471 r-    12288 /mnt/app/armle/lib/dll/img_codec_bmp.so
+	 422  147471 r-    12288 /mnt/app/armle/lib/dll/img_codec_gif.so
+	 423  147471 r-    24576 /mnt/app/armle/usr/lib/libgif.so.4
+	 424  147471 r-    12288 /mnt/app/armle/lib/dll/img_codec_jpg.so
+	   0s      1 
+       2 sbin/devc-sertegra 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3       1 
+	   0s      1 
+	   2s      2 
+	   4s      1 
+       4 usr/sbin/etee      
+	   0       1 
+	   1       2 rw        0 /dev/ser1
+	   2       2 rw        0 /dev/ser1
+	   3       2 -w        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+	   4s      1 
+   20485 usr/sbin/slogger   
+	   0       1 
+	   1       1 
+	   2       1 
+	   0s      1 
+	   2s      1 
+	   3s      1 
+   24582 sbin/devg-nvsku    
+	   0       2 rw        0 /dev/ser1
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+	   3s      1 
+	   4s      1 
+	   5s      1 
+	   6s      1 
+	   7s      1 
+	   8s      1 
+	   9s      1 
+	  10s      1 
+	  11s      1 
+	  12s      1 
+   45063 sbin/devg-nvos     
+	   0       2 rw        0 /dev/ser1
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+   49160 sbin/devg-nvgpio   
+	   0       2 rw        0 /dev/ser1
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+	   3s      1 
+	   4s      1 
+	   5s      1 
+	   6s      1 
+	   7s      1 
+	   8s      1 
+	   9s      1 
+	  10s      1 
+	  11s      1 
+	  12s      1 
+	  13s      1 
+	  14s      1 
+	  15s      1 
+	  16s      1 
+	  17s      1 
+	  18s      1 
+	  19s      1 
+	  20s      1 
+	  21s      1 
+	  22s      1 
+	  23s      1 
+	  24s      1 
+	  25s      1 
+	  26s      1 
+	  27s      1 
+	  28s      1 
+	  29s      1 
+	  30s      1 
+	  31s      1 
+	  32s      1 
+	  33s      1 
+	  34s      1 
+	  35s      1 
+	  36s      1 
+	  37s      1 
+	  38s      1 
+	  39s      1 
+	  40s      1 
+	  41s      1 
+	  42s      1 
+	  43s      1 
+	  44s      1 
+	  45s      1 
+	  46s      1 
+	  47s      1 
+	  48s      1 
+   77833 sbin/pipe          
+	   0       2 rw        0 /dev/ser1
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+	   3s      1 
+  122893 usr/sbin/random    
+	   0       1 
+	   1       1 
+	   2       1 
+	   3   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s 122893 
+	   5s      1 
+	   6s      1 
+  147471 /devb-sdmmc-tegra3 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   5       1 
+	   6       1 
+	   0s      1 
+	   2s 147471 
+	   5s 147471 
+	   8s 147471 
+	  11s 147471 
+	  14s 147471 
+	  17s 147471 
+	  19s      1 
+	  20s      1 
+	  21s      1 
+	  22s      1 
+	  23s      1 
+	  24s      1 
+	  25s      1 
+	  26s      1 
+	  27s      1 
+	  28s      1 
+	  29s      1 
+	  30s      1 
+	  31s      1 
+	  32s      1 
+	  33s      1 
+	  34s      1 
+	  35s      1 
+	  36s      1 
+	  37s      1 
+	  38s      1 
+	  39s      1 
+	  41s      1 
+	  43s      1 
+	  44s      1 
+	  45s      1 
+	  46s      1 
+	  47s      1 
+	  48s      1 
+	  49s      1 
+	  50s      1 
+	  51s      1 
+	  52s      1 
+	  53s      1 
+	  54s      1 
+	  55s      1 
+	  56s      1 
+	  63s      1 
+	  68s      1 
+	  70s      1 
+	  71s      1 
+	  72s      1 
+	  73s      1 
+	  75s      1 
+	  76s      1 
+	  77s      1 
+	  78s      1 
+	  79s      1 
+	  80s      1 
+	  81s      1 
+	  82s      1 
+	  83s      1 
+	  84s      1 
+	  85s      1 
+	  86s      1 
+	  87s      1 
+	  88s      1 
+  155662 /devb-sdmmc-tegra3 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   5       1 
+	   6       1 
+	   0s      1 
+	   2s 155662 
+	   5s 155662 
+	   8s 155662 
+	  11s 155662 
+	  14s 155662 
+	  17s 155662 
+	  19s      1 
+	  20s      1 
+	  21s      1 
+	  23s      1 
+	  30s      1 
+	  31s      1 
+	  32s      1 
+	  33s      1 
+	  34s      1 
+	  35s      1 
+	  36s      1 
+	  37s      1 
+	  38s      1 
+	  39s      1 
+	  41s      1 
+	  42s      1 
+	  43s      1 
+	  44s      1 
+	  45s      1 
+	  46s      1 
+	  47s      1 
+	  48s      1 
+	  49s      1 
+	  50s      1 
+	  51s      1 
+	  52s      1 
+	  53s      1 
+	  54s      1 
+	  55s      1 
+  241688 bin/sh             
+	   0       2 rw        0 /dev/ser1
+	   1       2 rw        0 /dev/ser1
+	   2       2 rw        0 /dev/ser1
+	  10       2 rw        0 /dev/ser1
+	   0s      1 
+  274454 sbin/io-pkt-v6-hc  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   5  122893 r-        0 /dev/random
+	   6  1155124 r-        0 /dev/pci/
+	   7  1441879 
+	   8       1 
+	   9  1441879 
+	  10  1441879 
+	  11  1441879 
+	   0s      1 
+	   2s 274454 
+	   4s      1 
+	   5s      1 
+	   6s      1 
+	   7s      1 
+	   8s      1 
+	   9s      1 
+	  10s      1 
+	  11s      1 
+	  12s      1 
+	  13s      1 
+	  14s      1 
+	  15s      1 
+	  16s      1 
+	  17s      1 
+	  18s      1 
+	  19s      1 
+	  20s      1 
+	  22s      1 
+	  27s 274454 
+	  38s      1 
+	  45s      1 
+	  46s      1 
+	  47s      1 
+	  48s      1 
+	  49s 274454 
+	  52s 274454 
+	  55s 274454 
+	  58s 274454 
+	  66s 274454 
+	  71s      1 
+	  72s      1 
+	  91s      1 
+	  93s      1 
+	 112s      1 
+  323607 sbin/devc-sertegra 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3       1 
+	   0s      1 
+	   2s 323607 
+	   4s      1 
+  323610 sbin/mqueue        
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+	   4s      1 
+	   5s      1 
+  331801 usr/bin/rstp       
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  323607 rw        0 /dev/ser2
+	   4  331801 
+	   5  331801 
+	   6   20485 -w        0 /dev/slog
+	   0s      1 
+	   6s      1 
+	   7s      1 
+	   8s      1 
+	   9s      1 
+	  10s      1 
+	  11s      1 
+	  12s      1 
+	  13s      1 
+	  15s      1 
+	  16s      1 
+	  17s      1 
+	  18s      1 
+	  19s      1 
+	  20s      1 
+	  21s      1 
+	  22s      1 
+	  23s      1 
+	  24s      1 
+	  25s      1 
+	  26s      1 
+  331804 sbin/nvmemctrl     
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+  348189 sr/bin/runmode-mgr 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  331801 rw        0 /dev/rstp/system
+	   4  331801 rw        0 /dev/rstp/watchdog_datan
+	   0s      1 
+	   5s 348189 
+	   8s      1 
+	  10s      1 
+	  11s      1 
+	  12s      1 
+  380955 sbin/devg-nvclock  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s      1 
+  385055 n/devg-nvpowergate 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  380955 rw        0 /dev/nvclock/
+	   0s      1 
+	   2s      1 
+  389152 sbin/i2c-tegra2    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+  389153 sbin/i2c-tegra2    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+  389155 sbin/i2c-tegra2    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+  417826 sbin/devg-nvpmu    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  389155 rw        0 /dev/i2c5
+	   4   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s      1 
+  438308 in/devg-nvthermmon 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  458790 rw        0 /dev/nvdvfs/
+	   0s      1 
+	   2s      1 
+  438309 sbin/devg-nvsys    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+	   3s      1 
+	   4s      1 
+	   5s      1 
+	   6s      1 
+	   7s      1 
+	   8s      1 
+  438312 sbin/devg-nvtmon   
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  389153 rw        0 /dev/i2c1
+	   0s      1 
+	   2s      1 
+	   3s      1 
+	   4s      1 
+	   5s      1 
+	   6s      1 
+	   7s      1 
+  458790 sbin/devg-nvdvfs   
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  380955 rw        0 /dev/nvclock/
+	   4  438308 rw        0 /dev/nvthermmon/
+	   5  417826 rw        0 /dev/nvpmu/
+	   0s      1 
+	   2s      1 
+  471079 sbin/pwr-nvtk1     
+	   0       1 
+	   1       1 
+	   2       1 
+	   0s      1 
+	   2s      1 
+  479248 sbin/devg-nvrm     
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   45063 rw        0 /dev/nvos
+	   4   20485 -w        0 /dev/slog
+	   5       1 
+	   6       1 
+	   7  380955 rw        0 /dev/nvclock/
+	   8       1 
+	   9       1 
+	  10       1 
+	  11       1 
+	  12  458790 rw        0 /dev/nvdvfs/
+	  13       1 
+	  14       1 
+	  15       1 
+	  16       1 
+	  17       1 
+	  18       1 
+	  19       1 
+	  20       1 
+	  21       1 
+	  22       1 
+	  23       1 
+	  24       1 
+	  25       1 
+	  26       1 
+	  27       1 
+	  28       1 
+	  29       1 
+	  30       1 
+	  31       1 
+	  32       1 
+	  33       1 
+	  34  479248 
+	  35       1 
+	  36  479248 
+	  37  479248 
+	  38       1 
+	  39       1 
+	  40  479248 
+	  41       1 
+	  42       1 
+	  43  479248 
+	  44       1 
+	  45       1 
+	  46       1 
+	  47       1 
+	  48       1 
+	  49       1 
+	  50       1 
+	  51       1 
+	  52       1 
+	  53       1 
+	  54       1 
+	  55       1 
+	  56       1 
+	  57       1 
+	  58       1 
+	  59       1 
+	  60       1 
+	  61       1 
+	  62       1 
+	  63       1 
+	  64       1 
+	  65       1 
+	  66       1 
+	  67       1 
+	  68       1 
+	  69       1 
+	  70       1 
+	  71       1 
+	  72       1 
+	  73       1 
+	  74       1 
+	  75       1 
+	  76       1 
+	  77       1 
+	  78       1 
+	  79       1 
+	  80       1 
+	  81       1 
+	  82       1 
+	  83       1 
+	  84       1 
+	  85       1 
+	  86       1 
+	  87       1 
+	  88       1 
+	  89       1 
+	  90       1 
+	  91       1 
+	  92       1 
+	  93       1 
+	  94       1 
+	  95       1 
+	  96       1 
+	  97       1 
+	  98       1 
+	  99       1 
+	 100       1 
+	 101       1 
+	 102       1 
+	 103       1 
+	 104       1 
+	 105       1 
+	 106       1 
+	 107       1 
+	 108       1 
+	 109       1 
+	 110       1 
+	 111       1 
+	 112       1 
+	 113       1 
+	 114       1 
+	 115       1 
+	 116       1 
+	 117       1 
+	 118       1 
+	 119       1 
+	 120       1 
+	 121       1 
+	 122       1 
+	 123       1 
+	 124       1 
+	 125       1 
+	 126       1 
+	 127       1 
+	 128       1 
+	 129       1 
+	 130       1 
+	 131       1 
+	 132       1 
+	 133       1 
+	 134       1 
+	 135       1 
+	 136       1 
+	 137       1 
+	 138       1 
+	 139       1 
+	 140       1 
+	 141       1 
+	 142       1 
+	 143       1 
+	 144       1 
+	 145       1 
+	 146       1 
+	 147       1 
+	 148       1 
+	 149       1 
+	 150       1 
+	 151       1 
+	 152       1 
+	 153       1 
+	 154       1 
+	 155       1 
+	 156       1 
+	 157       1 
+	 158       1 
+	 159       1 
+	 160       1 
+	 161       1 
+	 162       1 
+	 163       1 
+	 164       1 
+	 165       1 
+	 166       1 
+	 167       1 
+	 168       1 
+	 169       1 
+	 170       1 
+	 171       1 
+	 172       1 
+	 173       1 
+	 174       1 
+	 175       1 
+	 176       1 
+	 177       1 
+	 178       1 
+	 179       1 
+	 180       1 
+	 181       1 
+	 182       1 
+	 183       1 
+	 184       1 
+	 185       1 
+	 186       1 
+	 187       1 
+	 189       1 
+	 190       1 
+	 191       1 
+	 192       1 
+	 193       1 
+	 194       1 
+	 195       1 
+	 196       1 
+	 197       1 
+	 198       1 
+	 199       1 
+	 200       1 
+	 201       1 
+	 202       1 
+	 203       1 
+	 204       1 
+	 205       1 
+	 206       1 
+	 207       1 
+	 208       1 
+	 209       1 
+	 210       1 
+	 211       1 
+	 212       1 
+	 213       1 
+	 214       1 
+	 215       1 
+	 216       1 
+	 217       1 
+	 218       1 
+	 219       1 
+	 220       1 
+	 221       1 
+	 222       1 
+	 223       1 
+	 224       1 
+	 225       1 
+	 226       1 
+	 227       1 
+	 228       1 
+	 229       1 
+	 230       1 
+	 231       1 
+	 232       1 
+	 233       1 
+	 234       1 
+	 235       1 
+	 236       1 
+	 237       1 
+	 238       1 
+	 239       1 
+	 240       1 
+	 241       1 
+	 242       1 
+	 243       1 
+	 244       1 
+	 245       1 
+	 246       1 
+	 247       1 
+	 248       1 
+	 249       1 
+	 250       1 
+	 251       1 
+	 252       1 
+	 253       1 
+	 254       1 
+	 255       1 
+	 256       1 
+	 257       1 
+	 258       1 
+	 259       1 
+	 260       1 
+	 261       1 
+	 262       1 
+	 263       1 
+	 264       1 
+	 265       1 
+	 266       1 
+	 267       1 
+	 268       1 
+	 269       1 
+	 270       1 
+	 271       1 
+	 272       1 
+	 273       1 
+	 274       1 
+	 275       1 
+	 276       1 
+	 277       1 
+	 278       1 
+	 279       1 
+	 280       1 
+	 281       1 
+	 282       1 
+	 283       1 
+	 284       1 
+	 285       1 
+	 286       1 
+	 287       1 
+	 288       1 
+	 289       1 
+	 290       1 
+	 291       1 
+	 292       1 
+	 293       1 
+	 294       1 
+	 295       1 
+	 296       1 
+	 297       1 
+	 298       1 
+	 299       1 
+	 300       1 
+	 301       1 
+	 302       1 
+	 303       1 
+	 304       1 
+	 305       1 
+	 306       1 
+	 307       1 
+	 308       1 
+	 309       1 
+	 310       1 
+	 311       1 
+	 312       1 
+	 313       1 
+	 314       1 
+	 315       1 
+	 316       1 
+	 317       1 
+	 318       1 
+	 319       1 
+	 320       1 
+	 321       1 
+	 322       1 
+	 323       1 
+	 324       1 
+	 325       1 
+	 326       1 
+	 327       1 
+	 328       1 
+	 329       1 
+	 330       1 
+	 331       1 
+	 332       1 
+	 333       1 
+	 334       1 
+	 335       1 
+	 336       1 
+	 337       1 
+	 338       1 
+	 339       1 
+	 340       1 
+	 341       1 
+	 342       1 
+	 343       1 
+	 344       1 
+	 345       1 
+	 346       1 
+	 347       1 
+	 348       1 
+	 349       1 
+	 350       1 
+	 351       1 
+	 352       1 
+	 353       1 
+	 354       1 
+	 355       1 
+	 356       1 
+	 357       1 
+	 358       1 
+	 359       1 
+	 360       1 
+	 361       1 
+	 362       1 
+	 363       1 
+	 364       1 
+	 365       1 
+	 366       1 
+	 367       1 
+	 368       1 
+	 369       1 
+	 370       1 
+	 371       1 
+	 372       1 
+	 373       1 
+	 374       1 
+	 375       1 
+	 376       1 
+	 377       1 
+	 378       1 
+	 379       1 
+	 380       1 
+	 381       1 
+	 382       1 
+	 383       1 
+	 384       1 
+	 385       1 
+	 386       1 
+	 387       1 
+	 388       1 
+	 389       1 
+	 390       1 
+	 391       1 
+	 392       1 
+	 393       1 
+	 394       1 
+	 395       1 
+	 396       1 
+	 397       1 
+	 398       1 
+	 399       1 
+	 400       1 
+	 401       1 
+	 402       1 
+	 403       1 
+	 404       1 
+	 405       1 
+	 406       1 
+	 407       1 
+	 408       1 
+	 409       1 
+	 410       1 
+	 411       1 
+	 412       1 
+	 413       1 
+	 414       1 
+	 415       1 
+	 416       1 
+	 417       1 
+	 418       1 
+	 419       1 
+	 420       1 
+	 421       1 
+	 422       1 
+	 423       1 
+	 424       1 
+	 425       1 
+	 426       1 
+	 427       1 
+	 428       1 
+	 429       1 
+	 430       1 
+	 431       1 
+	 432       1 
+	 433       1 
+	 434       1 
+	 435       1 
+	 436       1 
+	 437       1 
+	 438       1 
+	 439       1 
+	 440       1 
+	 441       1 
+	 442       1 
+	 443       1 
+	 444       1 
+	 445       1 
+	 446       1 
+	 447       1 
+	 448       1 
+	 449       1 
+	 450       1 
+	 451       1 
+	 452       1 
+	 453       1 
+	 454       1 
+	 455       1 
+	 456       1 
+	 457       1 
+	 458       1 
+	 459       1 
+	 460       1 
+	 461       1 
+	 462       1 
+	 463       1 
+	 464       1 
+	 465       1 
+	 466       1 
+	 467       1 
+	 468       1 
+	 469       1 
+	 470       1 
+	 471       1 
+	 472       1 
+	 473       1 
+	 474       1 
+	 475       1 
+	 476       1 
+	 477       1 
+	 478       1 
+	 479       1 
+	 480       1 
+	 481       1 
+	 482       1 
+	 483       1 
+	 484       1 
+	 485       1 
+	 486       1 
+	 487       1 
+	 488       1 
+	 489       1 
+	 490       1 
+	 491       1 
+	 492       1 
+	 493       1 
+	 494       1 
+	 495       1 
+	 497       1 
+	 498       1 
+	 499       1 
+	 500       1 
+	 501       1 
+	 502       1 
+	 503       1 
+	 504       1 
+	 505       1 
+	 506       1 
+	 507       1 
+	 508       1 
+	 509       1 
+	 510       1 
+	 511       1 
+	 512       1 
+	 513       1 
+	 514       1 
+	 515       1 
+	 516       1 
+	 517       1 
+	 518       1 
+	 519       1 
+	 520       1 
+	 521       1 
+	 522       1 
+	 523       1 
+	 524       1 
+	 525       1 
+	 526       1 
+	 527       1 
+	 528       1 
+	 529       1 
+	 530       1 
+	 531       1 
+	 532       1 
+	   0s      1 
+	   3s 479248 
+	   5s      1 
+	   6s      1 
+	   9s      1 
+	  10s 479248 
+	  13s 479248 
+	  16s      1 
+	  17s      1 
+	  18s      1 
+	  19s      1 
+	  20s      1 
+	  21s      1 
+	  22s      1 
+	  23s      1 
+	  24s      1 
+	  25s      1 
+	  26s      1 
+	  27s      1 
+	  29s      1 
+	  30s      1 
+	  31s      1 
+	  33s 479248 
+	  34s      1 
+	  35s      1 
+	  40s 479248 
+	  41s 479248 
+	  45s 479248 
+	  46s 479248 
+	  47s 479248 
+	  48s 479248 
+	  49s 479248 
+	  50s 479248 
+	  51s 479248 
+	  57s 479248 
+	  58s 479248 
+	  59s 479248 
+	  60s 479248 
+	  64s 479248 
+	  65s 479248 
+  495626 sbin/i2c-tegra2    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+  499732 sbin/i2c-tegra2    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s      1 
+  557101 eso/bin/mapper     
+	   0       1 
+	   1       1 
+	   2       1 
+	   3   20485 -w        0 /dev/slog
+	   0s      1 
+  557102 eso/bin/mapper     
+	   0       1 
+	   1       1 
+	   2       1 
+	   3   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s      1 
+  565278 usr/bin/ooc        
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  331801 rw        0 /dev/rstp/pwrman
+	   4   77833 r-        0 (pipe)
+	   5   77833 -w        0 (pipe)
+	   6   77833 r-        0 (pipe)
+	   7   20485 -w        0 /dev/slog
+	   8  274454 rw        0 I4TCP  10.0.0.15.21101       *.*                   LISTEN
+	   9  274454 
+	   0s      1 
+	   2s 565278 
+	   5s      1 
+	   6s      1 
+	   7s      1 
+	   8s      1 
+	  10s      1 
+	  11s 565278 
+	  13s 557102 
+	  15s 565278 
+	  20s 581676 
+	  23s 585776 
+	  26s 1171511 
+	  27s 1347660 
+	  32s 1306698 
+	  35s 1392693 
+	  38s 1392724 
+	  46s 1560673 
+	  49s 1740901 
+	  52s 1474662 
+	  55s 1806441 
+	  58s 1679472 
+	  61s 1630288 
+	  62s 1577058 
+	  67s 2170991 
+	  70s 1577058 
+	  73s 1667171 
+	  76s 2392156 
+	  79s 2465929 
+	  82s 2470026 
+	  85s 2502798 
+	  88s 2551958 
+	  91s 2625693 
+  581676 eso/bin/broker     
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21100       *.*                   LISTEN
+	   4  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65532       ESTABLISHED
+	   5  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65531       ESTABLISHED
+	   6  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65530       ESTABLISHED
+	   7  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65528       ESTABLISHED
+	   8  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65527       ESTABLISHED
+	   9  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65526       ESTABLISHED
+	  10  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65525       ESTABLISHED
+	  11  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65521       ESTABLISHED
+	  12  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65520       ESTABLISHED
+	  13  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65514       ESTABLISHED
+	  14  274454 rw        0 I4TCP  10.174.189.1.21600    *.*                   LISTEN
+	  15  274454 
+	  16  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65513       ESTABLISHED
+	  17  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65510       ESTABLISHED
+	  18  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65508       ESTABLISHED
+	  19  274454 rw        0 I4TCP  10.0.0.15.21100       10.0.0.16.65507       ESTABLISHED
+	  20  274454 
+	   0s      1 
+	   2s 581676 
+	   4s 557102 
+	   6s 581676 
+	   8s 565278 
+	  13s 585746 
+	  16s 585776 
+	  19s 1171511 
+	  22s 1347660 
+	  25s 1306698 
+	  28s 1392651 
+	  31s 1392652 
+	  34s 1392681 
+	  37s 1392693 
+	  40s 1392718 
+	  43s 1392725 
+	  46s 1392724 
+	  49s 1445976 
+	  52s 1474662 
+	  55s 1568893 
+	  58s 1679472 
+	  61s 1511524 
+	  64s 1740901 
+	  67s 1560673 
+	  70s 1785962 
+	  73s 1630288 
+	  76s 1806441 
+	  80s 1577058 
+	  82s 1818738 
+	  85s 1831005 
+	  88s 1908853 
+	  91s 1810548 
+	  94s 1917050 
+	  97s 2170991 
+	 100s 2306179 
+	 103s 1667171 
+	 106s 2392156 
+	 107s 2457730 
+	 110s 2461830 
+	 115s 2465929 
+	 118s 2470026 
+	 119s 2482316 
+	 124s 2502798 
+	 127s 2515085 
+	 130s 2515087 
+	 134s 2535570 
+	 136s 2535573 
+	 139s 2539672 
+	 142s 2543770 
+	 145s 2605201 
+	 148s 2551958 
+	 151s 2625693 
+	 154s 2617488 
+	 157s 2621595 
+	 160s 2625692 
+	 163s 2629791 
+	 166s 2629792 
+	 169s 2785428 
+	 170s 1577058 
+	 175s 2965679 
+	 178s 2965677 
+	 181s 2683031 
+	 184s 2957482 
+	 187s 2969777 
+	 190s 2973874 
+	 191s 3080359 
+	 196s 3084456 
+	 199s 3440814 
+	 202s 3530769 
+  585746 persistencebackend 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  331801 rw        0 /dev/rstp/persistence
+	   0s      1 
+	   2s 585746 
+	   4s 557102 
+	   6s 585746 
+	  11s 1347660 
+	  12s 581676 
+	  17s 585776 
+	  18s 1577058 
+  585776 pps/displaymanager 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  479248 rw        0 /dev/nvhost-ctrl
+	   4   45063 rw        0 /dev/nvos
+	   5  479248 rw        0 /dev/nvhost-ctrl
+	   6  479248 rw        0 /dev/nvhost-vic
+	   7  479248 rw        0 /dev/nvmap
+	   8   20485 -w        0 /dev/slog
+	   9  479248 rw        0 /dev/nvhost-vic
+	  10  479248 rw        0 /dev/nvhost-vic
+	  11  389152 rw        0 /dev/i2c0
+	  12   49160 rw        0 /dev/nvgpio/csi_irq
+	  13  495626 rw        0 /dev/i2c3
+	  14  323610 r-        0 /dev/mqueue/nvfpdlinkq
+	  15  626735 r-        0 /dev/screen/
+	  16  626735 r-        0 /dev/screen/
+	  17  626735 r-        0 /dev/screen/
+	  18  479248 rw        0 /dev/nvhost-ctrl-gpu
+	  19  479248 rw        0 /dev/nvhost-as-gpu
+	  20  479248 rw        0 /dev/nvhost-ctrl-gpu
+	  21  479248 rw        0 /dev/nvhost-gpu
+	  22  274454 rw        0 I4TCP  10.0.0.15.21103       *.*                   LISTEN
+	  23  274454 
+	  24  274454 rw        0 I4TCP  10.0.0.15.65531       10.0.0.16.21436       ESTABLISHED
+	   0s      1 
+	   2s 585776 
+	   4s 557102 
+	   6s 585776 
+	   8s 581676 
+	  13s 585776 
+	  16s 585776 
+	  20s      1 
+	  21s 585746 
+	  24s 565278 
+	  29s 1306698 
+	  30s 1392651 
+	  35s 1679472 
+	  38s 1577058 
+	  42s 1831005 
+	  45s 1917050 
+  618538 sbin/fpdlink_init  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  495626 rw        0 /dev/i2c3
+	   5  323610 rw        0 /dev/mqueue/nvfpdlinkq
+	   6   49160 rw        0 /dev/nvgpio/fpdlink_zfas_reserved
+	   7  323610 r-        0 /dev/mqueue/nvvcaptureq
+	   8  323610 rw        0 /dev/mqueue/nvfpdlinkq
+	   0s      1 
+	   2s 618538 
+  626735 sbin/screen        
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4   45063 rw        0 /dev/nvos
+	   5  479248 rw        0 /dev/nvhost-ctrl
+	   6  479248 rw        0 /dev/nvhost-ctrl
+	   7  479248 rw        0 /dev/nvdisp-ctrl
+	   8  479248 rw        0 /dev/nvdisp-disp0
+	   9  479248 rw        0 /dev/nvdisp-disp1
+	  10  479248 rw        0 /dev/nvmap
+	  11  479248 rw        0 /dev/nvhost-vic
+	   0s      1 
+	   2s      1 
+	   4s      1 
+	   5s 626735 
+  643122 sbin/fpdlink_init  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  495626 rw        0 /dev/i2c3
+	   5   49160 rw        0 /dev/nvgpio/fpdlink1_intb
+	   6  274454 rw        0 UDS S /tmp/hdcp.sock
+	   7  274454 
+	   8  274454 rw        0 UDS S /tmp/hdcp.sock
+	   0s      1 
+	   2s 643122 
+  647219 usr/sbin/sentinel  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   77833 -w        0 (pipe)
+	   4  2687134 r-      173 /dev/procfs_notify
+	   0s      1 
+  684086 sbin/devb-ram      
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   5       1 
+	   6       1 
+	   0s      1 
+	   2s 684086 
+	   5s 684086 
+	   8s 684086 
+	  11s 684086 
+	  13s      1 
+	  14s      1 
+	  15s      1 
+	  17s      1 
+  708667 n/devg-nvmclatency 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  380955 rw        0 /dev/nvclock/
+	   0s      1 
+	   2s      1 
+  708671 evf-generic-tegra2 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3       1 
+	   0s      1 
+	   2s      1 
+	   3s      1 
+	   4s      1 
+	   5s      1 
+	   6s      1 
+	   7s      1 
+	   8s      1 
+	   9s 708671 
+	  10s      1 
+	  11s 708671 
+	  13s 708671 
+	  14s      1 
+	  16s      1 
+  708672 sbin/mnand_chkeol  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  147471 rw        0 /dev/mnanda0
+	   0s      1 
+  712772 sbin/mnand_chkeol  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  155662 rw        0 /dev/mnandb0
+	   0s      1 
+  950328 sbin/devb-ram      
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   5       1 
+	   6       1 
+	   0s      1 
+	   2s 950328 
+	   5s 950328 
+	   8s 950328 
+	  11s 950328 
+	  13s      1 
+	  14s      1 
+	  15s      1 
+	  17s      1 
+  970814 bin/sh             
+	   1   77833 -w        0 (pipe)
+	   2   77833 -w        0 (pipe)
+	  10       2 rw        0 /dev/ser1
+	  11       1 
+	  13   77833 -w        0 (pipe)
+	   0s      1 
+  970817 usr/bin/grep       
+	   0   77833 r-        0 (pipe)
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+  970819 sbin/dumper        
+	   0       1 
+	   1   77833 -w        0 (pipe)
+	   2   77833 -w        0 (pipe)
+	   0s      1 
+	   2s      1 
+  974917 sbin/devc-pty      
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 974917 
+	   4s      1 
+	   5s      1 
+	   6s      1 
+	   7s      1 
+	   8s      1 
+	   9s      1 
+	  10s      1 
+	  11s      1 
+	  12s      1 
+	  13s      1 
+	  14s      1 
+	  15s      1 
+	  16s      1 
+	  17s      1 
+	  18s      1 
+	  19s      1 
+  974918 usr/bin/tee        
+	   0   77833 r-        0 (pipe)
+	   1   77833 -w        0 (pipe)
+	   2   77833 -w        0 (pipe)
+	   3   77833 -w        0 (pipe)
+	   0s      1 
+  974920 sbin/info          
+	   0   77833 r-        0 (pipe)
+	   1   77833 -w        0 (pipe)
+	   2   77833 -w        0 (pipe)
+	   0s      1 
+ 1032263 sbin/devb-ram      
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   5       1 
+	   6       1 
+	   0s      1 
+	   2s 1032263 
+	   5s 1032263 
+	   8s 1032263 
+	  11s 1032263 
+	  13s      1 
+	  14s      1 
+	  15s      1 
+	  17s      1 
+ 1069117 sbin/devb-ram      
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   5       1 
+	   6       1 
+	   0s      1 
+	   2s 1069117 
+	   5s 1069117 
+	   8s 1069117 
+	  11s 1069117 
+	  13s      1 
+	  14s      1 
+	  15s      1 
+	  17s      1 
+ 1101897 sbin/devb-ram      
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   5       1 
+	   6       1 
+	   0s      1 
+	   2s 1101897 
+	   5s 1101897 
+	   8s 1101897 
+	  11s 1101897 
+	  13s      1 
+	  14s      1 
+	  15s      1 
+	  17s      1 
+ 1155124 sbin/pci-server    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s      1 
+ 1171511 /servicemgrmibhigh 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 1171511 
+	   4s 557102 
+	   6s 1171511 
+	   8s 581676 
+	  10s 565278 
+	  14s 1347660 
+	  19s 1306698 
+	  20s 1392651 
+	  23s 1392652 
+	  26s 1392681 
+	  29s 1392693 
+	  32s 1392718 
+	  35s 1392725 
+	  38s 1392724 
+	  41s 1679472 
+	  44s 1560673 
+	  47s 1740901 
+	  50s 1785962 
+	  53s 1806441 
+	  56s 1630288 
+	  59s 1818738 
+	  62s 1831005 
+	  65s 1908853 
+	  68s 1810548 
+	  71s 1577058 
+	  74s 1917050 
+	  79s 1577058 
+	  80s 2482316 
+	  83s 2502798 
+	  86s 2515087 
+	  89s 2617488 
+	  92s 2621595 
+	  95s 2625692 
+	  98s 2625693 
+	 101s 2785428 
+	 104s 2965679 
+	 107s 2965677 
+	 110s 2957482 
+	 113s 2969777 
+	 116s 2973874 
+	 119s 3084456 
+	 122s 3440814 
+	 125s 3530769 
+ 1171514 sbin/challenge     
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  *.22111               *.*                   LISTEN
+	   4  274454 rw        0 I4TCP  172.16.250.248.22111  172.16.250.123.50594  ESTABLISHED
+	   5  1511544 r-        0 /dev/mcd/CHALLENGE
+	   6  274454 
+	   0s      1 
+ 1179727 sbin/devc-sertegra 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3       1 
+	   0s      1 
+	   2s 1179727 
+	   4s      1 
+ 1208395 sbin/io-audio      
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3       1 
+	   4   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s 1208395 
+	   5s 1208395 
+	   8s 1208395 
+	  10s      1 
+	  11s      1 
+ 1237073 usr/bin/rstp       
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  1179727 rw        0 /dev/ser3
+	   4  1237073 
+	   5  1237073 
+	   6   20485 -w        0 /dev/slog
+	   0s      1 
+	   6s      1 
+	   7s      1 
+	   8s      1 
+	   9s      1 
+	  10s      1 
+ 1306698 ifs/jre/bin/j9     
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  147471 r-  4421336 /mnt/app/eso/hmi/lsd/jars/lang_data.zip
+	   4  147471 r-   470708 /mnt/app/eso/hmi/lsd/jars/diag.jar
+	   5  147471 r-     5468 /mnt/app/eso/hmi/lsd/jars/AppDevelopment.jar
+	   6  147471 r-     2154 /mnt/app/eso/hmi/lsd/jars/xTcpKeyPanel.jar
+	   7  147471 r-    39939 /mnt/app/eso/hmi/lsd/jars/xTcpLog.jar
+	   8  147471 r-    33394 /mnt/app/eso/hmi/lsd/jars/xEventRecorder.jar
+	   9       1 
+	  10       1 
+	  11  147471 r-  3979868 /mnt/app/eso/hmi/lsd/jars/lang_data.zip
+	  12  147471 r-     3285 /mnt/app/eso/hmi/lsd/jars/diag.jar
+	  13  147471 r-      279 /mnt/app/eso/hmi/lsd/jars/AppDevelopment.jar
+	  14  147471 r-      187 /mnt/app/eso/hmi/lsd/jars/xTcpKeyPanel.jar
+	  15  147471 r-      187 /mnt/app/eso/hmi/lsd/jars/xTcpLog.jar
+	  16  147471 r-      187 /mnt/app/eso/hmi/lsd/jars/xEventRecorder.jar
+	  17       1 
+	  18       1 
+	  19       1 
+	  20       1 
+	  21       1 
+	  22       1 
+	  23       1 
+	  24       1 
+	  25       1 
+	  26       1 
+	  27       1 
+	  28       1 
+	  29       1 
+	  30       1 
+	  31       1 
+	  32       1 
+	  33       1 
+	  34       1 
+	  35       1 
+	  36       1 
+	  37       1 
+	  38   20485 -w        0 /dev/slog
+	  39   20485 -w        0 /dev/slog
+	  40  274454 
+	  41  274454 rw        0 I4TCP  127.0.0.1.6767        *.*                   LISTEN
+	  42  274454 rw        0 I4TCP  127.0.0.1.21021       *.*                   LISTEN
+	  43  274454 
+	  44  274454 rw        0 I4TCP  10.0.0.15.21200       *.*                   LISTEN
+	  45  274454 
+	  46  274454 rw        0 I4TCP  10.0.0.15.65535       10.0.0.16.21445       ESTABLISHED
+	  47   45063 rw        0 /dev/nvos
+	  48  479248 rw        0 /dev/nvhost-ctrl
+	  49  626735 r-        0 /dev/screen/
+	  50  479248 rw        0 /dev/nvhost-ctrl-gpu
+	  51  479248 rw        0 /dev/nvhost-as-gpu
+	  52  479248 rw        0 /dev/nvhost-ctrl-gpu
+	  53  274454 rw        0 I4TCP  10.0.0.15.65522       10.0.0.16.21424       ESTABLISHED
+	  54  479248 rw        0 /dev/nvmap
+	  55  479248 rw        0 /dev/nvhost-as-gpu
+	  56  479248 rw        0 /dev/nvhost-gpu
+	  57  479248 rw        0 /dev/nvhost-gpu
+	  58  479248 rw        0 /dev/nvhost-as-gpu
+	  59  479248 rw        0 /dev/nvhost-gpu
+	  60  479248 rw        0 /dev/nvhost-as-gpu
+	  61  479248 rw        0 /dev/nvhost-gpu
+	  62  479248 rw        0 /dev/nvhost-as-gpu
+	  63  479248 rw        0 /dev/nvhost-gpu
+	  64  479248 rw        0 /dev/nvhost-as-gpu
+	  65  479248 rw        0 /dev/nvhost-gpu
+	  66  479248 rw        0 /dev/nvhost-as-gpu
+	  67  479248 rw        0 /dev/nvhost-gpu
+	  68  626735 r-        0 /dev/screen/
+	  69  147471 r-   268956 /mnt/app/eso/hmi/fonts/AudiTypeDisplayHigh-Normal_13_ohne_Hints.ttf
+	  70  147471 r-    89736 /mnt/app/eso/hmi/fonts/NotoKufiArabic-Regular.ttf
+	  71  147471 r-  2738408 /mnt/app/eso/hmi/fonts/ZYHei_GB18030_c(20131128).ttf
+	  72  147471 r-  4560056 /mnt/app/eso/hmi/fonts/SourceHanSansKR-Regular.otf
+	  73  147471 r-  4927368 /mnt/app/eso/hmi/fonts/SourceHanSansJP-Regular.otf
+	  74  147471 r-   196664 /mnt/app/eso/hmi/fonts/AudiTypeDisplayHigh-Light.ttf
+	  75  274454 rw        0 I4TCP  10.0.0.15.65523       10.0.0.16.21447       ESTABLISHED
+	  76  147471 r-    18267 /mnt/app/eso/bundles/arc.sourceswitch_1.3.6.E20180905-1139.jar
+	  77  274454 rw        0 I4TCP  10.0.0.15.65506       10.0.0.16.21437       ESTABLISHED
+	  78  147471 r-      198 /mnt/app/eso/bundles/service.test.ols_1.0.0..20180905-1056.jar
+	  79  147471 r-    15256 /mnt/app/eso/bundles/service.dsi.tourimport_1.0.0.20180905-1055.jar
+	  80  147471 r-     4962 /mnt/app/eso/bundles/arc.carcoding_1.1.16.E20180905-1139.jar
+	  81  147471 r-    44208 /mnt/app/eso/bundles/service.dsi.onlinedictation_1.2.1.20180905-1054.jar
+	  82  147471 r-     1818 /mnt/app/eso/bundles/service.mqtt_1.0.0.20180905-1053.jar
+	  83  147471 r-    41518 /mnt/app/eso/bundles/arc.persistence_1.1.24.E20180905-1139.jar
+	  84  147471 r-     6762 /mnt/app/eso/bundles/service.dsi.onlineweather_1.0.0.20180905-1056.jar
+	  85  147471 r-    24125 /mnt/app/eso/bundles/arc.console_1.1.6.E20180905-1139.jar
+	  86  147471 r-   101994 /mnt/app/eso/bundles/service.http_1.0.0.20180905-1051.jar
+	  87  147471 r-    31900 /mnt/app/eso/bundles/service.core.esim_1.0.0.20180905-1056.jar
+	  88  147471 r-    10189 /mnt/app/eso/bundles/arc.lang_1.1.1.E20180905-1139.jar
+	  89  147471 r-    28357 /mnt/app/eso/bundles/arc.gem_1.1.7.E20180905-1139.jar
+	  90  147471 r-   487252 /mnt/app/eso/bundles/arc.remgem_5.3.1.E20180905-1139.jar
+	  91  147471 r-    23132 /mnt/app/eso/bundles/service.jobs_1.0.0.20180905-1053.jar
+	  92  147471 r-    89829 /mnt/app/eso/bundles/OnlineCoreServiceAdapter.jar
+	  93  147471 r-    39223 /mnt/app/eso/bundles/service.dsi.onlineradio_1.0.0.20180905-1055.jar
+	  94  147471 r-     8150 /mnt/app/eso/bundles/service.core.proxy_1.0.0.20180905-1053.jar
+	  95  147471 r-     4520 /mnt/app/eso/bundles/ncfs.tracker.datacollector_1.0.1.E20180905-1057.jar
+	  96  147471 r-    54317 /mnt/app/eso/bundles/ncfs.common_1.0.24.E20180905-1057.jar
+	  97  147471 r-    34440 /mnt/app/eso/bundles/service.generic.ols_1.0.0.20180905-1055.jar
+	  98  147471 r-     7235 /mnt/app/eso/bundles/ncfs.tracker.busdata_1.0.6.E20180905-1057.jar
+	  99  147471 r-    67047 /mnt/app/eso/bundles/service.onlinesds.jar
+	 100  147471 r-    30324 /mnt/app/eso/bundles/service.dsi.operatorCall_1.0.0.20180905-1054.jar
+	 101  147471 r-      250 /mnt/app/eso/bundles/arc.task_1.1.13.E20180905-1139.jar
+	 102  147471 r-    39677 /mnt/app/eso/bundles/service.dsi.destimport_1.0.0.20180905-1054.jar
+	 103  147471 r-    40263 /mnt/app/eso/bundles/service.dsi.hybridradio_1.0.0.20180905-1055.jar
+	 104  147471 r-   100709 /mnt/app/eso/bundles/service.lib.util_2.7.4.20180905-1051.jar
+	 105  147471 r-    20488 /mnt/app/eso/bundles/arc.winstone_1.1.9.E20180905-1139.jar
+	 106  147471 r-     2712 /mnt/app/eso/bundles/arc.fsid_1.0.1.E20180905-1139.jar
+	 107  147471 r-     7588 /mnt/app/eso/bundles/service.javalogger_1.0.0.20180905-1050.jar
+	 108  147471 r-      280 /mnt/app/eso/bundles/arc.crypto_1.1.5.E20180905-1139.jar
+	 109  147471 r-   124996 /mnt/app/eso/bundles/service.trafficlight2p_13.19.0.20180731-1107.jar
+	 110  147471 r-    22681 /mnt/app/eso/bundles/arc.versioncollector_1.0.10.E20180905-1139.jar
+	 111  147471 r-     2775 /mnt/app/eso/bundles/arc.log_1.1.3.E20180905-1139.jar
+	 112  147471 r-    64752 /mnt/app/eso/bundles/arc.runtime_1.1.23.E20180905-1139.jar
+	 113  147471 r-      473 /mnt/app/eso/bundles/org.eclipse.paho.client.mqttv3.jar
+	 114  147471 r-    13885 /mnt/app/eso/bundles/service.core.time_1.0.0.20180905-1052.jar
+	 115  147471 r-    54763 /mnt/app/eso/bundles/arc.ot_1.2.3.E20180905-1139.jar
+	 116  147471 r-    26444 /mnt/app/eso/bundles/arc.ext_1.1.10.E20180905-1139.jar
+	 117  147471 r-   120846 /mnt/app/eso/bundles/arc.rup_1.2.7.E20180905-1139.jar
+	 118  147471 r-    35594 /mnt/app/eso/bundles/service.core.diagnose_1.0.0.20180905-1052.jar
+	 119  147471 r-     3919 /mnt/app/eso/bundles/ncfs.prodtracker_1.6.16.E20180905-1057.jar
+	 120  147471 r-    46705 /mnt/app/eso/bundles/arc.net_1.1.4.E20180905-1139.jar
+	 121  147471 r-    40255 /mnt/app/eso/bundles/ncfs.tracker_2.1.2.E20180905-1057.jar
+	 122  147471 r-    12540 /mnt/app/eso/bundles/arc.certificateswapper_1.1.14.E20180905-1139.jar
+	 123  147471 r-      311 /mnt/app/eso/bundles/arc.jobs.external_1.1.9.E20180905-1139.jar
+	 124  147471 r-     3844 /mnt/app/eso/bundles/service.vehiclehealth_1.0.0.20180905-1055.jar
+	 125  147471 r-     4022 /mnt/app/eso/bundles/arc.disclaimer_1.0.4.E20180905-1139.jar
+	 126  147471 r-    19606 /mnt/app/eso/bundles/arc.sdis_1.1.7.E20180905-1139.jar
+	 127  147471 r-    25715 /mnt/app/eso/bundles/service.dsi.poi_1.0.0.20180905-1054.jar
+	 128  147471 r-    10291 /mnt/app/eso/bundles/arc.event_1.1.2.E20180905-1139.jar
+	 129  147471 r-      263 /mnt/app/eso/bundles/arc.sourceswitch_1.3.6.E20180905-1139.jar
+	 130  147471 r-    46115 /mnt/app/eso/bundles/arc.jobs_1.1.3.E20180905-1139.jar
+	 131  147471 r-   419802 /mnt/app/eso/bundles/service.core.registration_1.0.0.20180905-1052.jar
+	 132  147471 r-      198 /mnt/app/eso/bundles/service.test.ols_1.0.0..20180905-1056.jar
+	 133  147471 r-      356 /mnt/app/eso/bundles/service.dsi.tourimport_1.0.0.20180905-1055.jar
+	 134  147471 r-      315 /mnt/app/eso/bundles/arc.carcoding_1.1.16.E20180905-1139.jar
+	 135  147471 r-      358 /mnt/app/eso/bundles/service.dsi.onlinedictation_1.2.1.20180905-1054.jar
+	 136  147471 r-      374 /mnt/app/eso/bundles/service.mqtt_1.0.0.20180905-1053.jar
+	 137  274454 rw        0 I4TCP  *.15000               *.*                   LISTEN
+	 138  274454 
+	 139  147471 r-      317 /mnt/app/eso/bundles/arc.persistence_1.1.24.E20180905-1139.jar
+	 140  147471 r-      360 /mnt/app/eso/bundles/service.dsi.onlineweather_1.0.0.20180905-1056.jar
+	 141  147471 r-      257 /mnt/app/eso/bundles/arc.console_1.1.6.E20180905-1139.jar
+	 142  147471 r-      374 /mnt/app/eso/bundles/service.http_1.0.0.20180905-1051.jar
+	 143  147471 r-      353 /mnt/app/eso/bundles/service.core.esim_1.0.0.20180905-1056.jar
+	 144  147471 r-      280 /mnt/app/eso/bundles/arc.lang_1.1.1.E20180905-1139.jar
+	 145  147471 r-      362 /mnt/app/eso/bundles/arc.gem_1.1.7.E20180905-1139.jar
+	 146  147471 r-      346 /mnt/app/eso/bundles/arc.remgem_5.3.1.E20180905-1139.jar
+	 147  147471 r-      353 /mnt/app/eso/bundles/service.jobs_1.0.0.20180905-1053.jar
+	 148  147471 r-      287 /mnt/app/eso/bundles/OnlineCoreServiceAdapter.jar
+	 149  147471 r-      354 /mnt/app/eso/bundles/service.dsi.onlineradio_1.0.0.20180905-1055.jar
+	 150  147471 r-      362 /mnt/app/eso/bundles/service.core.proxy_1.0.0.20180905-1053.jar
+	 151  147471 r-      310 /mnt/app/eso/bundles/ncfs.tracker.datacollector_1.0.1.E20180905-1057.jar
+	 152  147471 r-      245 /mnt/app/eso/bundles/ncfs.common_1.0.24.E20180905-1057.jar
+	 153  147471 r-      358 /mnt/app/eso/bundles/service.generic.ols_1.0.0.20180905-1055.jar
+	 154  147471 r-      303 /mnt/app/eso/bundles/ncfs.tracker.busdata_1.0.6.E20180905-1057.jar
+	 155  147471 r-      282 /mnt/app/eso/bundles/service.onlinesds.jar
+	 156  147471 r-      358 /mnt/app/eso/bundles/service.dsi.operatorCall_1.0.0.20180905-1054.jar
+	 157  147471 r-      250 /mnt/app/eso/bundles/arc.task_1.1.13.E20180905-1139.jar
+	 158  147471 r-      367 /mnt/app/eso/bundles/service.dsi.destimport_1.0.0.20180905-1054.jar
+	 159  147471 r-      358 /mnt/app/eso/bundles/service.dsi.hybridradio_1.0.0.20180905-1055.jar
+	 160  147471 r-      351 /mnt/app/eso/bundles/service.lib.util_2.7.4.20180905-1051.jar
+	 161  147471 r-      345 /mnt/app/eso/bundles/arc.winstone_1.1.9.E20180905-1139.jar
+	 162  147471 r-      317 /mnt/app/eso/bundles/arc.fsid_1.0.1.E20180905-1139.jar
+	 163  147471 r-      358 /mnt/app/eso/bundles/service.javalogger_1.0.0.20180905-1050.jar
+	 164  147471 r-      280 /mnt/app/eso/bundles/arc.crypto_1.1.5.E20180905-1139.jar
+	 165  274454 rw        0 I4TCP  *.4242                *.*                   LISTEN
+	 166  147471 r-      342 /mnt/app/eso/bundles/service.trafficlight2p_13.19.0.20180731-1107.jar
+	 167  147471 r-      309 /mnt/app/eso/bundles/arc.versioncollector_1.0.10.E20180905-1139.jar
+	 168  147471 r-      309 /mnt/app/eso/bundles/arc.log_1.1.3.E20180905-1139.jar
+	 169  147471 r-      313 /mnt/app/eso/bundles/arc.runtime_1.1.23.E20180905-1139.jar
+	 170  147471 r-      359 /mnt/app/eso/bundles/service.core.time_1.0.0.20180905-1052.jar
+	 171  147471 r-      302 /mnt/app/eso/bundles/arc.ot_1.2.3.E20180905-1139.jar
+	 172  147471 r-      313 /mnt/app/eso/bundles/arc.ext_1.1.10.E20180905-1139.jar
+	 173  147471 r-      306 /mnt/app/eso/bundles/arc.rup_1.2.7.E20180905-1139.jar
+	 174  147471 r-      363 /mnt/app/eso/bundles/service.core.diagnose_1.0.0.20180905-1052.jar
+	 175  147471 r-      310 /mnt/app/eso/bundles/ncfs.prodtracker_1.6.16.E20180905-1057.jar
+	 176  147471 r-      326 /mnt/app/eso/bundles/arc.net_1.1.4.E20180905-1139.jar
+	 177  147471 r-      243 /mnt/app/eso/bundles/ncfs.tracker_2.1.2.E20180905-1057.jar
+	 178  147471 r-      320 /mnt/app/eso/bundles/arc.certificateswapper_1.1.14.E20180905-1139.jar
+	 179  147471 r-      311 /mnt/app/eso/bundles/arc.jobs.external_1.1.9.E20180905-1139.jar
+	 180  147471 r-      362 /mnt/app/eso/bundles/service.vehiclehealth_1.0.0.20180905-1055.jar
+	 181  147471 r-      341 /mnt/app/eso/bundles/arc.disclaimer_1.0.4.E20180905-1139.jar
+	 182  147471 r-      333 /mnt/app/eso/bundles/arc.sdis_1.1.7.E20180905-1139.jar
+	 183  147471 r-      358 /mnt/app/eso/bundles/service.dsi.poi_1.0.0.20180905-1054.jar
+	 184  147471 r-      349 /mnt/app/eso/bundles/arc.event_1.1.2.E20180905-1139.jar
+	 185  147471 r-      473 /mnt/app/eso/bundles/org.eclipse.paho.client.mqttv3.jar
+	 186  147471 r-      398 /mnt/app/eso/bundles/arc.jobs_1.1.3.E20180905-1139.jar
+	 187  147471 r-      367 /mnt/app/eso/bundles/service.core.registration_1.0.0.20180905-1052.jar
+	 188  274454 
+	 189  274454 rw        0 I4TCP  *.65496               *.*                   LISTEN
+	 190  274454 
+	 191  274454 rw        0 I4TCP  *.14711               *.*                   LISTEN
+	 192  274454 
+	 193  274454 rw        0 I4UDP  *.9111                *.*                   
+	 194  274454 rw        0 I4TCP  *.1500                *.*                   LISTEN
+	 195  274454 
+	 196  274454 rw        0 I4TCP  *.1501                *.*                   LISTEN
+	 197  274454 rw        0 I4TCP  *.1505                *.*                   LISTEN
+	 198  274454 
+	 199  274454 rw        0 I4TCP  *.1504                *.*                   LISTEN
+	 200  274454 
+	 201  274454 
+	 202  274454 rw        0 I4TCP  *.2225                *.*                   LISTEN
+	 203  274454 rw        0 I4TCP  *.31337               *.*                   LISTEN
+	 204  274454 
+	 205  274454 rw        0 I4TCP  *.8080                *.*                   LISTEN
+	 206  274454 rw        0 I4UDP  *.9111                *.*                   
+	 214  274454 rw        0 I4TCP  *.*                   *.*                   CLOSED
+	   0s      1 
+	   1s 581676 
+	   4s 557102 
+	   6s 1306698 
+	   8s 1171511 
+	  11s 565278 
+	  13s 585776 
+	  17s 1347660 
+	  20s 1392724 
+	  24s 1306698 
+	  27s 1306698 
+	  29s 585776 
+	  30s 1392725 
+	  33s 1392718 
+	  36s 1740901 
+	  39s 1908853 
+	  42s 1810548 
+	  45s 1577058 
+	  48s 2482316 
+	  51s 1679472 
+	  54s 2502798 
+	  57s 2470026 
+	  60s 2465929 
+	  63s 2170991 
+	  66s 2617488 
+	  69s 2515087 
+	  72s 2621595 
+	  75s 2625693 
+	  78s 2785428 
+	  81s 2629792 
+	  84s 2629791 
+	  87s 1667171 
+	  90s 1392693 
+	  93s 3080359 
+	  96s 1630288 
+	  99s 1785962 
+	 104s 2306179 
+	 105s 3084456 
+	 108s 2965677 
+	 111s 3530769 
+	 112s 2551958 
+	 117s 2535570 
+	 120s 1577058 
+	 123s 1577058 
+ 1347660 istenceTNG_mibhigh 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21104       *.*                   LISTEN
+	   4  274454 rw        0 I4TCP  10.0.0.15.21104       10.0.0.16.65529       ESTABLISHED
+	   5  147471 rw       40 /mnt/persist_new/persistence/persistence.sqlite
+	   7  274454 
+	   0s      1 
+	   2s 1347660 
+	   4s 557102 
+	   6s 1347660 
+	   8s 581676 
+	  13s 565278 
+	  16s 1171511 
+	  17s 585746 
+	  22s 1306698 
+	  25s 1392681 
+	  28s 1392724 
+	  32s 1392718 
+	  35s 1392693 
+	  37s 1392652 
+	  40s 1679472 
+	  43s 1740901 
+	  46s 1560673 
+	  50s 1908853 
+	  52s 1630288 
+	  55s 1806441 
+	  58s 2170991 
+	  59s 1577058 
+	  64s 1667171 
+	  67s 2392156 
+	  70s 2457730 
+	  73s 2465929 
+	  76s 2470026 
+	  79s 2482316 
+	  82s 2535570 
+	  85s 2551958 
+	  88s 2515087 
+	  91s 2629792 
+	  94s 2625693 
+	  95s 2785428 
+	 100s 2629791 
+	 101s 2965677 
+	 106s 3080359 
+	 107s 1577058 
+ 1392651 ./bin/apps/honcho  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 1392651 
+	   4s 557102 
+	   6s 1392651 
+	   8s 581676 
+	  13s 1171511 
+	  16s 585776 
+	  20s 1392652 
+	  22s 1511524 
+	  25s 1577058 
+	  28s 2502798 
+	  31s 2515087 
+	  34s 2629792 
+	  37s 1667171 
+	  40s 3084456 
+	  43s 2625693 
+	  44s 1577058 
+ 1392652 apps/medialauncher 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21307       *.*                   LISTEN
+	   4  274454 
+	   5       1 
+	   6  274454 rw        0 I4TCP  10.0.0.15.65529       10.0.0.16.21445       ESTABLISHED
+	   0s      1 
+	   2s 1392652 
+	   4s 557102 
+	   6s 581676 
+	   7s 1392652 
+	  13s 1171511 
+	  15s 1392652 
+	  18s 1392651 
+	  22s 1392693 
+	  23s 1347660 
+	  26s 1667171 
+	  29s 1577058 
+ 1392681 nectivity_launcher 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21315       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 1392681 
+	   4s 557102 
+	   6s 1392681 
+	   8s 581676 
+	  13s 1171511 
+	  14s 1347660 
+	  17s 2170991 
+	  20s 2306179 
+	  23s 2392156 
+	  26s 2457730 
+	  29s 2461830 
+	  32s 2465929 
+	  35s 2470026 
+	  38s 1577058 
+	  41s 3080359 
+ 1392693 rtphone_integrator 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21353       *.*                   LISTEN
+	   4  274454 
+	   5  274454 rw        0 I4TCP  10.0.0.15.65534       10.0.0.16.21445       ESTABLISHED
+	   6   20485 -w        0 /dev/slog
+	   7  1515627 rw        0 /dev/media-con-ctrl
+	   8  1515627 rw        0 /dev/media-con-ctrl
+	   0s      1 
+	   2s 1392693 
+	   4s 557102 
+	   6s 1392693 
+	   8s 581676 
+	  13s 1171511 
+	  15s 1392693 
+	  17s 565278 
+	  20s 1740901 
+	  23s 1347660 
+	  26s 1445976 
+	  30s 1392693 
+	  33s 1392693 
+	  35s 2170991 
+	  38s 1392652 
+	  41s 2470026 
+	  44s 1577058 
+	  49s 1667171 
+	  52s 1306698 
+ 1392718 bin/apps/audioProc 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21357       *.*                   LISTEN
+	   4  274454 
+	   5  1208395 rw        0 /dev/snd/
+	   6  1208395 rw        0 /dev/snd/
+	   7  274454 rw        0 I4TCP  10.0.0.15.65530       10.0.0.16.21430       ESTABLISHED
+	   0s      1 
+	   2s 1392718 
+	   4s 557102 
+	   6s 581676 
+	   7s 1392718 
+	  13s 1171511 
+	  14s 1347660 
+	  19s 1306698 
+	  20s 1679472 
+	  23s 1785962 
+	  26s 1908853 
+	  31s 2461830 
+	  34s 2465929 
+	  35s 1577058 
+ 1392724 apps/hidcontroller 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   45063 rw        0 /dev/nvos
+	   4  479248 rw        0 /dev/nvhost-ctrl
+	   5  274454 rw        0 I4TCP  10.0.0.15.21366       *.*                   LISTEN
+	   6  274454 
+	   7  626735 r-        0 /dev/screen/
+	   8  626735 r-        0 /dev/screen/
+	   9  331801 -w        0 /dev/rstp/keypanel
+	  10  274454 rw        0 I4TCP  10.0.0.15.65533       10.0.0.16.21445       ESTABLISHED
+	  11  331801 r-        0 /dev/rstp/keypanel
+	  12  1495149 rw        0 /dev/spi5
+	   0s      1 
+	   2s 1392724 
+	   4s 557102 
+	   6s 1392724 
+	   8s 581676 
+	  13s 1171511 
+	  15s 1392724 
+	  18s 1392724 
+	  20s 585776 
+	  21s 585776 
+	  22s 1347660 
+	  25s 565278 
+	  30s 1306698 
+	  31s 1679472 
+	  36s 1810548 
+	  37s 1577058 
+ 1392725 bkombisync2service 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  1237073 rw        0 /dev/rstpfpk/kombisync
+	   0s      1 
+	   2s 1392725 
+	   4s 557102 
+	   6s 1392725 
+	   8s 581676 
+	  13s 1171511 
+	  16s 1306698 
+	  17s 1577058 
+ 1441879 sbin/io-usb        
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3       1 
+	   4       1 
+	   5  380955 rw        0 /dev/nvclock/
+	   6   20485 -w        0 /dev/slog
+	   7       1 
+	   0s      1 
+	   2s 1441879 
+	   5s 1441879 
+	   8s 1441879 
+	  11s 1441879 
+	  14s      1 
+	  15s 1441879 
+	  17s      1 
+ 1445976 2connectionmanager 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 1445976 
+	   4s 557102 
+	   7s 1445976 
+	   9s 581676 
+	  13s 1392693 
+	  14s 1577058 
+ 1458265 sbin/usb_wpr       
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+ 1474662 usr/bin/thermctrl  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21379       *.*                   LISTEN
+	   4  274454 
+	   5  331801 rw        0 /dev/rstp/thermal
+	   0s      1 
+	   2s 1474662 
+	   4s 557102 
+	   6s 1474662 
+	   8s 581676 
+	  12s 1474662 
+	  14s 1679472 
+	  17s 565278 
+	  22s 2465929 
+	  23s 1577058 
+ 1474663 sbin/devg-nvtlkdr  
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  708671 rw       84 /mnt/ss/tlk/ss/0000000000000000
+	   4  708671 rw        0 /mnt/ss/tlk/ss/0000000000000001
+	   5  708671 rw        0 /mnt/ss/tlk/ss/0000000000000002
+	   6  708671 rw        0 /mnt/ss/tlk/ss/0000000000000003
+	   7  708671 rw        0 /mnt/ss/tlk/ss/0000000000000004
+	   8  708671 rw      512 /mnt/ss/tlk/ss/0000000000000005
+	   9  708671 rw     2688 /mnt/ss/tlk/ss/0000000000000006
+	  10  708671 rw      512 /mnt/ss/tlk/ss/0000000000000007
+	   0s      1 
+	   2s      1 
+ 1495136 sbin/spi-master    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 1495136 
+	   5s      1 
+ 1495149 sbin/spi-master    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 1495149 
+	   5s      1 
+ 1511524 so/bin/apps/esopub 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 1511524 
+	   4s 557102 
+	   7s 1511524 
+	   9s 581676 
+	  12s 1511524 
+	  14s 1392651 
+	  19s 1667171 
+	  20s 1577058 
+ 1511544 usr/sbin/mcd       
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  1511544 
+	   4  1511544 
+	   5  1511544 
+	   6  1511544 
+	   7  1511544 
+	   8  1511544 
+	   9  1511544 
+	  10  1511544 
+	  11  1511544 
+	  12  1511544 
+	  13  1511544 
+	  14  1511544 
+	  15  1511544 
+	  17  1511544 
+	  18  1511544 
+	  19  1511544 
+	  22  1511544 
+	  23  1511544 
+	  25  1511544 
+	  28  1511544 
+	  29  1511544 
+	  30  1511544 
+	  35  1511544 
+	  38  1511544 
+	   0s      1 
+	   2s 1511544 
+	   4s      1 
+ 1515627 pps/mediaconnector 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  1441879 
+	   5       1 
+	   6  1441879 
+	   0s      1 
+	   2s      1 
+	   3s      1 
+	   4s      1 
+	   5s 1515627 
+ 1560673 apps/GpsDriverProc 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21361       *.*                   LISTEN
+	   4  1495136 rw        0 /dev/spi1
+	   5  274454 rw        0 I4TCP  10.0.0.15.21361       10.0.0.16.65516       ESTABLISHED
+	   6   49160 rw        0 /dev/nvgpio/gnss_dat_rdy
+	   8  274454 
+	   0s      1 
+	   2s 1560673 
+	   4s 557102 
+	   7s 581676 
+	   8s 1560673 
+	  15s 1171511 
+	  18s 1560673 
+	  20s 565278 
+	  23s 1347660 
+	  26s 1679472 
+	  29s 1577058 
+	  35s 1630288 
+	  36s 2535570 
+ 1564795 sbin/cpumeter      
+	   0       1 
+	   1       1 
+	   2       1 
+	   3       1 
+	   4       1 
+	   0s      1 
+	   2s      1 
+	   3s      1 
+	   4s 1564795 
+ 1564796 sbin/test_cbc      
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+ 1568893 in/cartimeprovider 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.65528       10.0.0.16.21445       ESTABLISHED
+	   4  274454 rw        0 I4TCP  10.0.0.15.21331       *.*                   LISTEN
+	   5  274454 
+	   0s      1 
+	   1s 557102 
+	   2s 581676 
+	   4s 1568893 
+	   9s      1 
+ 1577058 so/bin/traceserver 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   4       4 r-        0 /dev/eteeout
+	   5  274454 rw        0 I4TCP  10.0.0.15.65518       10.0.0.16.21445       ESTABLISHED
+	   6  274454 rw        0 I4TCP  10.0.0.15.21001       *.*                   LISTEN
+	   7  274454 rw        0 I4TCP  10.0.0.15.21001       10.0.0.16.65512       ESTABLISHED
+	   8  1237073 r-        0 /dev/rstpfpk/binary_sniff
+	   9  1564795 r-        0 /dev/cpumeter/mmx_cpu
+	  10  274454 
+	  11   20485 r- 136739608 /dev/slog
+	  12  331801 r-        0 /dev/rstp/binary_sniff
+	  14  274454 rw        0 I4TCP  *.21002               *.*                   LISTEN
+	  15  274454 
+	   0s      1 
+	   1s 557102 
+	   3s 1577058 
+	   6s 1577058 
+	   8s      1 
+	  10s 1577058 
+	  12s      1 
+	  13s 557102 
+	  15s 1577058 
+	  17s 581676 
+	  21s 1577058 
+	  23s      1 
+	  24s 1577058 
+	  28s 1577058 
+	  30s      1 
+	  34s 585776 
+	  37s 565278 
+	  40s 1560673 
+	  42s 1171511 
+	  45s 1347660 
+	  46s 565278 
+	  49s 1740901 
+	  52s 1392651 
+	  55s 1171511 
+	  60s 1306698 
+	  63s 2392156 
+	  66s 1392652 
+	  69s 1392681 
+	  72s 1392693 
+	  75s 2629792 
+	  79s 1908853 
+	  81s 1630288 
+	  84s 1806441 
+	  85s 2965677 
+	  90s 585746 
+	  93s 1392651 
+	  96s 1392725 
+	  99s 1392718 
+	 102s 1392724 
+	 105s 1445976 
+	 108s 1474662 
+	 111s 1306698 
+	 114s 1511524 
+	 117s 1740901 
+	 120s 1785962 
+	 123s 1818738 
+	 126s 1831005 
+	 129s 1810548 
+	 132s 1917050 
+	 135s 2170991 
+	 138s 2306179 
+	 141s 1667171 
+	 144s 2457730 
+	 147s 2461830 
+	 150s 2465929 
+	 153s 2470026 
+	 156s 2482316 
+	 159s 2502798 
+	 162s 1347660 
+	 165s 2515085 
+	 168s 2515087 
+	 172s 2535573 
+	 174s 2535570 
+	 177s 2539672 
+	 180s 2543770 
+	 183s 2605201 
+	 184s 2551958 
+	 189s 2617488 
+	 192s 2621595 
+	 195s 2625692 
+	 198s 2629791 
+	 201s 1306698 
+	 204s 2625693 
+	 207s 2683031 
+	 210s 2785428 
+	 213s 1679472 
+	 216s 2965679 
+	 219s 2965677 
+	 222s 2957482 
+	 225s 2969777 
+	 228s 2973874 
+	 231s 581676 
+	 234s 3080359 
+	 237s 3084456 
+	 240s 3440812 
+	 243s 3440814 
+	 246s 3530769 
+ 1630288 pps/esoposprovider 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  *.10123               *.*                   LISTEN
+	   4  274454 rw        0 I4TCP  10.174.189.1.21604    *.*                   LISTEN
+	   5  274454 rw        0 I4TCP  10.0.0.15.21349       *.*                   LISTEN
+	   6  274454 
+	   7  274454 
+	   8  274454 
+	   9  274454 rw        0 I4TCP  10.0.0.15.65524       10.0.0.16.21509       ESTABLISHED
+	   0s      1 
+	   2s 1630288 
+	   4s 557102 
+	   6s 1630288 
+	   8s 581676 
+	  13s 1171511 
+	  14s 565278 
+	  17s 1347660 
+	  19s 1560673 
+	  23s 1679472 
+	  28s 2502798 
+	  29s 1577058 
+	  32s 2625693 
+	  37s 1306698 
+ 1667171 eso/bin/apps/media 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   45063 rw        0 /dev/nvos
+	   4  479248 rw        0 /dev/nvhost-ctrl
+	   5  274454 rw        0 I4TCP  10.0.0.15.21308       *.*                   LISTEN
+	   6  274454 
+	   7  274454 rw        0 I4TCP  10.0.0.15.65517       10.0.0.16.21445       ESTABLISHED
+	   8  1515627 rw        0 /dev/media-con-ctrl
+	   9   49160 rw        0 /dev/nvgpio/usb_overcnt2
+	  10  1515627 rw        0 /dev/media-con-ctrl
+	  11  274454 rw        0 I4TCP  10.0.0.15.65516       10.0.0.16.21428       ESTABLISHED
+	  12  122893 r-        0 /dev/urandom
+	  13   20485 -w        0 /dev/slog
+	  14  2121822 r-        0 /dev/mlb/isoRX2
+	  15  2121822 r-        0 /dev/mlb/info/isoRX2
+	  16  147471 r-       40 /mnt/gracenotedb/database/gn_itoc.gdb
+	  17  1515627 rw        0 /dev/media-con-ctrl
+	  18       1 
+	  19  147471 r-       40 /mnt/gracenotedb/database/gn_mdata.gdb
+	  20  1511544 r-        0 /dev/mcd/INSERTED
+	  21  1511544 r-        0 /dev/mcd/EJECTED
+	  22  1708127 r-        0 /ramdisk/pps/cddrive/mount/
+	  23  1708127 r-        0 /ramdisk/pps/device/
+	  24  1708127 r-        0 /ramdisk/pps/driver/
+	  25  1708127 r-        0 /ramdisk/pps/mount/
+	  26  1708127 r-        0 /ramdisk/pps/cddrive/device/
+	  27  1708127 r-        0 /ramdisk/pps/cddrive/driver/
+	  28  147471 r-       40 /mnt/gracenotedb/database/gn_cds.gdb
+	  29  147471 r- 47227904 /mnt/gracenotedb/database/gn_itxt.gdb
+	  30  147471 rw       40 /mnt/misc1/media/gn_result_db/resultdb_id_a/gn_mdata.gdb
+	  31  147471 rw       40 /mnt/misc1/media/gn_result_db/resultdb_id_a/gn_itoc.gdb
+	  32  147471 rw       40 /mnt/misc1/media/gn_result_db/resultdb_id_a/gn_itxt.gdb
+	  33  147471 rw       40 /mnt/misc1/media/gn_result_db/resultdb_id_b/gn_mdata.gdb
+	  34  147471 rw       40 /mnt/misc1/media/gn_result_db/resultdb_id_b/gn_itoc.gdb
+	  35  147471 rw       40 /mnt/misc1/media/gn_result_db/resultdb_id_b/gn_itxt.gdb
+	  36  147471 r- 16493568 /mnt/gracenotedb/database/gn_lists.gdb
+	   0s      1 
+	   2s 1667171 
+	   4s 557102 
+	   5s 581676 
+	   7s 1667171 
+	  12s 1667171 
+	  16s 1392652 
+	  17s 1347660 
+	  20s 1806441 
+	  23s 565278 
+	  26s 1679472 
+	  29s 1740901 
+	  32s 1392651 
+	  37s 1810548 
+	  38s 1511524 
+	  41s 1392693 
+	  46s 1306698 
+	  47s 2621595 
+	  50s 2629792 
+	  53s 1577058 
+ 1679472 bin/apps/diagnosis 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21319       *.*                   LISTEN
+	   4  274454 
+	   5  274454 rw        0 I4TCP  10.0.0.15.65527       10.0.0.16.21445       ESTABLISHED
+	   6  389153 rw        0 /dev/i2c1
+	   7   49160 -w        0 /dev/nvgpio/wlan_ant_det
+	   0s      1 
+	   2s 1679472 
+	   4s 557102 
+	   6s 581676 
+	   7s 1679472 
+	  13s 1171511 
+	  16s 585776 
+	  17s 1347660 
+	  22s 1392718 
+	  25s 1474662 
+	  28s 1560673 
+	  31s 1392724 
+	  34s 1740901 
+	  35s 565278 
+	  40s 1785962 
+	  43s 1630288 
+	  46s 1810548 
+	  49s 2170991 
+	  52s 1667171 
+	  55s 2465929 
+	  58s 2470026 
+	  61s 1306698 
+	  64s 2535570 
+	  67s 2551958 
+	  70s 2629792 
+	  73s 2625693 
+	  74s 2965677 
+	  77s 1577058 
+ 1708127 armle/usr/sbin/pps 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s      1 
+	   4s 1708127 
+ 1740901 in/apps/fecmanager 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21358       *.*                   LISTEN
+	   4  274454 
+	   5  331801 rw        0 /dev/rstp/isotp
+	   0s      1 
+	   2s 1740901 
+	   4s 557102 
+	   6s 581676 
+	   7s 1740901 
+	  13s 1171511 
+	  14s 1347660 
+	  18s 565278 
+	  20s 1392693 
+	  23s 1679472 
+	  28s 1306698 
+	  31s 1785962 
+	  34s 1577058 
+	  37s 1667171 
+	  40s 2470026 
+	  43s 2502798 
+	  46s 2551958 
+	  49s 2629792 
+	  52s 2625693 
+	  53s 1577058 
+ 1757302 mle/usr/sbin/mdnsd 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4UDP  *.65531               *.*                   
+	   4  274454 rw        0 I6UDP  *.65535               *.*                   
+	   5  274454 rw        0 I4UDP  *.5353                *.*                   
+	   6  274454 rw        0 I6UDP  *.5353                *.*                   
+	   7   20485 -w        0 /dev/slog
+	   8  274454 rw        0 /dev/socket/17
+	   9  274454 rw        0 UDS S /var/run/mdnsd/mdnsd
+	  10  274454 rw        0 I4UDP  *.5353                *.*                   
+	  11  274454 rw        0 I6UDP  *.5353                *.*                   
+	  12  274454 rw        0 UDS S /var/run/mdnsd/mdnsd
+	  13  274454 rw        0 I4UDP  *.5353                *.*                   
+	  14  274454 rw        0 I6UDP  *.5353                *.*                   
+	  15  274454 rw        0 I6UDP  *.5353                *.*                   
+	  16  274454 rw        0 I4UDP  *.5353                *.*                   
+	  17  274454 rw        0 I6UDP  *.5353                *.*                   
+	  18  274454 rw        0 I4UDP  *.5353                *.*                   
+	  19  274454 rw        0 I4UDP  *.5353                *.*                   
+	  20  274454 rw        0 I6UDP  *.5353                *.*                   
+	  21  274454 rw        0 I6UDP  *.5353                *.*                   
+	   0s      1 
+ 1785962 omponentprotection 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21362       *.*                   LISTEN
+	   4  274454 
+	   5  331801 rw        0 /dev/rstp/isotp
+	   8  274454 rw        0 I4TCP  10.0.0.15.65525       10.0.0.16.21445       ESTABLISHED
+	   0s      1 
+	   2s 1785962 
+	   4s 557102 
+	   6s 1785962 
+	   8s 581676 
+	  13s 1171511 
+	  16s 1392718 
+	  17s 1679472 
+	  20s 1740901 
+	  25s 2535570 
+	  28s 1306698 
+	  29s 1577058 
+ 1806441 pps/systemservices 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 UDS S 
+	   4  274454 rw        0 I4TCP  10.0.0.15.21332       *.*                   LISTEN
+	   5  274454 rw        0 I4TCP  10.0.0.15.65526       10.0.0.16.21445       ESTABLISHED
+	   6  274454 
+	   0s      1 
+	   2s 1806441 
+	   4s 557102 
+	   6s 581676 
+	   7s 1806441 
+	  13s 1171511 
+	  14s 565278 
+	  17s 1347660 
+	  22s 1667171 
+	  23s 1577058 
+ 1810548 mnt/app/hwr/esohwr 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21374       *.*                   LISTEN
+	   4  274454 
+	   5   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s 1810548 
+	   4s 557102 
+	   6s 1810548 
+	   8s 581676 
+	  13s 1171511 
+	  16s 1306698 
+	  17s 1392724 
+	  20s 1679472 
+	  23s 2535570 
+	  26s 2551958 
+	  29s 2515087 
+	  32s 1667171 
+	  35s 1577058 
+ 1818738 pps/mmxfilestorage 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21376       *.*                   LISTEN
+	   4  274454 rw        0 I4TCP  10.0.0.15.21376       10.0.0.16.65509       ESTABLISHED
+	   5  274454 rw        0 I4TCP  10.0.0.15.21376       10.0.0.16.65511       ESTABLISHED
+	   6  274454 
+	   0s      1 
+	   2s 1818738 
+	   4s 557102 
+	   6s 1818738 
+	   8s 581676 
+	  13s 1171511 
+	  14s 1577058 
+ 1818739 le/bin/usblauncher 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  1441879 
+	   5       1 
+	   6  1441879 
+	   7  147471 r-      192 /mnt/app/armle/lib/dll/pubs/
+	   8  1708127 rw        0 /ramdisk/pps/device/usb_ctrl0
+	   9  1708127 -w        0 /ramdisk/pps/device/usb-0.0.2
+	  10  1708127 -w        0 /ramdisk/pps/driver/1921152
+	  11  1708127 -w        0 /ramdisk/pps/driver/1921153
+	  12  1708127 -w        0 /ramdisk/pps/device/usb-0.0.3
+	  13  1708127 -w        0 /ramdisk/pps/driver/1970280
+	  14  1708127 -w        0 /ramdisk/pps/device/usb-0.0.5
+	  16  1708127 -w        0 /ramdisk/pps/device/usb-0.0.6
+	  17  1708127 -w        0 /ramdisk/pps/driver/2007167
+	   0s      1 
+	   2s 1818739 
+	   5s 1818739 
+	   8s 1818739 
+	  14s 1818739 
+ 1831005 /bin/apps/papillon 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  479248 rw        0 /dev/nvhost-ctrl
+	   4   45063 rw        0 /dev/nvos
+	   5  479248 rw        0 /dev/nvhost-ctrl
+	   6  274454 rw        0 UDS S 
+	   0s      1 
+	   2s 1831005 
+	   4s 557102 
+	   6s 581676 
+	   7s 1831005 
+	  13s 1171511 
+	  16s 585776 
+	  17s 1577058 
+ 1831033 pp/armle/bin/cdpub 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  147471 r-      192 /mnt/app/armle/lib/dll/pubs/
+	   0s      1 
+ 1884250 sbin/heartbeat     
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   0s      1 
+	   2s 1884250 
+ 1884268 bin/sh             
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	  10       1 
+	   0s      1 
+ 1908853 o/bin/apps/sseProc 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21347       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 1908853 
+	   4s 557102 
+	   6s 1908853 
+	   8s 581676 
+	  13s 1171511 
+	  14s 1347660 
+	  19s 1392718 
+	  22s 1306698 
+	  23s 1577058 
+ 1917050 ideoencoderservice 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  479248 rw        0 /dev/nvhost-ctrl
+	   4   45063 rw        0 /dev/nvos
+	   5  479248 rw        0 /dev/nvhost-ctrl
+	   6  274454 rw        0 I4TCP  10.0.0.15.21377       *.*                   LISTEN
+	   7  274454 
+	   8  274454 rw        0 I4TCP  10.0.0.15.65521       10.0.0.16.21428       ESTABLISHED
+	   0s      1 
+	   2s 1917050 
+	   4s 557102 
+	   6s 1917050 
+	   8s 581676 
+	  13s 1171511 
+	  16s 585776 
+	  17s 1577058 
+ 1921152 sbin/devc-serusb   
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  1441879 
+	   5       1 
+	   6  1441879 
+	   0s      1 
+	   2s 1921152 
+	   4s      1 
+ 1921153 sbin/devb-umass    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4       1 
+	   5       1 
+	   6  1441879 
+	   7       1 
+	   0s      1 
+	   2s 1921153 
+ 1970280 le/bin/usblauncher 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  147471 r-      192 /mnt/app/armle/lib/dll/pubs/
+	   5  1708127 rw        0 /ramdisk/pps/device/usb_ctrl1
+	   0s      1 
+	   2s 1970280 
+ 2007167 sbin/devc-serusb   
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  1441879 
+	   5       1 
+	   6  1441879 
+	   0s      1 
+	   2s 2007167 
+	   4s      1 
+	   7s      1 
+	   8s      1 
+	   9s      1 
+	  10s      1 
+ 2007172 (Zombie)           
+ 2121822 /sbin/devp-iso-mmx 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3   20485 -w        0 /dev/slog
+	   4  274454 rw        0 I4UDP  10.0.0.15.57602       *.*                   
+	   0s      1 
+	   2s 2121822 
+	   5s      1 
+	   7s      1 
+ 2125934 /sbin/devp-iso-mmx 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3   20485 -w        0 /dev/slog
+	   4  274454 rw        0 I4UDP  10.0.0.15.57601       *.*                   
+	   0s      1 
+	   2s 2125934 
+	   5s      1 
+	   7s      1 
+ 2125957 /sbin/devp-iso-mmx 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3   20485 -w        0 /dev/slog
+	   4  274454 rw        0 I4UDP  10.0.0.15.57603       *.*                   
+	   0s      1 
+	   2s 2125957 
+	   5s      1 
+ 2130011 /sbin/devp-iso-mmx 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3   20485 -w        0 /dev/slog
+	   4  274454 rw        0 I4UDP  10.0.0.15.57604       *.*                   
+	   0s      1 
+	   2s 2130011 
+	   5s      1 
+ 2170991 /connectionmanager 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3   20485 -w        0 /dev/slog
+	   4  274454 rw        0 I4TCP  10.0.0.15.21316       *.*                   LISTEN
+	   5  274454 
+	   6  122893 r-        0 /dev/urandom
+	   7  274454 
+	   8  274454 rw        0 I4TCP  10.0.0.15.65520       10.0.0.16.21445       ESTABLISHED
+	   9  274454 rw        0 I4TCP  10.0.0.15.65519       10.0.0.16.21437       ESTABLISHED
+	  10  274454 rw        0 /dev/socket/17
+	  11   77833 r-        0 (pipe)
+	  12  274454 rw        0 UDS D /tmp/wpa_ctrl_2170991-1
+	  13   77833 r-        0 (pipe)
+	  19   77833 r-        0 (pipe)
+	   0s      1 
+	   2s 2170991 
+	   4s 557102 
+	   6s 581676 
+	   7s 2170991 
+	  13s 1392681 
+	  15s      1 
+	  16s 1347660 
+	  19s 1679472 
+	  22s 565278 
+	  27s 1392693 
+	  28s 2306179 
+	  33s 2461830 
+	  34s 2470026 
+	  39s 2392156 
+	  42s 2502798 
+	  45s 1306698 
+	  46s 2457730 
+	  51s 2625693 
+	  52s 1577058 
+ 2207826 sbin/mnand_tlog    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  147471 r-        0 /dev/mnanda0
+	   0s      1 
+ 2252935 sbin/mnand_tlog    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  155662 r-        0 /dev/mnandb0
+	   0s      1 
+ 2281549 n/devc-sertegra-bt 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3       1 
+	   0s      1 
+	   2s 2281549 
+	   4s      1 
+ 2306108 sbin/mnand_rfsh    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  147471 rw        0 /dev/mnanda0
+	   0s      1 
+ 2306114 sbin/mnand_rfsh    
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  155662 rw        0 /dev/mnandb0
+	   0s      1 
+ 2306179 so/bin/apps/srelay 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21378       *.*                   LISTEN
+	   5  274454 
+	   6  274454 rw        0 I4TCP  *.1080                *.*                   LISTEN
+	   7  274454 rw        0 I6TCP  *.1080                *.*                   LISTEN
+	  10  274454 
+	  11  274454 
+	  12  274454 
+	  13  274454 
+	  14  274454 
+	  15  274454 
+	  16  274454 
+	  17  274454 
+	  18  274454 
+	  19  274454 
+	  20  274454 
+	  21  274454 
+	  22  274454 
+	  23  274454 
+	  24  274454 
+	  25  274454 
+	  26  274454 
+	  27  274454 
+	  28  274454 
+	  29  274454 
+	  30  274454 
+	  31  274454 
+	  32  274454 
+	  33  274454 
+	  34  274454 
+	  35  274454 
+	  36  274454 
+	  37  274454 
+	  38  274454 
+	  39  274454 
+	  40  274454 
+	  41  274454 
+	  42  274454 
+	  43  274454 
+	  44  274454 
+	  45  274454 
+	  46  274454 
+	  47  274454 
+	  48  274454 
+	  49  274454 
+	  50  274454 
+	  51  274454 
+	  52  274454 
+	  53  274454 
+	  54  274454 
+	  55  274454 
+	  56  274454 
+	  57  274454 
+	  58  274454 
+	  59  274454 
+	  60  274454 
+	  61  274454 
+	  62  274454 
+	  63  274454 
+	  64  274454 
+	  65  274454 
+	  66  274454 
+	  67  274454 
+	  68  274454 
+	  69  274454 
+	  70  274454 
+	  71  274454 
+	  72  274454 
+	  73  274454 
+	  74  274454 
+	  75  274454 
+	  76  274454 
+	  77  274454 
+	  78  274454 
+	   0s      1 
+	   2s 2306179 
+	   4s 557102 
+	   6s 2306179 
+	   8s 581676 
+	  12s      1 
+	  15s 2170991 
+	  18s 1392681 
+	  19s 1306698 
+	  22s 1577058 
+ 2306184 o/bin/apps/dnsmasq 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  684086 rw        0 /ramdisks/sys/connect/dnsmasq.leases
+	   4  274454 rw        0 I4UDP  *.67                  *.*                   
+	   5  274454 
+	   6  274454 rw        0 /dev/socket/17
+	   7  274454 rw        0 I4UDP  10.173.189.1.53       *.*                   
+	   8  274454 rw        0 I4TCP  10.173.189.1.53       *.*                   LISTEN
+	   9  274454 rw        0 I4UDP  10.174.189.1.53       *.*                   
+	  10  274454 rw        0 I4TCP  10.174.189.1.53       *.*                   LISTEN
+	  11  274454 rw        0 I4UDP  127.0.0.1.53          *.*                   
+	  12  274454 rw        0 I4TCP  127.0.0.1.53          *.*                   LISTEN
+	  13  274454 rw        0 I6UDP  fe80::1%<Klo0.53      *.*                   
+	  14  274454 rw        0 I6TCP  fe80::1%<Klo0.53lo0.53 *.*                   LISTEN
+	  15  274454 rw        0 I6UDP  ::1.53                *.*                   
+	  16  274454 rw        0 I6TCP  ::1.53                *.*                   LISTEN
+	  17   77833 r-        0 (pipe)
+	  18   77833 -w        0 (pipe)
+	  19   77833 -w        0 (pipe)
+	  21   77833 -w        0 (pipe)
+	   0s      1 
+ 2371667 mle/usr/sbin/inetd 
+	   0       1 
+	   1       1 
+	   2       1 
+	   4  274454 rw        0 I4TCP  *.21                  *.*                   LISTEN
+	   5  274454 rw        0 I4TCP  *.22                  *.*                   LISTEN
+	   6  274454 rw        0 I4TCP  *.23                  *.*                   LISTEN
+	   0s      1 
+ 2375799 mle/usr/sbin/qconn 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  *.8000                *.*                   LISTEN
+	   4  2375799 
+	   0s      1 
+	   3s      1 
+	   5s      1 
+ 2392150 o/bin/apps/dnsmasq 
+	   0       1 
+	   1       1 
+	   2       1 
+	  18   77833 -w        0 (pipe)
+	  20   77833 r-        0 (pipe)
+	   0s      1 
+ 2392156 o/bin/apps/btstack 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21314       *.*                   LISTEN
+	   4  274454 
+	   5  2281549 rw        0 /dev/ser5
+	   6  274454 rw        0 I4TCP  *.9091                *.*                   LISTEN
+	   7  274454 
+	   0s      1 
+	   2s 2392156 
+	   5s 1577058 
+	   7s 557102 
+	   9s 2392156 
+	  11s 581676 
+	  16s 1392681 
+	  17s 565278 
+	  20s 1347660 
+	  25s 2470026 
+	  28s 2465929 
+	  29s 2170991 
+	  34s 2515087 
+	  37s 3080359 
+ 2457730 eso/bin/apps/nad   
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21339       *.*                   LISTEN
+	   4  274454 
+	   5  2007167 rw        0 /dev/serusb1
+	   6  274454 rw        0 I4TCP  *.9092                *.*                   LISTEN
+	   7  274454 
+	   8  1921152 rw        0 /dev/MediaConnector/SAP_port
+	   0s      1 
+	   2s 2457730 
+	   4s 557102 
+	   6s 2457730 
+	  10s 581676 
+	  13s 1392681 
+	  14s 1347660 
+	  15s 2465929 
+	  22s 2170991 
+	  23s 2535570 
+	  28s 3080359 
+	  29s 1577058 
+ 2461830 in/apps/scon_audio 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21375       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 2461830 
+	   4s 557102 
+	   6s 2461830 
+	   9s 581676 
+	  13s 1392681 
+	  14s 2170991 
+	  17s 1392718 
+	  20s 1577058 
+ 2465929 bin/apps/telephone 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21309       *.*                   LISTEN
+	   4  274454 
+	   5  274454 rw        0 I4TCP  10.0.0.15.65515       10.0.0.16.21445       ESTABLISHED
+	   6  274454 rw        0 I4TCP  10.0.0.15.65514       10.0.0.16.21437       ESTABLISHED
+	   0s      1 
+	   2s 2465929 
+	   4s 557102 
+	   6s 2465929 
+	   8s 581676 
+	  13s 1392681 
+	  14s 565278 
+	  19s 2457730 
+	  20s 1347660 
+	  23s 1392718 
+	  26s 1679472 
+	  29s 1474662 
+	  34s 2470026 
+	  35s 2392156 
+	  40s 1306698 
+	  41s 2515087 
+	  44s 1577058 
+ 2470026 bin/apps/bluetooth 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21312       *.*                   LISTEN
+	   4   20485 -w        0 /dev/slog
+	   5  274454 
+	   6  274454 rw        0 I4TCP  10.0.0.15.65513       10.0.0.16.21445       ESTABLISHED
+	   0s      1 
+	   2s 2470026 
+	   4s 557102 
+	   6s 581676 
+	   7s 2470026 
+	  13s 1392681 
+	  14s 1347660 
+	  16s 1740901 
+	  22s 2170991 
+	  25s 1392693 
+	  26s 1679472 
+	  29s 2392156 
+	  32s 2465929 
+	  35s 565278 
+	  40s 1306698 
+	  41s 3080359 
+	  44s 1577058 
+ 2482315 n/hostapd-2.5-wapi 
+	   0       1 
+	   1   77833 -w        0 (pipe)
+	   2   77833 -w        0 (pipe)
+	   3  274454 rw        0 /dev/bcm0_ctrl
+	   4  274454 
+	   5  274454 
+	   6  274454 rw        0 UDS D /var/run/hostapd/bcm0
+	   0s      1 
+ 2482316 bin/apps/radiodata 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21350       *.*                   LISTEN
+	   4  274454 
+	   5  147471 r- 14114816 /mnt/misc1/rsdb/VW_STL_DB.sqlite
+	   0s      1 
+	   2s 2482316 
+	   4s 557102 
+	   6s 2482316 
+	  10s 581676 
+	  13s 1171511 
+	  14s 1347660 
+	  19s 1306698 
+	  20s 2535570 
+	  23s 2551958 
+	  26s 1577058 
+ 2502798 bin/apps/rdiserver 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.174.189.1.21601    *.*                   LISTEN
+	   4  274454 
+	   5  274454 rw        0 I4UDP  *.*                   *.*                   
+	   6  274454 rw        0 I4TCP  10.0.0.15.65512       10.0.0.16.21445       ESTABLISHED
+	   7  274454 rw        0 /dev/socket/17
+	   8  274454 rw        0 I6TCP  *.28500               *.*                   LISTEN
+	   9   77833 r-        0 (pipe)
+	  10   77833 -w        0 (pipe)
+	  11  274454 rw        0 I4UDP  239.255.255.145.28500 *.*                   
+	  12  274454 rw        0 I4TCP  10.174.189.1.25010    *.*                   LISTEN
+	  13  274454 rw        0 I6UDP  *.28500               *.*                   
+	  15  274454 rw        0 I4TCP  10.173.189.1.25010    *.*                   LISTEN
+	  17  274454 rw        0 I6TCP  fe80::4691:60ff:fee1:346c%bcm0.25010 *.*                   LISTEN
+	  18  274454 rw        0 I6TCP  fe80::4448:60ff:fee1:346c%bcm0.25010bcm1.25010 *.*                   LISTEN
+	  19  274454 rw        0 I6TCP  fe80::4424:60ff:fee1:346c%bcm0.25010bcm1.25010bcm2.25010 *.*                   LISTEN
+	  20  274454 rw        0 I4TCP  127.0.0.1.25010       *.*                   LISTEN
+	   0s      1 
+	   2s 2502798 
+	   4s 557102 
+	   6s 2502798 
+	   8s 581676 
+	  13s 1171511 
+	  16s 1306698 
+	  17s 1630288 
+	  20s 565278 
+	  23s 2515085 
+	  26s 1740901 
+	  29s 1392651 
+	  32s 2170991 
+	  35s 1577058 
+ 2515085 pps/imageserverRDI 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 2515085 
+	   4s 557102 
+	   6s 2515085 
+	   8s 581676 
+	  13s 2502798 
+	  14s 1577058 
+ 2515087 bin/apps/organizer 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21310       *.*                   LISTEN
+	   4  274454 
+	   5  147471 rw      100 /mnt/adb/addressbook/addressbook0/addressbook0.db
+	   6  147471 rw    61832 /mnt/adb/addressbook/addressbook1/addressbook1.db-wal
+	   7  147471 rw    37112 /mnt/adb/addressbook/addressbook0/addressbook0.db-wal
+	   8  147471 rw    32768 /mnt/adb/addressbook/addressbook0/addressbook0.db-shm
+	   9  147471 rw      100 /mnt/adb/addressbook/addressbook1/addressbook1.db
+	  10  147471 rw      100 /mnt/adb/addressbook/addressbook2/addressbook2.db
+	  11  147471 rw    32768 /mnt/adb/addressbook/addressbook1/addressbook1.db-shm
+	  12  147471 rw    61832 /mnt/adb/addressbook/addressbook2/addressbook2.db-wal
+	  13  147471 rw    32768 /mnt/adb/addressbook/addressbook2/addressbook2.db-shm
+	  14  147471 rw      100 /mnt/adb/addressbook/addressbook3/addressbook3.db
+	  15  147471 rw    61832 /mnt/adb/addressbook/addressbook3/addressbook3.db-wal
+	  16  147471 rw    32768 /mnt/adb/addressbook/addressbook3/addressbook3.db-shm
+	  17  147471 rw      100 /mnt/adb/addressbook/addressbook4/addressbook4.db
+	  18  147471 rw    61832 /mnt/adb/addressbook/addressbook4/addressbook4.db-wal
+	  19  147471 rw    32768 /mnt/adb/addressbook/addressbook4/addressbook4.db-shm
+	   0s      1 
+	   2s 2515087 
+	   4s 557102 
+	   6s 2515087 
+	   8s 581676 
+	  13s 1171511 
+	  16s 1306698 
+	  17s 2621595 
+	  22s 2465929 
+	  23s 1392651 
+	  26s 1347660 
+	  29s 2617488 
+	  31s 1810548 
+	  35s 2392156 
+	  38s 2629792 
+	  41s 3080359 
+	  44s 1577058 
+ 2535570 bin/versionmanager 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21372       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 2535570 
+	   4s 557102 
+	   6s 2535570 
+	   8s 581676 
+	  13s 1560673 
+	  17s 1810548 
+	  19s 2482316 
+	  20s 1347660 
+	  23s 1785962 
+	  26s 1679472 
+	  31s 2551958 
+	  34s 2535573 
+	  37s 2457730 
+	  40s 2785428 
+	  43s 2621595 
+	  46s 2629792 
+	  49s 1306698 
+	  52s 2629791 
+	  55s 3084456 
+	  58s 2625693 
+	  59s 1577058 
+ 2535571 usr/bin/autorunner 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  1511544 r-        0 /dev/mcd/EJECTED
+	   4  1511544 r-        0 /dev/mcd/AUTORUN
+	   0s      1 
+ 2535573 /bin/fblockmanager 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21367       *.*                   LISTEN
+	   4  274454 rw        0 I4TCP  10.0.0.15.21367       10.0.0.16.65506       ESTABLISHED
+	   5  274454 rw        0 I4TCP  10.0.0.15.21367       10.0.0.16.65505       ESTABLISHED
+	   6  274454 
+	   0s      1 
+	   2s 2535573 
+	   4s 557102 
+	   6s 2535573 
+	   8s 581676 
+	  11s 2551958 
+	  14s 2535570 
+	  19s 2539672 
+	  20s 1577058 
+ 2539672 bin/ethswupservice 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21380       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 2539672 
+	   4s 557102 
+	   6s 2539672 
+	   8s 581676 
+	  11s 2535573 
+	  14s 1577058 
+ 2543770 r/bin/trdevservice 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 2543770 
+	   4s 557102 
+	   6s 2543770 
+	   8s 581676 
+	  11s 1577058 
+ 2551958 /bin/updatemanager 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21369       *.*                   LISTEN
+	   4  274454 
+	   5  274454 rw        0 I4TCP  10.0.0.15.65505       10.0.0.16.21445       ESTABLISHED
+	   0s      1 
+	   2s 2551958 
+	   4s 557102 
+	   6s 2551958 
+	   8s 581676 
+	  11s 2535570 
+	  16s 2535573 
+	  18s 1740901 
+	  21s 2482316 
+	  23s 1810548 
+	  26s 1679472 
+	  29s 1347660 
+	  32s 565278 
+	  37s 2625693 
+	  40s 2621595 
+	  41s 2605201 
+	  46s 2629792 
+	  49s 1577058 
+	  52s 2785428 
+	  53s 2629791 
+	  58s 3084456 
+	  61s 1306698 
+ 2564222 sbin/floater       
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+ 2605201 in/contentdetector 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21371       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 2605201 
+	   4s 557102 
+	   6s 2605201 
+	   8s 581676 
+	  13s 2551958 
+	  14s 1577058 
+ 2617488 /bin/apps/explorer 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21317       *.*                   LISTEN
+	   4  274454 
+	   5  274454 rw        0 I4TCP  10.0.0.15.65504       10.0.0.16.21445       ESTABLISHED
+	   6  147471 rw    73728 /mnt/adb/explorer/picturestore.db
+	   7  147471 rw  1297832 /mnt/adb/explorer/picturestore.db-wal
+	   8  147471 rw    32768 /mnt/adb/explorer/picturestore.db-shm
+	   0s      1 
+	   2s 2617488 
+	   4s 557102 
+	   5s 581676 
+	   8s 2617488 
+	  13s 1171511 
+	  17s 1306698 
+	  19s 2515087 
+	  20s 1577058 
+ 2621595 bin/apps/esosearch 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  274454 rw        0 I4TCP  10.0.0.15.21336       *.*                   LISTEN
+	   5  274454 
+	   6  274454 
+	   7  155662 r-     7168 /mnt/navdb/truffles/db/ukrayina_1184/ukrayina_1184.sqlite
+	   8  155662 r-  2695618 /mnt/navdb/truffles/db/ukrayina_1184/ukrayina_1184.tsf
+	   9  155662 r-   269175 /mnt/navdb/truffles/db/ukrayina_1184/ukrayina_1184.tix
+	  10  155662 r-     7168 /mnt/navdb/truffles/db/ukrayina_1183/ukrayina_1183.sqlite
+	  11  155662 r-  2443444 /mnt/navdb/truffles/db/ukrayina_1183/ukrayina_1183.tsf
+	  12  155662 r-   262223 /mnt/navdb/truffles/db/ukrayina_1183/ukrayina_1183.tix
+	  13  155662 r-     7168 /mnt/navdb/truffles/db/ukrayina_1182/ukrayina_1182.sqlite
+	  14  155662 r-  3366616 /mnt/navdb/truffles/db/ukrayina_1182/ukrayina_1182.tsf
+	  15  155662 r-   332565 /mnt/navdb/truffles/db/ukrayina_1182/ukrayina_1182.tix
+	  16  155662 r-     7168 /mnt/navdb/truffles/db/ukrayina_1181/ukrayina_1181.sqlite
+	  17  155662 r-  3923592 /mnt/navdb/truffles/db/ukrayina_1181/ukrayina_1181.tsf
+	  18  155662 r-   361534 /mnt/navdb/truffles/db/ukrayina_1181/ukrayina_1181.tix
+	  19  155662 r-     7168 /mnt/navdb/truffles/db/ukrayina_1180/ukrayina_1180.sqlite
+	  20  155662 r-  5122470 /mnt/navdb/truffles/db/ukrayina_1180/ukrayina_1180.tsf
+	  21  155662 r-   419432 /mnt/navdb/truffles/db/ukrayina_1180/ukrayina_1180.tix
+	  22  155662 r-     7168 /mnt/navdb/truffles/db/serbia_1171/serbia_1171.sqlite
+	  23  155662 r-  2154266 /mnt/navdb/truffles/db/serbia_1171/serbia_1171.tsf
+	  24  155662 r-   244643 /mnt/navdb/truffles/db/serbia_1171/serbia_1171.tix
+	  25  155662 r-     7168 /mnt/navdb/truffles/db/russia_1170/russia_1170.sqlite
+	  26  155662 r-  4905502 /mnt/navdb/truffles/db/russia_1170/russia_1170.tsf
+	  27  155662 r-   339743 /mnt/navdb/truffles/db/russia_1170/russia_1170.tix
+	  28  155662 r-     7168 /mnt/navdb/truffles/db/russia_1169/russia_1169.sqlite
+	  29  155662 r-  5250002 /mnt/navdb/truffles/db/russia_1169/russia_1169.tsf
+	  30  155662 r-   357502 /mnt/navdb/truffles/db/russia_1169/russia_1169.tix
+	  31  155662 r-     7168 /mnt/navdb/truffles/db/russia_1168/russia_1168.sqlite
+	  32  155662 r-  9053195 /mnt/navdb/truffles/db/russia_1168/russia_1168.tsf
+	  33  155662 r-   492002 /mnt/navdb/truffles/db/russia_1168/russia_1168.tix
+	  34  155662 r-     7168 /mnt/navdb/truffles/db/russia_1167/russia_1167.sqlite
+	  35  155662 r-  1726027 /mnt/navdb/truffles/db/russia_1167/russia_1167.tsf
+	  36  155662 r-   165808 /mnt/navdb/truffles/db/russia_1167/russia_1167.tix
+	  37  155662 r-     7168 /mnt/navdb/truffles/db/russia_1166/russia_1166.sqlite
+	  38  155662 r-  6940759 /mnt/navdb/truffles/db/russia_1166/russia_1166.tsf
+	  39  155662 r-   417526 /mnt/navdb/truffles/db/russia_1166/russia_1166.tix
+	  40  155662 r-     7168 /mnt/navdb/truffles/db/russia_1165/russia_1165.sqlite
+	  41  155662 r-  3942434 /mnt/navdb/truffles/db/russia_1165/russia_1165.tsf
+	  42  155662 r-   273234 /mnt/navdb/truffles/db/russia_1165/russia_1165.tix
+	  43  155662 r-     7168 /mnt/navdb/truffles/db/russia_1164/russia_1164.sqlite
+	  44  155662 r-  5199549 /mnt/navdb/truffles/db/russia_1164/russia_1164.tsf
+	  45  155662 r-   396524 /mnt/navdb/truffles/db/russia_1164/russia_1164.tix
+	  46  155662 r-     7168 /mnt/navdb/truffles/db/russia_1163/russia_1163.sqlite
+	  47  155662 r-  1508049 /mnt/navdb/truffles/db/russia_1163/russia_1163.tsf
+	  48  155662 r-   184220 /mnt/navdb/truffles/db/russia_1163/russia_1163.tix
+	  49  155662 r-     7168 /mnt/navdb/truffles/db/russia_1162/russia_1162.sqlite
+	  50  155662 r-  9252420 /mnt/navdb/truffles/db/russia_1162/russia_1162.tsf
+	  51  155662 r-   444576 /mnt/navdb/truffles/db/russia_1162/russia_1162.tix
+	  52  155662 r-     7168 /mnt/navdb/truffles/db/russia_1161/russia_1161.sqlite
+	  53  155662 r-  6304488 /mnt/navdb/truffles/db/russia_1161/russia_1161.tsf
+	  54  155662 r-   423271 /mnt/navdb/truffles/db/russia_1161/russia_1161.tix
+	  55  155662 r-     7168 /mnt/navdb/truffles/db/makedonia_1151/makedonia_1151.sqlite
+	  56  155662 r-   319634 /mnt/navdb/truffles/db/makedonia_1151/makedonia_1151.tsf
+	  57  155662 r-    83058 /mnt/navdb/truffles/db/makedonia_1151/makedonia_1151.tix
+	  58  155662 r-     7168 /mnt/navdb/truffles/db/bulgaria_1104/bulgaria_1104.sqlite
+	  59  155662 r-  3194496 /mnt/navdb/truffles/db/bulgaria_1104/bulgaria_1104.tsf
+	  60  155662 r-   200240 /mnt/navdb/truffles/db/bulgaria_1104/bulgaria_1104.tix
+	  61  155662 r-     7168 /mnt/navdb/truffles/db/white_rus_1106/white_rus_1106.sqlite
+	  62  155662 r-  1301726 /mnt/navdb/truffles/db/white_rus_1106/white_rus_1106.tsf
+	  63  155662 r-   226079 /mnt/navdb/truffles/db/white_rus_1106/white_rus_1106.tix
+	  64  155662 r-     7168 /mnt/navdb/truffles/db/cyprus1_1108/cyprus1_1108.sqlite
+	  65  155662 r-   710408 /mnt/navdb/truffles/db/cyprus1_1108/cyprus1_1108.tsf
+	  66  155662 r-   116825 /mnt/navdb/truffles/db/cyprus1_1108/cyprus1_1108.tix
+	  67  155662 r-     7168 /mnt/navdb/truffles/db/greece_1138/greece_1138.sqlite
+	  68  155662 r-  7993490 /mnt/navdb/truffles/db/greece_1138/greece_1138.tsf
+	  69  155662 r-   488071 /mnt/navdb/truffles/db/greece_1138/greece_1138.tix
+	  70  155662 r-     7168 /mnt/navdb/truffles/db/czech_1110/czech_1110.sqlite
+	  71  155662 r-  2847952 /mnt/navdb/truffles/db/czech_1110/czech_1110.tsf
+	  72  155662 r-   228264 /mnt/navdb/truffles/db/czech_1110/czech_1110.tix
+	  73  155662 r-     7168 /mnt/navdb/truffles/db/czech_1109/czech_1109.sqlite
+	  74  155662 r-  3464899 /mnt/navdb/truffles/db/czech_1109/czech_1109.tsf
+	  75  155662 r-   276902 /mnt/navdb/truffles/db/czech_1109/czech_1109.tix
+	  76  155662 r-     7168 /mnt/navdb/truffles/db/austria_1102/austria_1102.sqlite
+	  77  155662 r-  4910241 /mnt/navdb/truffles/db/austria_1102/austria_1102.tsf
+	  78  155662 r-   804813 /mnt/navdb/truffles/db/austria_1102/austria_1102.tix
+	  79  155662 r-     7168 /mnt/navdb/truffles/db/iceland_1141/iceland_1141.sqlite
+	  80  155662 r-   302600 /mnt/navdb/truffles/db/iceland_1141/iceland_1141.tsf
+	  81  155662 r-    95158 /mnt/navdb/truffles/db/iceland_1141/iceland_1141.tix
+	  82  155662 r-     7168 /mnt/navdb/truffles/db/great_britain_1137/great_britain_1137.sqlite
+	  83  155662 r-   689067 /mnt/navdb/truffles/db/great_britain_1137/great_britain_1137.tsf
+	  84  155662 r-   284214 /mnt/navdb/truffles/db/great_britain_1137/great_britain_1137.tix
+	  85  155662 r-     7168 /mnt/navdb/truffles/db/great_britain_1136/great_britain_1136.sqlite
+	  86  155662 r-  8243752 /mnt/navdb/truffles/db/great_britain_1136/great_britain_1136.tsf
+	  87  155662 r-  2497886 /mnt/navdb/truffles/db/great_britain_1136/great_britain_1136.tix
+	  88  155662 r-     7168 /mnt/navdb/truffles/db/great_britain_1135/great_britain_1135.sqlite
+	  89  155662 r-  8356753 /mnt/navdb/truffles/db/great_britain_1135/great_britain_1135.tsf
+	  90  155662 r-  2594737 /mnt/navdb/truffles/db/great_britain_1135/great_britain_1135.tix
+	  91  155662 r-     7168 /mnt/navdb/truffles/db/great_britain_1134/great_britain_1134.sqlite
+	  92  155662 r-  7174890 /mnt/navdb/truffles/db/great_britain_1134/great_britain_1134.tsf
+	  93  155662 r-  2331341 /mnt/navdb/truffles/db/great_britain_1134/great_britain_1134.tix
+	  94  155662 r-     7168 /mnt/navdb/truffles/db/turkey_1179/turkey_1179.sqlite
+	  95  155662 r-  6054782 /mnt/navdb/truffles/db/turkey_1179/turkey_1179.tsf
+	  96  155662 r-   235185 /mnt/navdb/truffles/db/turkey_1179/turkey_1179.tix
+	  97  155662 r-     7168 /mnt/navdb/truffles/db/turkey_1178/turkey_1178.sqlite
+	  98  155662 r-  4669070 /mnt/navdb/truffles/db/turkey_1178/turkey_1178.tsf
+	  99  155662 r-   198242 /mnt/navdb/truffles/db/turkey_1178/turkey_1178.tix
+	 100  155662 r-     7168 /mnt/navdb/truffles/db/turkey_1177/turkey_1177.sqlite
+	 101  155662 r-  3460041 /mnt/navdb/truffles/db/turkey_1177/turkey_1177.tsf
+	 102  155662 r-   154586 /mnt/navdb/truffles/db/turkey_1177/turkey_1177.tix
+	 103  155662 r-     7168 /mnt/navdb/truffles/db/turkey_1176/turkey_1176.sqlite
+	 104  155662 r-  8497821 /mnt/navdb/truffles/db/turkey_1176/turkey_1176.tsf
+	 105  155662 r-   273129 /mnt/navdb/truffles/db/turkey_1176/turkey_1176.tix
+	 106  155662 r-     7168 /mnt/navdb/truffles/db/sweden_1175/sweden_1175.sqlite
+	 107  155662 r-  1510534 /mnt/navdb/truffles/db/sweden_1175/sweden_1175.tsf
+	 108  155662 r-   342311 /mnt/navdb/truffles/db/sweden_1175/sweden_1175.tix
+	 109  155662 r-     7168 /mnt/navdb/truffles/db/sweden_1174/sweden_1174.sqlite
+	 110  155662 r-  5649669 /mnt/navdb/truffles/db/sweden_1174/sweden_1174.tsf
+	 111  155662 r-   843288 /mnt/navdb/truffles/db/sweden_1174/sweden_1174.tix
+	 112  155662 r-     7168 /mnt/navdb/truffles/db/finland_1126/finland_1126.sqlite
+	 113  155662 r-  4077788 /mnt/navdb/truffles/db/finland_1126/finland_1126.tsf
+	 114  155662 r-   965981 /mnt/navdb/truffles/db/finland_1126/finland_1126.tix
+	 115  155662 r-     7168 /mnt/navdb/truffles/db/finland_1125/finland_1125.sqlite
+	 116  155662 r-  1496456 /mnt/navdb/truffles/db/finland_1125/finland_1125.tsf
+	 117  155662 r-   422449 /mnt/navdb/truffles/db/finland_1125/finland_1125.tix
+	 118  155662 r-     7168 /mnt/navdb/truffles/db/vatican_1143/vatican_1143.sqlite
+	 119  155662 r-     2815 /mnt/navdb/truffles/db/vatican_1143/vatican_1143.tsf
+	 120  155662 r-    19230 /mnt/navdb/truffles/db/vatican_1143/vatican_1143.tix
+	 121  155662 r-     7168 /mnt/navdb/truffles/db/slovenska_republika_1172/slovenska_republika_1172.sqlite
+	 122  155662 r-  3016001 /mnt/navdb/truffles/db/slovenska_republika_1172/slovenska_republika_1172.tsf
+	 123  155662 r-  1574730 /mnt/navdb/truffles/db/slovenska_republika_1172/slovenska_republika_1172.tix
+	 124  155662 r-     7168 /mnt/navdb/truffles/db/slovenia_1173/slovenia_1173.sqlite
+	 125  155662 r-  1332858 /mnt/navdb/truffles/db/slovenia_1173/slovenia_1173.tsf
+	 126  155662 r-   147093 /mnt/navdb/truffles/db/slovenia_1173/slovenia_1173.tix
+	 127  155662 r-     7168 /mnt/navdb/truffles/db/albania_1101/albania_1101.sqlite
+	 128  155662 r-   317951 /mnt/navdb/truffles/db/albania_1101/albania_1101.tsf
+	 129  155662 r-    57708 /mnt/navdb/truffles/db/albania_1101/albania_1101.tix
+	 130  155662 r-     7168 /mnt/navdb/truffles/db/switzerland_1107/switzerland_1107.sqlite
+	 131  155662 r-  4325022 /mnt/navdb/truffles/db/switzerland_1107/switzerland_1107.tsf
+	 132  155662 r-   600400 /mnt/navdb/truffles/db/switzerland_1107/switzerland_1107.tix
+	 133  155662 r-     7168 /mnt/navdb/truffles/db/san_marino_1143/san_marino_1143.sqlite
+	 134  155662 r-    18865 /mnt/navdb/truffles/db/san_marino_1143/san_marino_1143.tsf
+	 135  155662 r-    23794 /mnt/navdb/truffles/db/san_marino_1143/san_marino_1143.tix
+	 136  155662 r-     7168 /mnt/navdb/truffles/db/romania_1160/romania_1160.sqlite
+	 137  155662 r-  5515492 /mnt/navdb/truffles/db/romania_1160/romania_1160.tsf
+	 138  155662 r-   410683 /mnt/navdb/truffles/db/romania_1160/romania_1160.tix
+	 139  155662 r-     7168 /mnt/navdb/truffles/db/portugal_1159/portugal_1159.sqlite
+	 140  155662 r-  3756088 /mnt/navdb/truffles/db/portugal_1159/portugal_1159.tsf
+	 141  155662 r-   162976 /mnt/navdb/truffles/db/portugal_1159/portugal_1159.tix
+	 142  155662 r-     7168 /mnt/navdb/truffles/db/portugal_1158/portugal_1158.sqlite
+	 143  155662 r-  4285791 /mnt/navdb/truffles/db/portugal_1158/portugal_1158.tsf
+	 144  155662 r-   268836 /mnt/navdb/truffles/db/portugal_1158/portugal_1158.tix
+	 145  155662 r-     7168 /mnt/navdb/truffles/db/poland_1157/poland_1157.sqlite
+	 146  155662 r-  4357729 /mnt/navdb/truffles/db/poland_1157/poland_1157.tsf
+	 147  155662 r-   309085 /mnt/navdb/truffles/db/poland_1157/poland_1157.tix
+	 148  155662 r-     7168 /mnt/navdb/truffles/db/poland_1156/poland_1156.sqlite
+	 149  155662 r-  3975483 /mnt/navdb/truffles/db/poland_1156/poland_1156.tsf
+	 150  155662 r-   308987 /mnt/navdb/truffles/db/poland_1156/poland_1156.tix
+	 151  155662 r-     7168 /mnt/navdb/truffles/db/poland_1155/poland_1155.sqlite
+	 152  155662 r-  3396069 /mnt/navdb/truffles/db/poland_1155/poland_1155.tsf
+	 153  155662 r-   256538 /mnt/navdb/truffles/db/poland_1155/poland_1155.tix
+	 154  155662 r-     7168 /mnt/navdb/truffles/db/norway_1154/norway_1154.sqlite
+	 155  155662 r-  3049238 /mnt/navdb/truffles/db/norway_1154/norway_1154.tsf
+	 156  155662 r-   611488 /mnt/navdb/truffles/db/norway_1154/norway_1154.tix
+	 157  155662 r-     7168 /mnt/navdb/truffles/db/netherlands_1153/netherlands_1153.sqlite
+	 158  155662 r-  4742538 /mnt/navdb/truffles/db/netherlands_1153/netherlands_1153.tsf
+	 159  155662 r-  1045137 /mnt/navdb/truffles/db/netherlands_1153/netherlands_1153.tix
+	 160  155662 r-     7168 /mnt/navdb/truffles/db/netherlands_1152/netherlands_1152.sqlite
+	 161  155662 r-  3959801 /mnt/navdb/truffles/db/netherlands_1152/netherlands_1152.tsf
+	 162  155662 r-   904293 /mnt/navdb/truffles/db/netherlands_1152/netherlands_1152.tix
+	 163  155662 r-     7168 /mnt/navdb/truffles/db/monaco_1129/monaco_1129.sqlite
+	 164  155662 r-    19952 /mnt/navdb/truffles/db/monaco_1129/monaco_1129.tsf
+	 165  155662 r-    22634 /mnt/navdb/truffles/db/monaco_1129/monaco_1129.tix
+	 166  155662 r-     7168 /mnt/navdb/truffles/db/moldavia_1150/moldavia_1150.sqlite
+	 167  155662 r-   124039 /mnt/navdb/truffles/db/moldavia_1150/moldavia_1150.tsf
+	 168  155662 r-    56694 /mnt/navdb/truffles/db/moldavia_1150/moldavia_1150.tix
+	 169  155662 r-     7168 /mnt/navdb/truffles/db/malta_1145/malta_1145.sqlite
+	 170  155662 r-   213624 /mnt/navdb/truffles/db/malta_1145/malta_1145.tsf
+	 171  155662 r-    49897 /mnt/navdb/truffles/db/malta_1145/malta_1145.tix
+	 172  155662 r-     7168 /mnt/navdb/truffles/db/hungary_1140/hungary_1140.sqlite
+	 173  155662 r-  4260147 /mnt/navdb/truffles/db/hungary_1140/hungary_1140.tsf
+	 174  155662 r-   277755 /mnt/navdb/truffles/db/hungary_1140/hungary_1140.tix
+	 175  155662 r-     7168 /mnt/navdb/truffles/db/luxembourg_1148/luxembourg_1148.sqlite
+	 176  155662 r-   308459 /mnt/navdb/truffles/db/luxembourg_1148/luxembourg_1148.tsf
+	 177  155662 r-    69548 /mnt/navdb/truffles/db/luxembourg_1148/luxembourg_1148.tix
+	 178  155662 r-     7168 /mnt/navdb/truffles/db/lithuania_1147/lithuania_1147.sqlite
+	 179  155662 r-  1468320 /mnt/navdb/truffles/db/lithuania_1147/lithuania_1147.tsf
+	 180  155662 r-   228511 /mnt/navdb/truffles/db/lithuania_1147/lithuania_1147.tix
+	 181  155662 r-     7168 /mnt/navdb/truffles/db/liechtenstein_1107/liechtenstein_1107.sqlite
+	 182  155662 r-    24655 /mnt/navdb/truffles/db/liechtenstein_1107/liechtenstein_1107.tsf
+	 183  155662 r-    29573 /mnt/navdb/truffles/db/liechtenstein_1107/liechtenstein_1107.tix
+	 184  155662 r-     7168 /mnt/navdb/truffles/db/latvia_1149/latvia_1149.sqlite
+	 185  155662 r-   828273 /mnt/navdb/truffles/db/latvia_1149/latvia_1149.tsf
+	 186  155662 r-   138723 /mnt/navdb/truffles/db/latvia_1149/latvia_1149.tix
+	 187  155662 r-     7168 /mnt/navdb/truffles/db/kosovo_1171/kosovo_1171.sqlite
+	 188  155662 r-   133225 /mnt/navdb/truffles/db/kosovo_1171/kosovo_1171.tsf
+	 189  155662 r-    48256 /mnt/navdb/truffles/db/kosovo_1171/kosovo_1171.tix
+	 190  155662 r-     7168 /mnt/navdb/truffles/db/italia_1145/italia_1145.sqlite
+	 191  155662 r-  6282074 /mnt/navdb/truffles/db/italia_1145/italia_1145.tsf
+	 192  155662 r-   290961 /mnt/navdb/truffles/db/italia_1145/italia_1145.tix
+	 193  155662 r-     7168 /mnt/navdb/truffles/db/italia_1144/italia_1144.sqlite
+	 194  155662 r-  5297022 /mnt/navdb/truffles/db/italia_1144/italia_1144.tsf
+	 195  155662 r-   309175 /mnt/navdb/truffles/db/italia_1144/italia_1144.tix
+	 196  155662 r-     7168 /mnt/navdb/truffles/db/italia_1143/italia_1143.sqlite
+	 197  155662 r-  5310379 /mnt/navdb/truffles/db/italia_1143/italia_1143.tsf
+	 198  155662 r-   401639 /mnt/navdb/truffles/db/italia_1143/italia_1143.tix
+	 199  155662 r-     7168 /mnt/navdb/truffles/db/italia_1142/italia_1142.sqlite
+	 200  155662 r-  5892774 /mnt/navdb/truffles/db/italia_1142/italia_1142.tsf
+	 201  155662 r-   358875 /mnt/navdb/truffles/db/italia_1142/italia_1142.tix
+	 202  155662 r-     7168 /mnt/navdb/truffles/db/isle_of_man_1136/isle_of_man_1136.sqlite
+	 203  155662 r-    26947 /mnt/navdb/truffles/db/isle_of_man_1136/isle_of_man_1136.tsf
+	 204  155662 r-    23840 /mnt/navdb/truffles/db/isle_of_man_1136/isle_of_man_1136.tix
+	 205  155662 r-     7168 /mnt/navdb/truffles/db/ireland_1137/ireland_1137.sqlite
+	 206  155662 r-  2405842 /mnt/navdb/truffles/db/ireland_1137/ireland_1137.tsf
+	 207  155662 r-   251278 /mnt/navdb/truffles/db/ireland_1137/ireland_1137.tix
+	 208  155662 r-     7168 /mnt/navdb/truffles/db/croatia_1139/croatia_1139.sqlite
+	 209  155662 r-  2089065 /mnt/navdb/truffles/db/croatia_1139/croatia_1139.tsf
+	 210  155662 r-   234850 /mnt/navdb/truffles/db/croatia_1139/croatia_1139.tix
+	 211  155662 r-     7168 /mnt/navdb/truffles/db/gibraltar_1119/gibraltar_1119.sqlite
+	 212  155662 r-     8161 /mnt/navdb/truffles/db/gibraltar_1119/gibraltar_1119.tsf
+	 213  155662 r-    20168 /mnt/navdb/truffles/db/gibraltar_1119/gibraltar_1119.tix
+	 214  155662 r-     7168 /mnt/navdb/truffles/db/france_1133/france_1133.sqlite
+	 215  155662 r-  3977887 /mnt/navdb/truffles/db/france_1133/france_1133.tsf
+	 216  155662 r-   280038 /mnt/navdb/truffles/db/france_1133/france_1133.tix
+	 217  155662 r-     7168 /mnt/navdb/truffles/db/france_1132/france_1132.sqlite
+	 218  155662 r-  5437447 /mnt/navdb/truffles/db/france_1132/france_1132.tsf
+	 219  155662 r-   358058 /mnt/navdb/truffles/db/france_1132/france_1132.tix
+	 220  155662 r-     7168 /mnt/navdb/truffles/db/france_1131/france_1131.sqlite
+	 221  155662 r-  7466210 /mnt/navdb/truffles/db/france_1131/france_1131.tsf
+	 222  155662 r-   498718 /mnt/navdb/truffles/db/france_1131/france_1131.tix
+	 223  155662 r-     7168 /mnt/navdb/truffles/db/france_1130/france_1130.sqlite
+	 224  155662 r-  7510193 /mnt/navdb/truffles/db/france_1130/france_1130.tsf
+	 225  155662 r-   456065 /mnt/navdb/truffles/db/france_1130/france_1130.tix
+	 226  155662 r-     7168 /mnt/navdb/truffles/db/france_1129/france_1129.sqlite
+	 227  155662 r-  6932586 /mnt/navdb/truffles/db/france_1129/france_1129.tsf
+	 228  155662 r-   410044 /mnt/navdb/truffles/db/france_1129/france_1129.tix
+	 229  155662 r-     7168 /mnt/navdb/truffles/db/france_1128/france_1128.sqlite
+	 230  155662 r-  5495422 /mnt/navdb/truffles/db/france_1128/france_1128.tsf
+	 231  155662 r-   472603 /mnt/navdb/truffles/db/france_1128/france_1128.tix
+	 232  155662 r-     7168 /mnt/navdb/truffles/db/france_1127/france_1127.sqlite
+	 233  155662 r-  3652513 /mnt/navdb/truffles/db/france_1127/france_1127.tsf
+	 234  155662 r-   211552 /mnt/navdb/truffles/db/france_1127/france_1127.tix
+	 235  155662 r-     7168 /mnt/navdb/truffles/db/spain_1122/spain_1122.sqlite
+	 236  155662 r-  4082799 /mnt/navdb/truffles/db/spain_1122/spain_1122.tsf
+	 237  155662 r-   197194 /mnt/navdb/truffles/db/spain_1122/spain_1122.tix
+	 238  155662 r-     7168 /mnt/navdb/truffles/db/spain_1121/spain_1121.sqlite
+	 239  155662 r-  3586895 /mnt/navdb/truffles/db/spain_1121/spain_1121.tsf
+	 240  155662 r-   228225 /mnt/navdb/truffles/db/spain_1121/spain_1121.tix
+	 241  155662 r-     7168 /mnt/navdb/truffles/db/spain_1120/spain_1120.sqlite
+	 242  155662 r-  3560779 /mnt/navdb/truffles/db/spain_1120/spain_1120.tsf
+	 243  155662 r-   215657 /mnt/navdb/truffles/db/spain_1120/spain_1120.tix
+	 244  155662 r-     7168 /mnt/navdb/truffles/db/spain_1119/spain_1119.sqlite
+	 245  155662 r-  8911191 /mnt/navdb/truffles/db/spain_1119/spain_1119.tsf
+	 246  155662 r-   339425 /mnt/navdb/truffles/db/spain_1119/spain_1119.tix
+	 247  155662 r-     7168 /mnt/navdb/truffles/db/spain_1118/spain_1118.sqlite
+	 248  155662 r-  6531379 /mnt/navdb/truffles/db/spain_1118/spain_1118.tsf
+	 249  155662 r-   302479 /mnt/navdb/truffles/db/spain_1118/spain_1118.tix
+	 250  155662 r-     7168 /mnt/navdb/truffles/db/estland_1124/estland_1124.sqlite
+	 251  155662 r-   886741 /mnt/navdb/truffles/db/estland_1124/estland_1124.tsf
+	 252  155662 r-   120176 /mnt/navdb/truffles/db/estland_1124/estland_1124.tix
+	 253  155662 r-     7168 /mnt/navdb/truffles/db/germany_1112/germany_1112.sqlite
+	 254  155662 r-  4392733 /mnt/navdb/truffles/db/germany_1112/germany_1112.tsf
+	 255  155662 r-   495907 /mnt/navdb/truffles/db/germany_1112/germany_1112.tix
+	 256  155662 r-     7168 /mnt/navdb/truffles/db/germany_1111/germany_1111.sqlite
+	 257  155662 r-  5560353 /mnt/navdb/truffles/db/germany_1111/germany_1111.tsf
+	 258  155662 r-   628565 /mnt/navdb/truffles/db/germany_1111/germany_1111.tix
+	 259  155662 r-     7168 /mnt/navdb/truffles/db/germany_1116/germany_1116.sqlite
+	 260  155662 r-  4328670 /mnt/navdb/truffles/db/germany_1116/germany_1116.tsf
+	 261  155662 r-   490713 /mnt/navdb/truffles/db/germany_1116/germany_1116.tix
+	 262  155662 r-     7168 /mnt/navdb/truffles/db/germany_1115/germany_1115.sqlite
+	 263  155662 r-  5668371 /mnt/navdb/truffles/db/germany_1115/germany_1115.tsf
+	 264  155662 r-   524828 /mnt/navdb/truffles/db/germany_1115/germany_1115.tix
+	 265  155662 r-     7168 /mnt/navdb/truffles/db/germany_1114/germany_1114.sqlite
+	 266  155662 r-  5223917 /mnt/navdb/truffles/db/germany_1114/germany_1114.tsf
+	 267  155662 r-   554080 /mnt/navdb/truffles/db/germany_1114/germany_1114.tix
+	 268  155662 r-     7168 /mnt/navdb/truffles/db/germany_1113/germany_1113.sqlite
+	 269  155662 r-  5350598 /mnt/navdb/truffles/db/germany_1113/germany_1113.tsf
+	 270  155662 r-   585029 /mnt/navdb/truffles/db/germany_1113/germany_1113.tix
+	 271  155662 r-     7168 /mnt/navdb/truffles/db/danmark_1117/danmark_1117.sqlite
+	 272  155662 r-  2969932 /mnt/navdb/truffles/db/danmark_1117/danmark_1117.tsf
+	 273  155662 r-   366519 /mnt/navdb/truffles/db/danmark_1117/danmark_1117.tix
+	 274  155662 r-     7168 /mnt/navdb/truffles/db/montenegro_1171/montenegro_1171.sqlite
+	 275  155662 r-   227344 /mnt/navdb/truffles/db/montenegro_1171/montenegro_1171.tsf
+	 276  155662 r-    64772 /mnt/navdb/truffles/db/montenegro_1171/montenegro_1171.tix
+	 277  155662 r-     7168 /mnt/navdb/truffles/db/bosnia_1105/bosnia_1105.sqlite
+	 278  155662 r-   882730 /mnt/navdb/truffles/db/bosnia_1105/bosnia_1105.tsf
+	 279  155662 r-   209746 /mnt/navdb/truffles/db/bosnia_1105/bosnia_1105.tix
+	 280  155662 r-     7168 /mnt/navdb/truffles/db/belgium_1103/belgium_1103.sqlite
+	 281  155662 r-  4603843 /mnt/navdb/truffles/db/belgium_1103/belgium_1103.tsf
+	 282  155662 r-   585784 /mnt/navdb/truffles/db/belgium_1103/belgium_1103.tix
+	 283  155662 r-     7168 /mnt/navdb/truffles/db/andorra_1131/andorra_1131.sqlite
+	 284  155662 r-    23502 /mnt/navdb/truffles/db/andorra_1131/andorra_1131.tsf
+	 285  155662 r-    23373 /mnt/navdb/truffles/db/andorra_1131/andorra_1131.tix
+	 286   77833 r-        0 (pipe)
+	 287   77833 -w        0 (pipe)
+	 288  147471 rw     8192 /mnt/adb/search/truffles.1.db
+	 289  147471 rw        0 /mnt/adb/search/truffles.1.db-wal
+	 290  147471 rw    32768 /mnt/adb/search/truffles.1.db-shm
+	   0s      1 
+	   2s 2621595 
+	   4s 557102 
+	   6s 2621595 
+	   8s 581676 
+	  13s 1171511 
+	  14s 2551958 
+	  19s 1306698 
+	  22s 2515087 
+	  23s 2535570 
+	  28s 1667171 
+	  31s 3080359 
+	  34s 3084456 
+	  37s 2625693 
+	  38s 1577058 
+ 2625692 pps/SpeechLauncher 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21300       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 2625692 
+	   4s 557102 
+	   6s 2625692 
+	   8s 581676 
+	  13s 1171511 
+	  16s 2629791 
+	  19s 2629792 
+	  20s 1577058 
+ 2625693 igation/navStartup 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   45063 rw        0 /dev/nvos
+	   4  479248 rw        0 /dev/nvhost-ctrl
+	   5  274454 rw        0 I4TCP  10.0.0.15.21311       *.*                   LISTEN
+	   6  274454 rw        0 I4TCP  10.0.0.15.21311       10.0.0.16.65504       ESTABLISHED
+	   7  626735 r-        0 /dev/screen/
+	   8       1 
+	   9  479248 rw        0 /dev/nvhost-ctrl-gpu
+	  10  479248 rw        0 /dev/nvhost-as-gpu
+	  11   20485 -w        0 /dev/slog
+	  12  479248 rw        0 /dev/nvhost-ctrl-gpu
+	  13       1 
+	  14   77833 r-        0 (pipe)
+	  15   77833 -w        0 (pipe)
+	  16  274454 
+	  17  155662 r-        0 /mnt/navdb/database/ndscache/ROOT.NDS
+	  18  155662 r-        0 /mnt/navdb/database/ndscache/EU/PRODUCT.NDS
+	  19  155662 r-        0 /mnt/navdb/database/ndscache/WOM/OVERVIEW/PRODUCT.NDS
+	  20  155662 r-        0 /mnt/navdb/database/ndscache/WOM/OVERVIEW/SHARED.NDS
+	  21  155662 r-        0 /mnt/navdb/database/ndscache/WOM/OVERVIEW/BMD.NDS
+	  22  147471 rw        0 /mnt/navcache/traffic_location_cache/LOCK
+	  23  147471 -w        0 /mnt/navcache/traffic_location_cache/011602.log
+	  24  147471 -w       52 /mnt/navcache/traffic_location_cache/MANIFEST-011601
+	  25  155662 r-        0 /mnt/navdb/database/ndscache/EU/PROD_EXT.NDS
+	  26  155662 r-        0 /mnt/navdb/database/ndscache/EU/ALB_1101/UR1101/POI_EXT.NDS
+	  27  1511544 r-        0 /dev/mcd/INSERTED
+	  28  1511544 r-        0 /dev/mcd/EJECTED
+	  29   77833 r-        0 (pipe)
+	  30   77833 -w        0 (pipe)
+	  31  155662 r-        0 /mnt/navdb/database/ndscache/EU/ALB_1101/SHARED.NDS
+	  32  155662 r-        0 /mnt/navdb/database/ndscache/EU/ALB_1101/POI.NDS
+	  33  155662 r-        0 /mnt/navdb/database/ndscache/ROOT.NDS
+	  34  155662 r-        0 /mnt/navdb/database/ndscache/EU/PRODUCT.NDS
+	  35  155662 r-        0 /mnt/navdb/database/ndscache/WOM/OVERVIEW/PRODUCT.NDS
+	  36  147471 rw        0 /mnt/navcache/mobilitygraph/profile_1/myroute.db3
+	  37  147471 rw        0 /mnt/navcache/mobilitygraph/profile_1/record.db3
+	  38  274454 rw        0 I4TCP  10.0.0.15.65503       10.0.0.16.21445       ESTABLISHED
+	  39  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/UR1111/EXT.NDS
+	  40  147471 rw        0 /mnt/navcache/navmemory/profile_1.sqlite
+	  41  147471 rw        0 /mnt/navcache/navmemory/stores_db.sqlite
+	  42  274454 rw        0 I4TCP  10.0.0.15.21311       10.0.0.16.65501       ESTABLISHED
+	  43  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/ROUTE.NDS
+	  44  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/SHARED.NDS
+	  45  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/BMD.NDS
+	  46  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/NAME.NDS
+	  47  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1112/SHARED.NDS
+	  48  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/SPEECH.NDS
+	  49  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1112/SLI.NDS
+	  50  155662 r-        0 /mnt/navdb/database/ndscache/EU/SLI.NDS
+	  51  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1113/SHARED.NDS
+	  52  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/SLI.NDS
+	  53  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1113/SLI.NDS
+	  54  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1114/SHARED.NDS
+	  55  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1114/SLI.NDS
+	  56  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1115/SHARED.NDS
+	  57  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1115/SLI.NDS
+	  58  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1116/SHARED.NDS
+	  59  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1116/SLI.NDS
+	  60  479248 rw        0 /dev/nvmap
+	  61  479248 rw        0 /dev/nvhost-as-gpu
+	  62  479248 rw        0 /dev/nvhost-gpu
+	  63  479248 rw        0 /dev/nvhost-as-gpu
+	  64  479248 rw        0 /dev/nvhost-gpu
+	  65  155662 r-        0 /mnt/navdb/database/ndscache/EU/ALB_1101/UR1101/POI_EXT.NDS
+	  66  479248 rw        0 /dev/nvhost-gpu
+	  67  479248 rw        0 /dev/nvhost-gpu
+	  68  147471 rw    10612 /mnt/navcache/.nv/GLCache/8f36a21b64cf168d602671e2dedd6ab8/089d6a305b77ee1f/0d050cd6d4de5ca3.toc
+	  69  147471 rw   576296 /mnt/navcache/.nv/GLCache/8f36a21b64cf168d602671e2dedd6ab8/089d6a305b77ee1f/0d050cd6d4de5ca3.bin
+	  70  155662 r-        0 /mnt/navdb/database/ndscache/WOM/OVERVIEW/DTM.NDS
+	  71  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/DTM.NDS
+	  72       1 
+	  73       1 
+	  74       1 
+	  75       1 
+	  76  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/POI.NDS
+	  77  147471 rw        0 /mnt/navcache/earthcore/12/LOCK
+	  78  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/3DO.NDS
+	  79  147471 -w        0 /mnt/navcache/earthcore/12/006001.log
+	  80  147471 -w    52239 /mnt/navcache/earthcore/12/MANIFEST-006000
+	  81  147471 r-        0 /mnt/navcache/earthcore/12/001365.ldb
+	  82  147471 r-        0 /mnt/navcache/earthcore/12/001362.ldb
+	  83  147471 r-        0 /mnt/navcache/earthcore/12/001341.ldb
+	  84  147471 r-        0 /mnt/navcache/earthcore/12/001335.ldb
+	  85  147471 r-        0 /mnt/navcache/earthcore/12/001009.ldb
+	  86  155662 r-        0 /mnt/navdb/database/ndscache/EU/DEU_1111/UR1111/POI_EXT.NDS
+	  87  147471 r-        0 /mnt/navcache/earthcore/12/001071.ldb
+	  88  274454 
+	  89  479248 rw        0 /dev/nvhost-as-gpu
+	  90  479248 rw        0 /dev/nvhost-gpu
+	  91  147471 rw        0 /mnt/navcache/nds.dm
+	  92  479248 rw        0 /dev/nvhost-gpu
+	   0s      1 
+	   2s 2625693 
+	   4s 557102 
+	   6s 2625693 
+	   8s 581676 
+	  13s 1171511 
+	  14s 1347660 
+	  17s 2551958 
+	  22s 1306698 
+	  23s 1679472 
+	  26s 1740901 
+	  31s 1630288 
+	  32s 2535570 
+	  35s 565278 
+	  38s 2629792 
+	  42s 2621595 
+	  45s 2785428 
+	  47s 2170991 
+	  50s 1392651 
+	  53s 1577058 
+ 2629791 /apps/esoSpeechApp 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21363       *.*                   LISTEN
+	   4  274454 
+	   5  155662 r-  2619853 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1111/de_DE/addresses
+	   6  155662 r-       14 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1111/de_DE/terminals
+	   7  155662 r-  2180482 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1112/de_DE/addresses
+	   8  155662 r-       14 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1112/de_DE/terminals
+	   9  155662 r-  2310139 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1113/de_DE/addresses
+	  10  155662 r-       14 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1113/de_DE/terminals
+	  11  155662 r-  2592910 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1114/de_DE/addresses
+	  12  155662 r-       14 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1114/de_DE/terminals
+	  13  155662 r-  2461114 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1115/de_DE/addresses
+	  14  155662 r-       14 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1115/de_DE/terminals
+	  15  155662 r-  2028895 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1116/de_DE/addresses
+	  16  155662 r-       14 /mnt/navdb/trufflesspeech/EU/DEU/lookup/1116/de_DE/terminals
+	   0s      1 
+	   2s 2629791 
+	   4s 557102 
+	   6s 2629791 
+	   8s 581676 
+	  10s 2625692 
+	  16s 2551958 
+	  17s 1347660 
+	  22s 1306698 
+	  23s 2535570 
+	  28s 2629792 
+	  29s 1577058 
+ 2629792 speech/EBSpeechApp 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21364       *.*                   LISTEN
+	   4  274454 
+	   5  147471 r-        0 /mnt/speech/common/trans/ssp_trans_registry.db
+	   6  147471 r-        0 /mnt/speech/common/trans/ssp_trans/ssp_trans_config.db
+	   7  147471 r-        0 /mnt/speech/common/trans/ssp_trans/trans_common/language_codes.db
+	   8  147471 r- 15375896 /mnt/speech-tts-de-DE_female/speech/components/ged_ina_embedded-high_3-0-3.dat
+	   9  147471 r-     1064 /mnt/speech-tts-en-GB_female/speech/components/sysdct.dat
+	  10  147471 r-     1064 /mnt/speech-tts-en-GB_female/speech/components/lid.dat
+	  11  147471 r-        0 /mnt/speech-tts-de-DE_female/speech/components/apdb_cs_ina_AUDITOUCH_f22.dat
+	  12  147471 r-        0 /mnt/speech/sr/data/ssp_semproc_plugin_registry.db
+	  13  147471 rw        0 /mnt/speech/persistence/persistence.db
+	  14  155662 r-        0 /mnt/speech-sr-vde-common/vde_common_wr/EU/common_EU_v1.db
+	  15  147471 rw        0 /mnt/speech/persistence/data_adb_plugin_data.db
+	  16  147471 rw        0 /mnt/speech/persistence/data_adb_plugin_data.db-wal
+	  17  147471 rw        0 /mnt/speech/persistence/data_adb_plugin_data.db-shm
+	  18  147471 rw        0 /mnt/speech/persistence/data_media_plugin_data.db
+	  19  147471 rw        0 /mnt/speech/persistence/data_media_plugin_data.db-wal
+	  20  147471 rw        0 /mnt/speech/persistence/data_media_plugin_data.db-shm
+	  21  147471 r-        0 /mnt/speech/sr/data/ssp_param_manager/param_trans.db
+	  22  155662 r-        0 /mnt/speech-sr-vde-Germany/vde_host_ahn/de_DE/rule_a_Germany_de_DE_v1.db
+	  23  147471 r-        0 /mnt/speech/common/trans/ssp_trans/trans_common/eb_trans.db
+	  25  155662 r-        0 /mnt/speech-sr-vde-common_poicat/vde_fullword_poicat/AUDI/de_DE/fullword_poicat_EU_de_DE_v2.db
+	   0s      1 
+	   2s 2629792 
+	   4s 1577058 
+	   7s 557102 
+	   8s 581676 
+	  10s 2629792 
+	  13s 2625692 
+	  17s 1740901 
+	  20s 2551958 
+	  23s 1347660 
+	  26s 1679472 
+	  29s 1392651 
+	  32s 2535570 
+	  37s 2625693 
+	  40s 1306698 
+	  43s 2515087 
+	  44s 2629791 
+	  49s 1667171 
+ 2683031 navPatch           
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 2683031 
+	   4s 557102 
+	   6s 2683031 
+	   8s 581676 
+	  13s 2785428 
+	  14s 1577058 
+ 2687134 sbin/procfsmon     
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 2687134 
+	   4s      1 
+ 2703522 sbin/pfsn          
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  2687134 r-      174 /dev/procfs_notify
+	   0s      1 
+ 2703526 sbin/slf           
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3       1 
+	   4   20485 -w        0 /dev/slog
+	   5   20485 r- 136739608 /dev/slog
+	   0s      1 
+ 2703529 sbin/slf           
+	   0       1 
+	   1       1 
+	   2       2 rw        0 /dev/ser1
+	   3       1 
+	   4   20485 -w        0 /dev/slog
+	   5   20485 r- 136739608 /dev/slog
+	   0s      1 
+ 2785428 pps/rdv_controller 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21327       *.*                   LISTEN
+	   4  274454 
+	   5  274454 rw        0 I4TCP  10.0.0.15.65501       10.0.0.16.21445       ESTABLISHED
+	   6  155662 r- 52481098 /mnt/navdb/eggnog/eu/common/EggnogDB.ser
+	   0s      1 
+	   2s 2785428 
+	   4s 557102 
+	   6s 2785428 
+	   8s 581676 
+	  13s 1171511 
+	  14s 2551958 
+	  19s 1306698 
+	  22s 1347660 
+	  23s 2683031 
+	  26s 2535570 
+	  29s 2625693 
+	  32s 1577058 
+ 2957473 le/sbin/devm-nvavp 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   45063 rw        0 /dev/nvos
+	   4  479248 rw        0 /dev/nvhost-ctrl
+	   5  479248 rw        0 /dev/nvhost-ctrl
+	   6  380955 rw        0 /dev/nvclock/
+	   7  479248 rw        0 /dev/nvmap
+	   8   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s      1 
+	   4s 2957473 
+	   7s 2957473 
+ 2957482 obufMessageEncoder 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+	   2s 2957482 
+	   4s 557102 
+	   6s 2957482 
+	   8s 581676 
+	  13s 1171511 
+	  14s 1577058 
+ 2965677 /logtransferserver 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21384       *.*                   LISTEN
+	   4  274454 rw        0 I4TCP  10.0.0.15.21384       10.0.0.16.65503       ESTABLISHED
+	   6  274454 rw        0 I4TCP  10.0.0.15.21384       10.0.0.16.65502       ESTABLISHED
+	   7  274454 
+	   0s      1 
+	   2s 2965677 
+	   4s 557102 
+	   6s 2965677 
+	   8s 581676 
+	  13s 1171511 
+	  15s      1 
+	  18s 1347660 
+	  21s 1577058 
+	  24s 2965679 
+	  27s 1679472 
+	  30s 1306698 
+	  31s 1577058 
+ 2965679 /logtransferclient 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21383       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 2965679 
+	   4s 557102 
+	   6s 581676 
+	   7s 2965679 
+	  13s 1171511 
+	  15s      1 
+	  16s 2965677 
+	  19s 1577058 
+ 2969777 orwarder_rstp_host 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21515       *.*                   LISTEN
+	   4  274454 
+	   5  1237073 rw        0 /dev/rstpfpk/framework
+	   0s      1 
+	   2s 2969777 
+	   4s 557102 
+	   6s 2969777 
+	   8s 581676 
+	  13s 1171511 
+	  14s 1577058 
+ 2973874 stpSocketForwarder 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21517       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 2973874 
+	   4s 557102 
+	   6s 581676 
+	   7s 2973874 
+	  13s 1171511 
+	  14s 1577058 
+ 3080359 in/apps/messaging2 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4TCP  10.0.0.15.21313       *.*                   LISTEN
+	   4  274454 
+	   5  274454 rw        0 I4TCP  10.0.0.15.65500       10.0.0.16.21445       ESTABLISHED
+	   6  274454 rw        0 I4TCP  10.0.0.15.65499       10.0.0.16.21437       ESTABLISHED
+	   0s      1 
+	   2s 3080359 
+	   4s 557102 
+	   6s 3080359 
+	  11s 581676 
+	  13s 1392681 
+	  14s 1347660 
+	  17s 2621595 
+	  21s 2392156 
+	  25s 2470026 
+	  28s 2515087 
+	  29s 2457730 
+	  34s 1306698 
+	  35s 1577058 
+ 3084456 o/bin/apps/browser 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   45063 rw        0 /dev/nvos
+	   4  479248 rw        0 /dev/nvhost-ctrl
+	   5  147471 r-        0 /mnt/app/eso/bin/apps/icudtl.dat
+	   6  274454 rw        0 UDS S 
+	   7  274454 rw        0 UDS S 
+	   8   77833 r-        0 (pipe)
+	   9   77833 -w        0 (pipe)
+	  10  122893 r-        0 /dev/urandom
+	  11  274454 rw        0 UDS S /tmp/eso.3084456.0.2106309249
+	  12  274454 rw        0 UDS S /tmp/eso.3084456.0.2106309249
+	  13  274454 rw        0 UDS S 
+	   0s      1 
+	   2s 3084456 
+	   4s 557102 
+	   6s 3084456 
+	   8s 581676 
+	  13s 1171511 
+	  14s 2621595 
+	  17s 1392651 
+	  20s 2551958 
+	  25s 1306698 
+	  26s 2535570 
+	  29s 1577058 
+ 3440812 /apps/browserSlave 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   45063 rw        0 /dev/nvos
+	   4  479248 rw        0 /dev/nvhost-ctrl
+	   5  147471 r-        0 /mnt/app/eso/bin/apps/icudtl.dat
+	   6  147471 r-        0 /mnt/app/eso/bin/apps/locales/en-US.pak
+	   7  147471 r-        0 /mnt/app/eso/bin/apps/cef.pak
+	   8  147471 r-        0 /mnt/app/eso/bin/apps/cef_100_percent.pak
+	   9  147471 r-        0 /mnt/app/eso/bin/apps/devtools_resources.pak
+	  10  274454 rw        0 UDS S 
+	  11  274454 rw        0 UDS S 
+	  12   77833 r-        0 (pipe)
+	  13   77833 -w        0 (pipe)
+	  14  122893 r-        0 /dev/urandom
+	  15  274454 rw        0 UDS S 
+	  16  274454 rw        0 UDS S 
+	  17   77833 r-        0 (pipe)
+	  18   77833 -w        0 (pipe)
+	  19  274454 rw        0 UDS S 
+	  20  274454 rw        0 UDS S 
+	  21   77833 r-        0 (pipe)
+	  22   77833 -w        0 (pipe)
+	  23  274454 rw        0 UDS S 
+	  24  274454 rw        0 UDS S 
+	  25   77833 r-        0 (pipe)
+	  26   77833 -w        0 (pipe)
+	  27  479248 rw        0 /dev/nvhost-ctrl-gpu
+	  28  274454 rw        0 UDS S 
+	  29  274454 rw        0 UDS S 
+	  30  626735 r-        0 /dev/screen/
+	  31   77833 r-        0 (pipe)
+	  32   77833 -w        0 (pipe)
+	  33  274454 rw        0 I4TCP  127.0.0.1.9222        *.*                   LISTEN
+	  34  479248 rw        0 /dev/nvhost-ctrl-gpu
+	  35  479248 rw        0 /dev/nvhost-as-gpu
+	  36   20485 -w        0 /dev/slog
+	  37  479248 rw        0 /dev/nvmap
+	  38  274454 rw        0 UDS S 
+	  39  274454 rw        0 UDS S 
+	  40   77833 r-        0 (pipe)
+	  41   77833 -w        0 (pipe)
+	  42  274454 rw        0 UDS S 
+	  43  274454 rw        0 UDS S 
+	  44  274454 rw        0 UDS S 
+	   0s      1 
+	   2s 3440812 
+	   4s 1577058 
+ 3440814 n/apps/mediaonline 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21337       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 3440814 
+	   4s 557102 
+	   6s 581676 
+	   7s 3440814 
+	  13s 1171511 
+	  15s      1 
+	  16s 3440814 
+	  18s 1577058 
+ 3444915 sbin/numbers       
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   0s      1 
+	   2s      1 
+	   3s      1 
+ 3522563 sbin/corechecker   
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3   20485 -w        0 /dev/slog
+	   4  970819 r-        0 /proc/dumper
+	   0s      1 
+	   2s 3522563 
+ 3530769 /voice_encoder_app 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   3  274454 rw        0 I4TCP  10.0.0.15.21330       *.*                   LISTEN
+	   4  274454 
+	   0s      1 
+	   2s 3530769 
+	   4s 557102 
+	   6s 3530769 
+	   8s 581676 
+	  13s 1171511 
+	  16s 1306698 
+	  17s 1577058 
+ 3608595 rmle/sbin/memmonit 
+	   0       1 
+	   1       4 -w        0 /dev/eteein
+	   2       2 rw        0 /dev/ser1
+	   0s      1 
+ 8527915 usr/sbin/telnetd   
+	   0  274454 rw        0 I4TCP  172.16.250.248.23     172.16.250.123.55114  ESTABLISHED
+	   1  274454 rw        0 I4TCP  172.16.250.248.23     172.16.250.123.55114  ESTABLISHED
+	   2  274454 rw        0 I4TCP  172.16.250.248.23     172.16.250.123.55114  ESTABLISHED
+	   3  974917 rw        0 /dev/ptyp0
+	   4  974917 rw        0 /dev/ttyp0
+	   0s      1 
+ 8527929 bin/sh             
+	   0  974917 rw        0 /dev/ttyp0
+	   1  974917 rw        0 /dev/ttyp0
+	   2  974917 rw        0 /dev/ttyp0
+	  10  974917 rw        0 /dev/ttyp0
+	   0s      1 
+14561393 r/sbin/dhcp.client 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4UDP  *.*                   *.*                   
+	   0s      1 
+17023025 r/sbin/dhcp.client 
+	   0       1 
+	   1       1 
+	   2       1 
+	   3  274454 rw        0 I4UDP  *.*                   *.*                   
+	   0s      1 
+21721109 bin/pidin          
+	   0  974917 rw        0 /dev/ttyp0
+	   1  974917 rw        0 /dev/ttyp0
+	   2  974917 rw        0 /dev/ttyp0
+	   3       1 
+	   0s      1 
+root@00000000003081810832:/etc # 
+

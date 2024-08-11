@@ -1,0 +1,256 @@
+root@00000000003081810832:/dev/nvclock # cat clock_tree 
+[1] Invalid: -1 KHz
+[2] OSC: 12000 KHz
+[3] ClkS: 32 KHz
+[4] ClkM: 12000 KHz
+[5] ClkD: -1 KHz
+[6] PllA0: 24576 KHz
+[7] PllA1: 368640 KHz
+[8] PllC0: 564000 KHz
+[9] PllCUD: 564000 KHz
+[10] PllC1: 282000 KHz
+[11] PllC2: 372000 KHz
+[12] PllC3: 450000 KHz
+[13] PllC4: 600000 KHz
+[14] PllREFE: 672000 KHz
+[15] PllDP: 0 KHz
+[16] PllD0: 137000 KHz
+[17] PllD2: 108000 KHz
+[18] PllE0: 100000 KHz
+[19] PllM0: 792000 KHz
+[20] PllMUD: 792000 KHz
+[21] PllM1: 792000 KHz
+[22] PllP0: 408000 KHz
+[23] PllP1: 9600 KHz
+[24] PllP2: 48000 KHz
+[25] PllP3: 68000 KHz
+[26] PllP4: 204000 KHz
+[27] PllP5: 102000 KHz
+[28] PllU0: 480000 KHz
+[29] PllU48M: 48000 KHz
+[30] PllX0: 1524000 KHz
+[31] ExtSpdf: -1 KHz
+[32] ExtI2s1: -1 KHz
+[33] ExtI2s2: -1 KHz
+[34] ExtAc97: -1 KHz
+[35] ExtAudio1: -1 KHz
+[36] ExtAudio2: -1 KHz
+[37] ExtVi: -1 KHz
+[38] AudioSync: -1 KHz
+[39] MpeAudio: -1 KHz
+[40] CpuBus: -1 KHz
+[41] CpuBridge: -1 KHz
+[42] SystemBus: 282000 KHz
+[43] Ahb: 282000 KHz
+[44] Apb: 282000 KHz
+[45] Vbus: -1 KHz
+[46] PllRef: 12000 KHz
+[47] GPU: 780000 KHz
+
+Ref 12000
+     |
+     +---ClkM 12000
+     |        |
+     |        +---/1.0 --- I2S1:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- I2S2:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- I2S3:12000 (disabled, out of reset)
+     |        |
+     |        +---/1.0 --- I2S4:12000 (disabled, out of reset)
+     |        |
+     |        +---/1.0 --- SPDIF_OUT:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- PWM:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- I2C6:12000 (enabled, out of reset)
+     |        |
+     |        +---/12.0 --- SPI1:1000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- SPI2:12000 (disabled, reset)
+     |        |
+     |        +---/1.0 --- SPI3:12000 (disabled, reset)
+     |        |
+     |        +---/1.0 --- SPI4:12000 (disabled, reset)
+     |        |
+     |        +---/1.0 --- SPI6:12000 (disabled, reset)
+     |        |
+     |        +---/1.0 --- VFIR:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- HSI:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- OWR:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- CSITE:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- LA:12000 (enabled, out of reset)
+     |        |
+     |        +---/30.0 --- TSENSOR:400 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- HDA2CODEC_2X:12000 (disabled, reset)
+     |        |
+     |        +---/1.0 --- ACTMON:12000 (disabled, reset)
+     |        |
+     |        +---/1.0 --- EXTPERIPH1:12000 (disabled, out of reset)
+     |        |
+     |        +---/1.0 --- EXTPERIPH2:12000 (disabled, reset)
+     |        |
+     |        +---/1.0 --- EXTPERIPH3:12000 (disabled, reset)
+     |        |
+     |        +---/1.0 --- I2C_SLOW:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- HDA:12000 (disabled, reset)
+     |        |
+     |        +---/1.0 --- XUSB_CORE_DEV:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- EMC_DLL:12000 (disabled, out of reset)
+     |        |
+     |        +---/1.0 --- DSIA_LP:12000 (disabled, out of reset)
+     |        |
+     |        +---/1.0 --- DSIB_LP:12000 (disabled, out of reset)
+     |        |
+     |        +---/1.0 --- ENTROPY:12000 (enabled, out of reset)
+     |        |
+     |        +---/1.0 --- TRACECLKIN:12000 (enabled, out of reset)
+     |        |
+     |        `---/1.0 --- EMC_LATENCY:12000 (disabled, out of reset)
+     |
+     +---PllA0 24576
+     |        |
+     |        `---/12.0 --- I2S0:2048 (enabled, out of reset)
+     |
+     +---PllC0 564000
+     |         |
+     |         +---/3.0 --- SDMMC3:188000 (enabled, out of reset)
+     |         |
+     |         +---/3.0 --- SDMMC4:188000 (enabled, out of reset)
+     |         |
+     |         +---/1.0 --- TSEC:564000 (enabled, out of reset)
+     |         |
+     |         +---/2.0 --- HOST1X:282000 (enabled, out of reset)
+     |         |
+     |         `---/1.0 --- VIC:564000 (enabled, out of reset)
+     |
+     +---PllC2 372000
+     |         |
+     |         +---/1.0 --- MSENC:372000 (disabled, reset)
+     |         |
+     |         `---/1.0 --- SE:372000 (disabled, out of reset)
+     |
+     +---PllC3 450000
+     |         |
+     |         `---/1.0 --- VDE:450000 (enabled, out of reset)
+     |
+     +---PllC4 600000
+     |         |
+     |         +---/1.0 --- ISP:600000 (enabled, out of reset)
+     |         |
+     |         `---/1.0 --- VI:600000 (enabled, out of reset)
+     |
+     +---PllREFE 672000
+     |          |
+     |          +---/6.0 --- XUSB_CORE_HOST:112000 (enabled, out of reset)
+     |          |
+     |          `---/2.0 --- XUSB_FALCON:336000 (enabled, out of reset)
+     |
+     +---PllD0 137000
+     |         |
+     |         +----------- DISP1:137000
+     |         |
+     |         `---/1.0 --- HDMI:137000 (enabled, out of reset)
+     |
+     +---PllD2 108000
+     |         |
+     |         +----------- DISP2:108000
+     |         |
+     |         `---/1.0 --- SOR0:108000 (enabled, out of reset)
+     |
+     +---PllM0 792000
+     |         |
+     |         +---/1.0 --- VI_SENSOR:792000 (enabled, out of reset)
+     |         |
+     |         `---/1.0 --- VI_SENSOR2:792000 (enabled, out of reset)
+     |
+     +---PllMUD 792000
+     |         |
+     |         `---/1.0 --- EMC:792000 (enabled, out of reset)
+     |
+     +---PllP0 408000
+     |         |
+     |         +---/1.0 --- SPDIF_IN:408000 (enabled, out of reset)
+     |         |
+     |         +---/4.0 --- I2C1:102000 (enabled, out of reset)
+     |         |
+     |         +---/4.0 --- I2C2:102000 (enabled, out of reset)
+     |         |
+     |         +---/4.0 --- I2C3:102000 (enabled, out of reset)
+     |         |
+     |         +---/40.0 --- I2C4:10200 (enabled, out of reset)
+     |         |
+     |         +---/4.0 --- I2C5:102000 (enabled, out of reset)
+     |         |
+     |         +---/102.0 --- SPI5:4000 (enabled, out of reset)
+     |         |
+     |         +---/9.0 --- SDMMC1:45333 (enabled, out of reset)
+     |         |
+     |         +---/8.5 --- SDMMC2:48000 (disabled, reset)
+     |         |
+     |         +---/4.0 --- NOR:102000 (enabled, out of reset)
+     |         |
+     |         +---/4.0 --- NOR:102000 (enabled, out of reset)
+     |         |
+     |         +---/2.0 --- MSELECT:204000 (enabled, out of reset)
+     |         |
+     |         +---/8.5 --- AUDIO:48000 (enabled, out of reset)
+     |         |
+     |         +---/1.0 --- HDMI_AUDIO:408000 (disabled, out of reset)
+     |         |
+     |         +---/10.5 --- DAM0:38857 (enabled, out of reset)
+     |         |
+     |         +---/10.5 --- DAM1:38857 (enabled, out of reset)
+     |         |
+     |         +---/10.5 --- DAM2:38857 (enabled, out of reset)
+     |         |
+     |         +---/2.0 --- SATA_OOB:204000 (enabled, out of reset)
+     |         |
+     |         +---/2.0 --- SATA:204000 (enabled, out of reset)
+     |         |
+     |         +---/25.5 --- UARTA:16000 (enabled, out of reset)
+     |         |
+     |         +---/221.5 --- UARTB:1841 (enabled, out of reset)
+     |         |
+     |         +---/221.5 --- UARTC:1841 (enabled, out of reset)
+     |         |
+     |         +---/8.5 --- UARTD:48000 (enabled, out of reset)
+     |         |
+     |         +---/4.0 --- CILAB:102000 (disabled, out of reset)
+     |         |
+     |         +---/4.0 --- CILCD:102000 (disabled, out of reset)
+     |         |
+     |         +---/4.0 --- CILE:102000 (disabled, out of reset)
+     |         |
+     |         +---/8.0 --- DVFS_REF:51000 (enabled, out of reset)
+     |         |
+     |         +---/8.0 --- DVFS_SOC:51000 (enabled, out of reset)
+     |         |
+     |         +---/17.0 --- ADX0:24000 (enabled, out of reset)
+     |         |
+     |         +---/17.0 --- AMX0:24000 (enabled, out of reset)
+     |         |
+     |         +---/8.0 --- SOC_THERM:51000 (enabled, out of reset)
+     |         |
+     |         +---/17.0 --- ADX1:24000 (enabled, out of reset)
+     |         |
+     |         `---/17.0 --- AMX1:24000 (enabled, out of reset)
+     |
+     +---PllP3 68000
+     |        |
+     |        `---/1.5 --- CLK72MHZ:45333 (enabled, out of reset)
+     |
+     +---PllU0 480000
+     |         |
+     |         `---/4.0 --- XUSB_SS:120000 (enabled, out of reset)
+     |
+     `---PllU48M 48000
+               |
+               `---/1.0 --- XUSB_FS:48000 (enabled, out of reset)
