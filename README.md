@@ -1,6 +1,6 @@
 # Audi MH2P MMI/HMI DOS Attack and CAN Bus Analysis
 
-This repository contains a CAN-Bus Analysis and of a Denial of Service (DOS) attack executed on the Audi MH2P MMI/HMI system. The attack utilizes Touch packets to disrupt system functionality. In addition, the repository provides system data extracted from the ECU, along with multiple visualizations for the CAN Dumps.
+This repository contains a CAN-Bus Analysis and a Denial of Service (DOS) attack executed on the Audi MH2P MMI/HMI system. The attack utilizes Touch packets to disrupt system functionality. In addition, the repository provides system data extracted from the ECU, along with multiple visualizations for the CAN Dumps.
 
 ## Project Overview
 
